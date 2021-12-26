@@ -32,22 +32,22 @@ const routes = [
   {
     path: '/vaultofdarkness',
     name: 'VaultOfDarkness',
-    component: () => import('../views/VaultOfDarkness.vue')
+    component: () => import('../views/ProjectViews/VaultOfDarkness.vue')
   },
   {
     path: '/celestialzenith',
     name: 'CelestialZenith',
-    component: () => import('../views/CelestialZenith.vue')
+    component: () => import('../views/ProjectViews/CelestialZenith.vue')
   },
   {
     path: '/bloodline',
     name: 'Bloodline',
-    component: () => import('../views/Bloodline.vue')
+    component: () => import('../views/ProjectViews/Bloodline.vue')
   },
   {
     path: '/planetaryrevelation',
     name: 'PlanetaryRevelation',
-    component: () => import('../views/PlanetaryRevelation.vue')
+    component: () => import('../views/ProjectViews/PlanetaryRevelation.vue')
   },
   // SE Project Details pages.
 ]

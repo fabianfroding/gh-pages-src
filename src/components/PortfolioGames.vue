@@ -3,7 +3,7 @@
         <div id="portfolio-gd">
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                            <a href="vaultofdarkness"><img src="../resources/project-images/vod-01.jpg" alt=""></a>
+                            <router-link to="/vaultofdarkness"><img src="../resources/project-images/vod-01.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
                         <h6>Modding</h6>
@@ -14,7 +14,7 @@
                         </p>
                         <p class="cta">Highlights: <strong>Scripting</strong>, <strong>3D Level Design</strong>.</p>
                         <br><br>
-                        <p class="cta"><a href="vaultofdarkness"><strong>View Details</strong></a></p>
+                        <p class="cta"><router-link to="/vaultofdarkness"><strong>View Details</strong></router-link></p>
                         <br><br>
                         <a href="https://github.com/fabianfroding/wc3-vod-jass/blob/master/war3map.txt" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
@@ -34,10 +34,10 @@
                         </p>
                         <p class="cta">Highlights: <strong>Unity</strong>, <strong>C#</strong>, <strong>Plastic SCM</strong>.</p>
                         <br><br>
-                        <p class="cta"><a href="celestialzenith"><strong>View Details</strong></a></p>
+                        <p class="cta"><router-link to="/celestialzenith"><strong>View Details</strong></router-link></p>
                     </div>
                     <div class="portfolio-img">
-                        <a href="celestialzenith"><img src="../resources/project-images/2d-mini01.jpg" alt=""></a>
+                        <router-link to="/celestialzenith"><img src="../resources/project-images/2d-mini01.jpg" alt=""></router-link>
                     </div>
                 </div>
 
@@ -45,7 +45,7 @@
 
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                        <a href="bloodline"><img src="../resources/project-images/deig00.jpg" alt=""></a>
+                        <router-link to="/bloodline"><img src="../resources/project-images/deig00.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
                         <h6>Game Prototyping</h6>
@@ -57,7 +57,7 @@
                         </p>
                         <p class="cta">Highlights: <strong>Visual Scripting</strong>, <strong>Worldbuilding</strong>.</p>
                         <br><br>
-                        <p class="cta"><a href="bloodline"><strong>View Details</strong></a></p>
+                        <p class="cta"><router-link to="/bloodline"><strong>View Details</strong></router-link></p>
                     </div>
                 </div>
 
@@ -73,14 +73,14 @@
                         </p>
                         <p class="cta">Highlights: <strong>UNITY</strong>, <strong>C#</strong>.</p>
                         <br><br>
-                        <p class="cta"><a href="planetaryrevelation"><strong>View Details</strong></a></p>
+                        <p class="cta"><router-link to="/planetaryrevelation"><strong>View Details</strong></router-link></p>
                         <br><br>
                         <a href="https://github.com/fabianfroding/unity-planetary-revelation/tree/master/Scripts" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
                     <div class="portfolio-img">
-                        <a href="planetaryrevelation"><img src="../resources/project-images/planetary-rev01.jpg" alt=""></a>
+                        <router-link to="/planetaryrevelation"><img src="../resources/project-images/planetary-rev01.jpg" alt=""></router-link>
                     </div>
                 </div>
 
