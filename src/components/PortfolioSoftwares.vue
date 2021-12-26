@@ -1,0 +1,94 @@
+<template>
+    <div>
+        <div id="portfolio-se">
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
+                        <img src="../resources/project-images/code-analyzer00.gif" alt="">
+                    </div>
+                    <div class="portfolio-description">
+                        <h6>Software Development</h6>
+                        <h1>C# Code Analyzer</h1>
+                        <p>
+                            A tool to visualize the software architecture in a C# project.
+                            Provides a quick overview of a project's code complexity based on class associations and LOC.
+                            Integrates the Javascript library D3.js into a desktop application.
+                        </p>
+                        <p class="cta">Technologies: <strong>C#</strong>, <strong>.NET</strong>, <strong>WPF</strong>, <strong>LiveCharts</strong>, <strong>D3.js</strong>.</p>
+                        <br><br>
+                        <a href="https://github.com/fabianfroding/code-analyzer" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!--p class="cta"><a href="#"><strong>View Details</strong></a></p-->
+                    </div>
+                </div>
+
+                <div class="separator-line"></div>
+    
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right">
+                        <h6>System Development</h6>
+                        <h1>Autonomous Vehicle: Intersection</h1>
+                        <p>
+                            Self-driving miniature vehicle designed to handle a traffic situation in an intersection.
+                            Built with <strong>Raspberry Pi</strong> and <strong>Beagle Bone</strong> boards.
+                        </p>
+                        <p class="cta">Technologies: <strong>C++</strong>, <strong>OpenCV</strong>, <strong>Machine Learning</strong>, <strong>Docker</strong>.</p>
+                        <br><br>
+                        <a href="https://github.com/fabianfroding/dit638-cyber-car/tree/master/microservices" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!--p class="cta"><a href="#"><strong>View Details</strong></a></p-->
+                    </div>
+                    <div class="portfolio-img">
+                        <img src="../resources/project-images/cyber-car00.gif" alt="">
+                    </div>
+                </div>
+
+                <div class="separator-line"></div>
+    
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
+                        <img src="../resources/project-images/media-shop00.jpg" alt="">
+                    </div>
+                    <div class="portfolio-description">
+                        <h6>Software Development</h6>
+                        <h1>Media Shop & Integrator</h1>
+                        <p>
+                            A shop system that handles a product register, and an integrator that can convert the register into the format of other systems.
+                        </p>
+                        <p class="cta">Technologies: <strong>C#</strong>, <strong>.NET</strong>, <strong>Windows Forms</strong>, <strong>Entity Framework Core</strong>.</p>
+                        <br><br>
+                        <a href="https://github.com/fabianfroding/media-shop-and-integrator" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!--p class="cta"><a href="#"><strong>View Details</strong></a></p-->
+                    </div>
+                </div>
+
+                <div class="separator-line"></div>
+    
+                <div class="portfolio-item">
+                    <div class="portfolio-description">
+                        <h6>Software Development</h6>
+                        <h1>Source Code Modeler</h1>
+                        <p>
+                            A program that can generate a UML class-diagram based on source code input.
+                            Back-end distributed among three nodes in a WLAN network.
+                        </p>
+                        <p class="cta">Technologies: <strong>Java</strong>, <strong>JavaFX</strong>, <strong>SrcML</strong>.</p>
+                        <br><br>
+                        <a href="https://github.com/noranavas/group4DIT355/tree/master/source-code-modeler/src/sourcecodemodeler" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!--p class="cta"><a href="#"><strong>View Details</strong></a></p-->
+                    </div>
+                    <div class="portfolio-img has-margin-right">
+                        <img src="../resources/project-images/src-code-modeler00.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="separator-line"></div>
+
+            </div>
+    </div>
+</template>
