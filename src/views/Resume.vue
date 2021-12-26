@@ -9,19 +9,20 @@
                 <div class="my-skills">
                     <div class="skill">
                         <h1>Resume</h1>
-                        <p class="global-link"><a href="resources/Resume.pdf" target="_blank">Resume</a> (PDF)</p>
+                        <p class="global-link"><a href="resources/documents/Resume.docx" target="_blank"><i class="far fa-file-alt"/> Resume.docx</a></p>
+                        <p class="global-link"><a href="resources/documents/Resume.pdf" target="_blank"><i class="far fa-file-pdf"/> Resume.pdf</a></p>
                     </div>
                 </div>
                 <div class="my-skills">
                     <div class="skill">
                         <h1>Recommendations</h1>
                         <p><i>"Fabian trained very hard and was respectful to all of the masters. He is an honest and excellent student."</i> - <strong>Master Shi Yan Jia, 34th generation Shaolin Warrior Monk.</strong></p><p class="global-link"><a href="resources/QufuShaolinSchool_Certificate.pdf" target="_blank"></a></p>
-                        <p class="global-link"><a href="resources/QufuShaolinSchool_Certificate.pdf" target="_blank">Certificate from Qufu Shaolin Kung Fu School</a> (PDF)</p>
+                        <p class="global-link"><a href="resources/documents/QufuShaolinSchool_Certificate.pdf" target="_blank"><i class="far fa-file-pdf"/> Certificate from Qufu Shaolin Kung Fu School.pdf</a></p>
                     </div>
                     <div class="skill">
                         <h1>Academic Reports</h1>
-                        <p class="global-link"><a href="resources/TheEvolutionOfRoleStereotypes.pdf" target="_blank">The Evolution of Role Stereotypes and Related Design (Anti) Patterns</a> (PDF)</p>
-                        <p class="global-link"><a href="resources/ImmersionInGamesAndMovies.pdf" target="_blank">Measuring the Degree of Immersion in Video Games</a> (PDF)</p>
+                        <p class="global-link"><a href="https://gupea.ub.gu.se/handle/2077/67098" target="_blank"><i class="far fa-file-pdf"/> The Evolution of Role Stereotypes and Related Design (Anti) Patterns.pdf</a></p>
+                        <p class="global-link"><a href="resources/documents/ImmersionInGamesAndMovies.pdf" target="_blank"><i class="far fa-file-pdf"/> Measuring the Degree of Immersion in Video Games.pdf</a></p>
                     </div>
                 </div>
             </div>
