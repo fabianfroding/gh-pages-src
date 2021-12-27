@@ -5,6 +5,7 @@
         </p>
         <p class="tool-used">Tools Used:
             <br> • <strong>UNITY</strong>
+            <br> • <a href="https://docs.unity3d.com/Manual/StateMachineBasics.html" target="_blank"><strong>STATE MACHINES</strong></a>
             <br> • <a href="https://www.plasticscm.com/" target="_blank"><strong>PLASTIC SCM</strong></a> (For version control)
         </p>
     </div>

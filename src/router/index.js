@@ -50,6 +50,11 @@ const routes = [
     component: () => import('../views/ProjectViews/PlanetaryRevelation.vue')
   },
   // SE Project Details pages.
+  {
+    path: '/codeanalyzer',
+    name: 'CodeAnalyzer',
+    component: () => import('../views/ProjectViews/CodeAnalyzer.vue')
+  },
 ]
 
 const router = new VueRouter({

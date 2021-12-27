@@ -3,7 +3,7 @@
         <div id="portfolio-gd">
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                            <router-link to="/vaultofdarkness"><img src="../resources/project-images/vod-01.jpg" alt=""></router-link>
+                        <router-link to="/vaultofdarkness"><img src="../resources/project-images/vod-01.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
                         <h6>Modding</h6>
@@ -32,7 +32,7 @@
                             A 2D-platformer minigame. Fight bosses and climb your way to the celestial zenith.
                             Features hand-drawn art and animations, equipment system, enemy AI and more.
                         </p>
-                        <p class="cta">Highlights: <strong>Unity</strong>, <strong>C#</strong>, <strong>Plastic SCM</strong>.</p>
+                        <p class="cta">Highlights: <strong>Unity</strong>, <strong>C#</strong>, <strong>STATE MACHINES</strong>, <strong>2D ART</strong>.</p>
                         <br><br>
                         <p class="cta"><router-link to="/celestialzenith"><strong>View Details</strong></router-link></p>
                     </div>
@@ -71,7 +71,7 @@
                             An experimental space-exploration game set in a solar system with orbiting planets.
                             Place units around the solar system to scan planets before the sun explodes.
                         </p>
-                        <p class="cta">Highlights: <strong>UNITY</strong>, <strong>C#</strong>.</p>
+                        <p class="cta">Highlights: <strong>UNITY</strong>, <strong>C#</strong>, <strong>SCRIPTABLE OBJECTS</strong>, <strong>CUSTOM EVENTS</strong>.</p>
                         <br><br>
                         <p class="cta"><router-link to="/planetaryrevelation"><strong>View Details</strong></router-link></p>
                         <br><br>

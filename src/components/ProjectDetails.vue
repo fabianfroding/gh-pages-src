@@ -39,6 +39,7 @@ import VaultOfDarknessDescript from './ProjectDescriptions/VaultOfDarknessDescri
 import CelestialZenithDescript from './ProjectDescriptions/CelestialZenithDescript.vue';
 import BloodlineDescript from './ProjectDescriptions/BloodlineDescript.vue';
 import PlanetaryRevelationDescript from './ProjectDescriptions/PlanetaryRevelationDescript.vue';
+import CodeAnalyzerDescript from './ProjectDescriptions/CodeAnalyzerDescript.vue';
 import LightBox from '../../node_modules/vue-image-lightbox';
 require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
 
@@ -49,6 +50,7 @@ export default {
         CelestialZenithDescript,
         BloodlineDescript,
         PlanetaryRevelationDescript,
+        CodeAnalyzerDescript,
         LightBox,
     },
     methods: {

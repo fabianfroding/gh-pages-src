@@ -3,7 +3,7 @@
         <div id="portfolio-se">
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                        <img src="../resources/project-images/code-analyzer00.gif" alt="">
+                        <router-link to="/codeanalyzer"><img src="../resources/project-images/code-analyzer03.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
                         <h6>Software Development</h6>
@@ -15,10 +15,11 @@
                         </p>
                         <p class="cta">Technologies: <strong>C#</strong>, <strong>.NET</strong>, <strong>WPF</strong>, <strong>LiveCharts</strong>, <strong>D3.js</strong>.</p>
                         <br><br>
+                        <p class="cta"><router-link to="/codeanalyzer"><strong>View Details</strong></router-link></p>
+                        <br><br>
                         <a href="https://github.com/fabianfroding/code-analyzer" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
                         </a>
-                        <!--p class="cta"><a href="#"><strong>View Details</strong></a></p-->
                     </div>
                 </div>
 
