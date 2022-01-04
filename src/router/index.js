@@ -28,6 +28,7 @@ const routes = [
     name: 'Contact',
     component: () => import('../views/Contact.vue')
   },
+  
   // Gamedev Project Details pages.
   {
     path: '/vaultofdarkness',
@@ -49,6 +50,7 @@ const routes = [
     name: 'PlanetaryRevelation',
     component: () => import('../views/ProjectViews/PlanetaryRevelation.vue')
   },
+
   // SE Project Details pages.
   {
     path: '/codeanalyzer',
@@ -59,6 +61,11 @@ const routes = [
     path: '/cybercar',
     name: 'CyberCar',
     component: () => import('../views/ProjectViews/CyberCar.vue')
+  },
+  {
+    path: '/mediashop',
+    name: 'MediaShop',
+    component: () => import('../views/ProjectViews/MediaShop.vue')
   },
   {
     path: '/sourcecodemodeler',

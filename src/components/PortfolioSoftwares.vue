@@ -50,7 +50,7 @@
     
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                        <img src="../resources/project-images/media-shop00.jpg" alt="">
+                        <router-link to="/mediashop"><img src="../resources/project-images/media-shop00.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
                         <h6>Software Development</h6>
@@ -60,10 +60,11 @@
                         </p>
                         <p class="cta">Technologies: <strong>C#</strong>, <strong>.NET</strong>, <strong>Windows Forms</strong>, <strong>Entity Framework Core</strong>.</p>
                         <br><br>
+                        <p class="cta"><router-link to="/mediashop"><strong>View Details</strong></router-link></p>
+                        <br><br>
                         <a href="https://github.com/fabianfroding/media-shop-and-integrator" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
                         </a>
-                        <!--p class="cta"><a href="#"><strong>View Details</strong></a></p-->
                     </div>
                 </div>
 
