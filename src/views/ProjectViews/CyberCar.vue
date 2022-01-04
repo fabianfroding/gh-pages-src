@@ -17,8 +17,6 @@ export default {
               mainImage: {name: "cyber-car00.gif", index: 0},
               images: [[
                     {name: "cyber-car01.jpg", index: 1},
-              ],[
-                    {name: "cyber-car02.jpg", index: 2},
               ]],
               descriptionComponent: "cyber-car-descript"
           }
