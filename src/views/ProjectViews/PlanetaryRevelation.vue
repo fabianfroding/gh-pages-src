@@ -13,7 +13,7 @@ export default {
       return {
           projectDetails: {
               title: "Planetary Revelation",
-              subtitle: "",
+              subtitle: "Unity 3D Game",
               mainImage: {name: "planetary-rev00.jpg", index: 0},
               images: [[
                     {name: "planetary-rev01.jpg", index: 1},

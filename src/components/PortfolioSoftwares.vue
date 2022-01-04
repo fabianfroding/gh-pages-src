@@ -27,7 +27,7 @@
     
                 <div class="portfolio-item">
                     <div class="portfolio-description has-margin-right">
-                        <h6>System Development</h6>
+                        <h6>System Development (Group Project)</h6>
                         <h1>Autonomous Vehicle: Intersection</h1>
                         <p>
                             Self-driving miniature vehicle designed to handle a traffic situation in an intersection.
@@ -35,13 +35,14 @@
                         </p>
                         <p class="cta">Technologies: <strong>C++</strong>, <strong>OpenCV</strong>, <strong>Machine Learning</strong>, <strong>Docker</strong>.</p>
                         <br><br>
+                        <p class="cta"><router-link to="/cybercar"><strong>View Details</strong></router-link></p>
+                        <br><br>
                         <a href="https://github.com/fabianfroding/dit638-cyber-car/tree/master/microservices" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
                         </a>
-                        <!--p class="cta"><a href="#"><strong>View Details</strong></a></p-->
                     </div>
                     <div class="portfolio-img">
-                        <img src="../resources/project-images/cyber-car00.gif" alt="">
+                        <router-link to="/cybercar"><img src="../resources/project-images/cyber-car01.jpg" alt=""></router-link>
                     </div>
                 </div>
 
@@ -69,22 +70,23 @@
                 <div class="separator-line"></div>
     
                 <div class="portfolio-item">
-                    <div class="portfolio-description">
-                        <h6>Software Development</h6>
+                    <div class="portfolio-description has-margin-right">
+                        <h6>Software Development (Group Project)</h6>
                         <h1>Source Code Modeler</h1>
                         <p>
                             A program that can generate a UML class-diagram based on source code input.
                             Back-end distributed among three nodes in a WLAN network.
                         </p>
-                        <p class="cta">Technologies: <strong>Java</strong>, <strong>JavaFX</strong>, <strong>SrcML</strong>.</p>
+                        <p class="cta">Technologies: <strong>Java</strong>, <strong>JavaFX</strong>, <strong>SrcML</strong>, <strong>Graphviz</strong>.</p>
+                        <br><br>
+                        <p class="cta"><router-link to="/sourcecodemodeler"><strong>View Details</strong></router-link></p>
                         <br><br>
                         <a href="https://github.com/noranavas/group4DIT355/tree/master/source-code-modeler/src/sourcecodemodeler" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
                         </a>
-                        <!--p class="cta"><a href="#"><strong>View Details</strong></a></p-->
                     </div>
-                    <div class="portfolio-img has-margin-right">
-                        <img src="../resources/project-images/src-code-modeler00.jpg" alt="">
+                    <div class="portfolio-img">
+                        <router-link to="/sourcecodemodeler"><img src="../resources/project-images/src-code-modeler00.jpg" alt=""></router-link>
                     </div>
                 </div>
 

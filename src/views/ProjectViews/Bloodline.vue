@@ -13,7 +13,7 @@ export default {
       return {
           projectDetails: {
               title: "Bloodline",
-              subtitle: "",
+              subtitle: "A Story-Driven Dialogue Game",
               mainImage: {name: "deig00.jpg", index: 0},
               images: [[
                     {name: "deig01.jpg", index: 1},

@@ -55,6 +55,16 @@ const routes = [
     name: 'CodeAnalyzer',
     component: () => import('../views/ProjectViews/CodeAnalyzer.vue')
   },
+  {
+    path: '/cybercar',
+    name: 'CyberCar',
+    component: () => import('../views/ProjectViews/CyberCar.vue')
+  },
+  {
+    path: '/sourcecodemodeler',
+    name: 'SourceCodeModeler',
+    component: () => import('../views/ProjectViews/SourceCodeModeler.vue')
+  },
 ]
 
 const router = new VueRouter({

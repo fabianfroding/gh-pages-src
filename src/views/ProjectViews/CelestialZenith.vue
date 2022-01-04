@@ -13,7 +13,7 @@ export default {
       return {
           projectDetails: {
               title: "Celestial Zenith",
-              subtitle: "",
+              subtitle: "Unity 2D Game",
               mainImage: {name: "2d-mini00.jpg", index: 0},
               images: [[
                     {name: "2d-mini01.jpg", index: 1},

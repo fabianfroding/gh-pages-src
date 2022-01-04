@@ -6,7 +6,7 @@
                         <router-link to="/vaultofdarkness"><img src="../resources/project-images/vod-01.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
-                        <h6>Modding</h6>
+                        <h6>Warcraft 3 Mod</h6>
                         <h1>Vault of Darkness</h1>
                         <p>
                             A dungeon-crawler mod for Warcraft 3: The Frozen Throne
@@ -26,7 +26,7 @@
 
                 <div class="portfolio-item">
                     <div class="portfolio-description has-margin-right">
-                        <h6>2D Game Development</h6>
+                        <h6>2D Game Development (Group Project)</h6>
                         <h1>Celestial Zenith</h1>
                         <p>
                             A 2D-platformer minigame. Fight bosses and climb your way to the celestial zenith.

@@ -16,13 +16,31 @@
                 <div class="my-skills">
                     <div class="skill">
                         <h1>Recommendations</h1>
-                        <p><i>"Fabian trained very hard and was respectful to all of the masters. He is an honest and excellent student."</i> - <strong>Master Shi Yan Jia, 34th generation Shaolin Warrior Monk.</strong></p><p class="global-link"><a href="resources/QufuShaolinSchool_Certificate.pdf" target="_blank"></a></p>
+                        <p><i>"I can warmly recommend Fabian for different tasks in QA. 
+                            He was of great help and took responsibility to ensure that the work went smooth and reached a high quality during the several weeks of the collaboration. 
+                            He was attentive to our needs and wishes and made sure that the group collaborated to produce a clear and in-depth material of test data for our game project. 
+                            The work consisted of finding test-participants and also to produce interview-questions and compile the results from these test-participants' testing of the game we're developing. 
+                            Subsequently an analysis and conclusions were made that were insightful and the result was presented in a well-made presentation. 
+                            Fabian shows that he takes the task seriously and shows that a passion exists for QA and to reach very good results."</i>
+                        <br>- <strong>Dan Pettersson, VD at Warcry Interactive.</strong></p>
+
+                        <br><br>
+                        <div class="separator-line"></div>
+                        <br><br>
+
+                        <p><i>"Fabian trained very hard and was respectful to all of the masters. He is an honest and excellent student."</i> 
+                        <br>- <strong>Master Shi Yan Jia, 34th generation Shaolin Warrior Monk at Qufu Shaolin Kung Fu School.</strong></p><p class="global-link"><a href="resources/QufuShaolinSchool_Certificate.pdf" target="_blank"></a></p>
                         <p class="global-link"><a href="./QufuShaolinSchoolCertificate_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Certificate from Qufu Shaolin Kung Fu School.pdf</a></p>
                     </div>
                     <div class="skill">
                         <h1>Academic Reports</h1>
-                        <p class="global-link"><a href="https://gupea.ub.gu.se/handle/2077/67098" target="_blank"><i class="fas fa-link"/> The Evolution of Role Stereotypes and Related Design (Anti) Patterns.pdf</a></p>
-                        <p class="global-link"><a href="./ImmersionInGamesAndMovies_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Measuring the Degree of Immersion in Video Games.pdf</a></p>
+                        <p class="global-link"><a href="https://gupea.ub.gu.se/handle/2077/67098" target="_blank"><i class="fas fa-link"/> The Evolution of Role Stereotypes and Related Design (Anti) Patterns</a> (2020)</p>
+                        <br>
+                        <p class="global-link"><a href="./ImmersionInGamesAndMovies_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Measuring the Degree of Immersion in Video Games.pdf</a> (2021)</p>
+                        <br>
+                        <p class="global-link"><a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Exploring ways to evaluate the effect of time-loop systems on player experience in video games.pdf</a> (2021)</p>
+                        <br>
+                        <p class="global-link"><a href="./PlaytestStudyWarcryYCJY_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Games User Experience - An experimental playtest-study with two external studios.pdf</a> (2021)</p>
                     </div>
                 </div>
             </div>
