@@ -35,7 +35,7 @@
         </p>
         <br><br>
         <p>Sample Scripts:</p>
-        <a href="https://github.com/fabianfroding/wc3-vod-jass/blob/master/war3map.txt" target="_blank" class="project-link">
+        <a href="https://github.com/fabianfroding/wc3-vod-jass" target="_blank" class="project-link">
             <i class="fab fa-github"></i>
         </a>
     </div>
