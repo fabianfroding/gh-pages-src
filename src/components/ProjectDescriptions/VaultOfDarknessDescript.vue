@@ -34,6 +34,7 @@
             Credits to the <a href="https://www.hiveworkshop.com" target="_blank">hiveworkshop.com</a> for their support and their third-party tools.
         </p>
         <br><br>
+        <p>Sample Scripts:</p>
         <a href="https://github.com/fabianfroding/wc3-vod-jass/blob/master/war3map.txt" target="_blank" class="project-link">
             <i class="fab fa-github"></i>
         </a>

@@ -1,9 +1,9 @@
 <template>
     <div>
         <p>
-            The project consists of three programs; the media shop, the integrator, and an external shop program.
+            The project consists of three programs; the <strong>media shop</strong>, the <strong>integrator</strong>, and an <strong>external shop program</strong>.
             <br><br>
-            Two user types exists, admin and user. The admin can add, remove and edit products, while the user can purchase and refund products.
+            Two user types exists, <strong>admin</strong> and <strong>user</strong>. The admin can add, remove and edit products, while the user can purchase and refund products.
             <br><br>
             The media shop serves as a product registry system. 
             The integrator can run in the background and allows the user to select input and output directories to handle changes.
@@ -16,11 +16,10 @@
         </p>
         <p class="tool-used">Tools Used:
             <br> • <strong>C#</strong>
-            <br> • <strong>SQL</strong>
             <br> • <a href="https://dotnet.microsoft.com/en-us/" target="_blank"><strong>.NET</strong></a>
             <br> • <a href="https://docs.microsoft.com/en-us/dotnet/desktop/winforms/overview/?view=netdesktop-6.0" target="_blank"><strong>WINDOWS FORMS</strong></a>
             <br> • <a href="https://docs.microsoft.com/en-us/ef/core/" target="_blank"><strong>ENTITY FRAMEWORK CORE</strong></a>
-
+            <br> • <a href="https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=sql-server-ver15" target="_blank"><strong>SQL SERVER MANAGEMENT STUDIO</strong></a>
         </p>
         <br><br>
         <a href="https://github.com/fabianfroding/media-shop-and-integrator" target="_blank" class="project-link">

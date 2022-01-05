@@ -13,7 +13,7 @@
                             Provides a quick overview of a project's code complexity based on class associations and LOC.
                             Integrates the Javascript library D3.js into a desktop application.
                         </p>
-                        <p class="cta">Technologies: <strong>C#</strong>, <strong>.NET</strong>, <strong>WPF</strong>, <strong>LiveCharts</strong>, <strong>D3.js</strong>.</p>
+                        <p class="cta">Highlights: <strong>C#</strong>, <strong>.NET</strong>, <strong>WPF</strong>, <strong>LiveCharts</strong>, <strong>D3.js</strong>.</p>
                         <br><br>
                         <p class="cta"><router-link to="/codeanalyzer"><strong>View Details</strong></router-link></p>
                         <br><br>
@@ -33,7 +33,7 @@
                             Self-driving miniature vehicle designed to handle a traffic situation in an intersection.
                             Built with <strong>Raspberry Pi</strong> and <strong>Beagle Bone</strong> boards.
                         </p>
-                        <p class="cta">Technologies: <strong>C++</strong>, <strong>OpenCV</strong>, <strong>Machine Learning</strong>, <strong>Docker</strong>.</p>
+                        <p class="cta">Highlights: <strong>C++</strong>, <strong>OpenCV</strong>, <strong>Machine Learning</strong>, <strong>Docker</strong>.</p>
                         <br><br>
                         <p class="cta"><router-link to="/cybercar"><strong>View Details</strong></router-link></p>
                         <br><br>
@@ -58,7 +58,7 @@
                         <p>
                             A shop system that handles a product register, and an integrator that can convert the register into the format of other systems.
                         </p>
-                        <p class="cta">Technologies: <strong>C#</strong>, <strong>.NET</strong>, <strong>Windows Forms</strong>, <strong>Entity Framework Core</strong>.</p>
+                        <p class="cta">Highlights: <strong>C#</strong>, <strong>.NET</strong>, <strong>Windows Forms</strong>, <strong>Entity Framework Core</strong>, <strong>SQL</strong>.</p>
                         <br><br>
                         <p class="cta"><router-link to="/mediashop"><strong>View Details</strong></router-link></p>
                         <br><br>
@@ -78,7 +78,7 @@
                             A program that can generate a UML class-diagram based on source code input.
                             Back-end distributed among three nodes in a WLAN network.
                         </p>
-                        <p class="cta">Technologies: <strong>Java</strong>, <strong>JavaFX</strong>, <strong>SrcML</strong>, <strong>Graphviz</strong>.</p>
+                        <p class="cta">Highlights: <strong>Java</strong>, <strong>JavaFX</strong>, <strong>SrcML</strong>, <strong>Graphviz</strong>.</p>
                         <br><br>
                         <p class="cta"><router-link to="/sourcecodemodeler"><strong>View Details</strong></router-link></p>
                         <br><br>
