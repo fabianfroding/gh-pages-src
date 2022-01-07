@@ -10,7 +10,7 @@
                         <h1>Vault of Darkness</h1>
                         <p>
                             A dungeon-crawler mod for Warcraft 3: The Frozen Throne
-                            with scripted enemy AI, custom environment, dynamic hero selection system, custom UI and more.
+                            with scripted enemy AI, custom level design, dynamic hero selection system, custom UI and more.
                         </p>
                         <p class="cta">Highlights: <strong>Scripting</strong>, <strong>3D Level Design</strong>.</p>
                         <br><br>

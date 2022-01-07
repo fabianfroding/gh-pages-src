@@ -4,7 +4,7 @@
             Bloodline is a narrative-driven game made with the <strong>Deig</strong> editor, 
             featuring <strong>four different endings</strong> based on player choices.
             <br><br>
-            The game is designed based on the concepts of <strong>skill</strong> and <strong>randonmness</strong>.
+            The game is designed based on the concepts of <strong>skill</strong> and <strong>randomness</strong>.
             The player can make choices that will have both short-term and long-term impacts,
             and must strategize how to use the available choices to reach the good ending.
             <br><br>

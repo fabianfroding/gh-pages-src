@@ -9,8 +9,8 @@
                 <div class="my-skills">
                     <div class="skill">
                         <h1>Resume</h1>
-                        <p class="global-link"><a href="./Resume_Fabian_Froding_2021a.docx" target="_blank"><i class="far fa-file-alt"/> Resume.docx</a></p>
-                        <p class="global-link"><a href="./Resume_Fabian_Froding_2021a.pdf" target="_blank"><i class="far fa-file-pdf"/> Resume.pdf</a></p>
+                        <p class="global-link resume-file"><a href="./Resume_Fabian_Froding_2021a.docx" target="_blank"><i class="far fa-file-alt"/> Resume_Fabian_Froding_2021a.docx</a></p>
+                        <p class="global-link resume-file"><a href="./Resume_Fabian_Froding_2021a.pdf" target="_blank"><i class="far fa-file-pdf"/> Resume_Fabian_Froding_2021a.pdf</a></p>
                     </div>
                 </div>
                 <div class="my-skills">
@@ -34,13 +34,13 @@
                     </div>
                     <div class="skill">
                         <h1>Academic Reports</h1>
-                        <p class="global-link"><a href="https://gupea.ub.gu.se/handle/2077/67098" target="_blank"><i class="fas fa-link"/> The Evolution of Role Stereotypes and Related Design (Anti) Patterns</a> (2020)</p>
+                        <p class="global-link"><a href="https://gupea.ub.gu.se/handle/2077/67098" target="_blank"><i class="fas fa-link"/> The Evolution of Role Stereotypes and Related Design (Anti) Patterns</a></p>
                         <br>
-                        <p class="global-link"><a href="./ImmersionInGamesAndMovies_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Measuring the Degree of Immersion in Video Games.pdf</a> (2021)</p>
+                        <p class="global-link"><a href="./ImmersionInGamesAndMovies_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Measuring the Degree of Immersion in Video Games.pdf</a></p>
                         <br>
-                        <p class="global-link"><a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Exploring ways to evaluate the effect of time-loop systems on player experience in video games.pdf</a> (2021)</p>
+                        <p class="global-link"><a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Exploring ways to evaluate the effect of time-loop systems on player experience in video games.pdf</a></p>
                         <br>
-                        <p class="global-link"><a href="./PlaytestStudyWarcryYCJY_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Games User Experience - An experimental playtest-study with two external studios.pdf</a> (2021)</p>
+                        <p class="global-link"><a href="./PlaytestStudyWarcryYCJY_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Games User Experience - An experimental playtest-study with two external studios.pdf</a></p>
                     </div>
                 </div>
             </div>
@@ -81,6 +81,12 @@
         <Footer :showArrow="true"></Footer>
     </div>
 </template>
+
+<style scoped>
+.resume-file a {
+    font-size: 1.5rem;
+}
+</style>
 
 <script>
 import Footer from '@/components/Footer.vue'

@@ -45,7 +45,7 @@
                             <i class="fas fa-gamepad"></i>
                         </div>
                         <h1>Gameplay Programming</h1>
-                        <p>Cunning in Unity, C#, and scripting mods, with a main focus in game architecture.</p>
+                        <p>Cunning in Unity, C#, and scripting mods.</p>
                     </div>
 
                     <div class="skill">
@@ -53,7 +53,7 @@
                             <i class="fa fa-dungeon"></i>
                         </div>
                         <h1>Game Design</h1>
-                        <p>I love creating immersive environments. I can do level design, texturing/model editing and worldbuilding among other things.</p>
+                        <p>I can do level design, texturing/model editing and worldbuilding.</p>
                     </div>
 
                 </div>

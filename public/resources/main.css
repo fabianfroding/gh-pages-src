@@ -3,7 +3,7 @@
     --gradient-theme-start: #638dccdd;
     --gradient-theme-end: #577efdbe;
 
-    --text-theme-link: #5378c3; /*#4267b2*/ /*#7878FF*/;
+    --text-theme-link: #5378FF; /*#4267b2*/ /*#7878FF*/;
   }
 /* END CUSTOM PROPERTIES */
 
@@ -420,7 +420,7 @@ li {
     font-size: 1.45rem;
     text-transform: uppercase;
     font-weight: 300;
-    opacity: 0.35;
+    opacity: 0.45;
 }
 
 .portfolio-description p {
