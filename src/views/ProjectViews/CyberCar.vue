@@ -13,7 +13,7 @@ export default {
       return {
           projectDetails: {
               title: "Autonomous Vehicle: Intersection",
-              subtitle: "Cyber-Physical Systems Group Project",
+              subtitle: "roup Project in Cyber-Physical Systems",
               mainImage: {name: "cyber-car00.gif", index: 0},
               images: [[
                     {name: "cyber-car01.jpg", index: 1},

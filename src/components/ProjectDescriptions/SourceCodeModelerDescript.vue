@@ -10,7 +10,7 @@
             The program will then recursively find all Java files and distribute the final diagram to all connected nodes.
             <br><br>
             JavaFX was used to produce the front end for the UI, SrcML to convert source code into XML format, and Graphviz to visualize the UML diagram.
-            <br><br>
+            <br>
         </p>
         <p class="tool-used">Tools Used:
             <br> • <strong>JAVA</strong>

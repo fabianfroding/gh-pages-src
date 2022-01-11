@@ -13,7 +13,7 @@ export default {
       return {
           projectDetails: {
               title: "Source Code Modeler",
-              subtitle: "Distributed UML Generation Tool",
+              subtitle: "Group Project in Distributed Systems",
               mainImage: {name: "src-code-modeler01.jpg", index: 0},
               images: [],
               descriptionComponent: "source-code-modeler-descript"

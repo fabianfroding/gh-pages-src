@@ -14,7 +14,7 @@ export default {
           projectDetails: {
               title: "Media Shop & Integrator",
               subtitle: "Product Registry & Conversion System",
-              mainImage: {name: "media-shop00.jpg", index: 0},
+              mainImage: {name: "media-shop01.jpg", index: 0},
               images: [],
               descriptionComponent: "media-shop-descript"
           }
