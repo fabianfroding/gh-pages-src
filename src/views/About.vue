@@ -16,7 +16,7 @@
                     <br>
 					<div class="separator-line"></div>
                     <br>
-					<p>Outside of my time spent on development, I lead a quite simple and minimalistic life and occasionally busy myself with martial arts, immersive movies, animals, and reading non-fiction books.</p>
+					<p>Outside of my time spent on development, I occasionally occupy myself with martial arts, immersive movies, animals, and reading non-fiction books.</p>
 					<br>
                     <div class="separator-line"></div>
                     <br>
