@@ -36,9 +36,9 @@ const routes = [
     component: () => import('../views/ProjectViews/VaultOfDarkness.vue')
   },
   {
-    path: '/celestialzenith',
-    name: 'CelestialZenith',
-    component: () => import('../views/ProjectViews/CelestialZenith.vue')
+    path: '/metroidvania',
+    name: 'Metroidvania',
+    component: () => import('../views/ProjectViews/Metroidvania.vue')
   },
   {
     path: '/bloodline',

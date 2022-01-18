@@ -27,17 +27,17 @@
                 <div class="portfolio-item">
                     <div class="portfolio-description has-margin-right">
                         <h6>2D Game Development (Group Project)</h6>
-                        <h1>Celestial Zenith</h1>
+                        <h1>Clockwork Metroidvania</h1>
                         <p>
-                            A 2D-platformer minigame. Fight bosses and climb your way to the celestial zenith.
-                            Features hand-drawn art and animations, equipment system, enemy AI and more.
+                            A metroidvania with a clockwork system. Inspired by Hollow Knight and The Legend of Zelda: Majora's Mask.
+                            Features hand-drawn art and animations, equipment system, enemy AI with state machines and more.
                         </p>
                         <p class="cta">Highlights: <strong>Unity</strong>, <strong>C#</strong>, <strong>STATE MACHINES</strong>, <strong>2D ART</strong>.</p>
                         <br><br>
-                        <p class="cta"><router-link to="/celestialzenith"><strong>View Details</strong></router-link></p>
+                        <p class="cta"><router-link to="/metroidvania"><strong>View Details</strong></router-link></p>
                     </div>
                     <div class="portfolio-img">
-                        <router-link to="/celestialzenith"><img src="../resources/project-images/2d-mini01.jpg" alt=""></router-link>
+                        <router-link to="/metroidvania"><img src="../resources/project-images/metroidvania01.jpg" alt=""></router-link>
                     </div>
                 </div>
 
@@ -68,8 +68,7 @@
                         <h6>3D Game Development</h6>
                         <h1>Planetary Revelation</h1>
                         <p>
-                            An experimental space-exploration game set in a solar system with orbiting planets.
-                            Place units around the solar system to scan planets before the sun explodes.
+                            An interactable solar-system simulation with a custom gravity system.
                         </p>
                         <p class="cta">Highlights: <strong>UNITY</strong>, <strong>C#</strong>, <strong>SCRIPTABLE OBJECTS</strong>, <strong>CUSTOM EVENTS</strong>.</p>
                         <br><br>

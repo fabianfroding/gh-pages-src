@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>
-            More details coming soon!
+            Details coming soon!
         </p>
         <p class="tool-used">Tools Used:
             <br> • <strong>UNITY</strong>

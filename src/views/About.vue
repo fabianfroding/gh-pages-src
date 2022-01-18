@@ -16,7 +16,7 @@
                     <br>
 					<div class="separator-line"></div>
                     <br>
-					<p>Outside of my time spent on development, I occasionally occupy myself with martial arts, immersive movies, animals, and reading non-fiction books.</p>
+					<p>Outside of my time spent on development, I occasionally occupy myself with martial arts, running, animals, reading non-fiction books and watching immersive movies and series.</p>
 					<br>
                     <div class="separator-line"></div>
                     <br>

@@ -36,7 +36,7 @@
 
 <script>
 import VaultOfDarknessDescript from './ProjectDescriptions/VaultOfDarknessDescript.vue';
-import CelestialZenithDescript from './ProjectDescriptions/CelestialZenithDescript.vue';
+import MetroidvaniaDescript from './ProjectDescriptions/MetroidvaniaDescript.vue';
 import BloodlineDescript from './ProjectDescriptions/BloodlineDescript.vue';
 import PlanetaryRevelationDescript from './ProjectDescriptions/PlanetaryRevelationDescript.vue';
 import CodeAnalyzerDescript from './ProjectDescriptions/CodeAnalyzerDescript.vue';
@@ -50,7 +50,7 @@ export default {
 	props: ['projectDetails'],
     components: { 
         VaultOfDarknessDescript,
-        CelestialZenithDescript,
+        MetroidvaniaDescript,
         BloodlineDescript,
         PlanetaryRevelationDescript,
         CodeAnalyzerDescript,
