@@ -21,7 +21,14 @@
                     <div class="separator-line"></div>
                     <br>
 					<p>Some of my favourite games are The Legend of Zelda: Majora's Mask, Hollow Knight, Metroid Prime and Shadow of the Colossus, among others.</p>
-				</div>
+                    <br>
+                    <div class="separator-line"></div>
+                    <br>
+                    <p>Gamedev Youtubers that I actively follow to learn and keep up to date with the industry:</p>
+                    <p class="global-link"> • <a href="https://www.youtube.com/channel/UCuHVjteDW9tCb8QqMrtGvwQ" target="_blank"><strong>Thomas Brush</strong></a></p>
+                    <p class="global-link"> • <a href="https://www.youtube.com/c/LostRelicGames" target="_blank"><strong>Lost Relic Games</strong></a></p>
+                    <p class="global-link"> • <a href="https://www.youtube.com/c/Unity3dCollege" target="_blank"><strong>Jason Weimann</strong></a></p>
+                </div>
 			</div>
 		</section>
 		<section class="services" id="services">
