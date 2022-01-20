@@ -23,7 +23,7 @@
         </p>
         <br><br>
         <p>Unity Project:</p>
-        <a href="https://github.com/fabianfroding/unity-planetary-revelation/tree/master/Scripts" target="_blank" class="project-link">
+        <a href="https://github.com/fabianfroding/unity-planetary-revelation/" target="_blank" class="project-link">
             <i class="fab fa-github"></i>
         </a>
     </div>

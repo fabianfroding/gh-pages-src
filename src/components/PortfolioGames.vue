@@ -74,7 +74,7 @@
                         <br><br>
                         <p class="cta"><router-link to="/planetaryrevelation"><strong>View Details</strong></router-link></p>
                         <br><br>
-                        <a href="https://github.com/fabianfroding/unity-planetary-revelation/tree/master/Scripts" target="_blank" class="project-link">
+                        <a href="https://github.com/fabianfroding/unity-planetary-revelation/" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
