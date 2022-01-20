@@ -38,5 +38,7 @@
         <a href="https://github.com/fabianfroding/wc3-vod-jass" target="_blank" class="project-link">
             <i class="fab fa-github"></i>
         </a>
+        <br><br>
+        <p>Download coming soon!</p>
     </div>
 </template>

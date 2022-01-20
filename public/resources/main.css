@@ -60,6 +60,19 @@ img {
     -webkit-text-decoration-thickness: 0.12em;
     color: var(--text-theme-link);
 }
+
+.temp-text-link {
+    color: var(--text-theme-link);
+}
+
+.temp-text-link :hover {
+    text-decoration: underline;
+	text-decoration-color: var(--text-theme-link);
+    -webkit-text-decoration-color: var(--text-theme-link);
+    text-decoration-thickness: 0.12em;
+    -webkit-text-decoration-thickness: 0.12em;
+    color: var(--text-theme-link);
+}
 /* END GLOBAL */
 
 /* REUSABLE */

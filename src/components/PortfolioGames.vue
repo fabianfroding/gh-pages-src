@@ -68,9 +68,9 @@
                         <h6>3D Game Development</h6>
                         <h1>Planetary Revelation</h1>
                         <p>
-                            An interactable solar-system simulation with a custom gravity system.
+                            An interactable solar-system simulation with a custom gravity system based on real-time physics.
                         </p>
-                        <p class="cta">Highlights: <strong>UNITY</strong>, <strong>C#</strong>, <strong>SCRIPTABLE OBJECTS</strong>, <strong>CUSTOM EVENTS</strong>.</p>
+                        <p class="cta">Highlights: <strong>UNITY</strong>, <strong>C#</strong>, <strong>PARTICLE SYSTEMS</strong>, <strong>SCRIPTABLE OBJECTS</strong>, <strong>CUSTOM PHYSICS</strong>.</p>
                         <br><br>
                         <p class="cta"><router-link to="/planetaryrevelation"><strong>View Details</strong></router-link></p>
                         <br><br>
@@ -79,7 +79,7 @@
                         </a>
                     </div>
                     <div class="portfolio-img">
-                        <router-link to="/planetaryrevelation"><img src="../resources/project-images/planetary-rev01.jpg" alt=""></router-link>
+                        <router-link to="/planetaryrevelation"><img src="../resources/project-images/planetary-rev06.jpg" alt=""></router-link>
                     </div>
                 </div>
 
