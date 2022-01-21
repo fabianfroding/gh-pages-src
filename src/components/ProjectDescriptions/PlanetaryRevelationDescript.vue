@@ -22,9 +22,16 @@
             <br> • <a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html" target="_blank"><strong>SCRIPTABLE OBJECTS</strong></a>
         </p>
         <br><br>
-        <p>Unity Project:</p>
         <a href="https://github.com/fabianfroding/unity-planetary-revelation/" target="_blank" class="project-link">
             <i class="fab fa-github"></i>
         </a>
+        <br><br>
+        <p>DOWNLOAD (WINDOWS):</p>
+        <p class="global-link"><a href="https://drive.google.com/file/d/1cvqb9BZwV1xBvGttEpUR2ngVY1HIqiIa/view?usp=sharing" target="_blank"><i class="far fa-file-archive"/> PlanetaryRevelation.zip</a></p>
+    
+        <br>
+        <p> • Extract PlanetaryRevelation.zip</p>
+        <p> • Run Planetary Revelation.exe</p>
+        <p> • Press Esc to exit the simulation</p>
     </div>
 </template>
