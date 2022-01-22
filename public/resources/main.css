@@ -758,6 +758,10 @@ input[type="submit"]:hover {
     .timeline .date::after {
         left: -5.9rem;
     }
+
+    .contact-img img {
+        width: 35%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -819,6 +823,10 @@ input[type="submit"]:hover {
 
     .up {
         right: 2rem;
+    }
+
+    .contact-img img {
+        width: 50%;
     }
 }
 /* END MEDIA QUERIES */

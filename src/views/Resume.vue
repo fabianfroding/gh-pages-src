@@ -101,6 +101,62 @@
                 </div>
             </div>
         </section>
+        <div class="separator-line"></div>
+        <section class="services" id="services">
+            <div class="container">
+                <div class="my-skills">
+                    <div class="skill">
+                        <h1>Skillset</h1>
+                    </div>
+                </div>
+                <div class="my-skills">
+
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+                        <h1>Software Development</h1>
+                        <p>Experienced in developing tools, web applications, and in software architecture. Main languages include C# and Javascript.</p>
+                    </div>
+
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h1>Game Programming</h1>
+                        <p>Cunning in Unity, C#, and scripting mods.</p>
+                    </div>
+
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fa fa-dungeon"></i>
+                        </div>
+                        <h1>Game Design</h1>
+                        <p>I can do level design, texturing/model editing and worldbuilding.</p>
+                    </div>
+
+                </div>
+                <div class="my-skills">
+
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fa fa-chalkboard-teacher"></i>
+                        </div>
+                        <h1>Project Management</h1>
+                        <p>My time managing teams in various group projects has made me a task-oriented leader with a love for platforms such as Trello.</p>
+                    </div>
+
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h1>Playtesting</h1>
+                        <p>Capable of performing user experience-tests consisting of data collection, analyzation and visualization.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <Footer :showArrow="true"></Footer>
     </div>
 </template>
