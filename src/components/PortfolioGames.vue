@@ -45,26 +45,9 @@
 
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                        <router-link to="/bloodline"><img src="../resources/project-images/deig00.jpg" alt=""></router-link>
+                        <router-link to="/planetaryrevelation"><img src="../resources/project-images/planetary-rev06.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
-                        <h6>Game Prototyping</h6>
-                        <h1>Bloodline</h1>
-                        <p>
-                            A dialogue-based game created with the Deig editor.
-                            Features 4 different endings based on player choices, a custom-made map, 
-                            and art and sprites from the Fire Emblem series.
-                        </p>
-                        <p class="cta">Highlights: <strong>Visual Scripting</strong>, <strong>Worldbuilding</strong>.</p>
-                        <br><br>
-                        <p class="cta"><router-link to="/bloodline"><strong>View Details</strong></router-link></p>
-                    </div>
-                </div>
-
-                <div class="separator-line"></div>
-
-                <div class="portfolio-item">
-                    <div class="portfolio-description has-margin-right">
                         <h6>3D Game Development</h6>
                         <h1>Planetary Revelation</h1>
                         <p>
@@ -78,8 +61,26 @@
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
+                    
+                </div>
+
+                <div class="separator-line"></div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right">
+                        <h6>Game Prototyping</h6>
+                        <h1>Bloodline</h1>
+                        <p>
+                            A dialogue-based game created with the Deig editor.
+                            Features 4 different endings based on player choices, a custom-made map, 
+                            and art and sprites from the Fire Emblem series.
+                        </p>
+                        <p class="cta">Highlights: <strong>Visual Scripting</strong>, <strong>Worldbuilding</strong>.</p>
+                        <br><br>
+                        <p class="cta"><router-link to="/bloodline"><strong>View Details</strong></router-link></p>
+                    </div>
                     <div class="portfolio-img">
-                        <router-link to="/planetaryrevelation"><img src="../resources/project-images/planetary-rev06.jpg" alt=""></router-link>
+                        <router-link to="/bloodline"><img src="../resources/project-images/deig00.jpg" alt=""></router-link>
                     </div>
                 </div>
 

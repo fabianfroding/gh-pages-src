@@ -20,7 +20,6 @@
                     <br>
 					<p>
                         Outside of my time spent on development, I occasionally occupy myself with practicing martial arts, running, animals, reading non-fiction books and watching immersive movies and series.
-                        <br>I am a fan of <strong>Dennis Villeneuve</strong>, <strong>Sam Esmail</strong> and <strong>Christopher Nolan</strong>.
                     </p>
 					<br>
                     <div class="separator-line"></div>
