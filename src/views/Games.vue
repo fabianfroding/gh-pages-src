@@ -1,0 +1,20 @@
+<template>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Game Projects</h1>
+                <br><br>
+            </div>
+            <PortfolioGames></PortfolioGames>
+        </div>
+        <Footer :showArrow="true"></Footer>
+    </section>
+</template>
+
+<script>
+import PortfolioGames from '@/components/PortfolioGames.vue';
+import Footer from '@/components/Footer.vue'
+export default {
+    components: { PortfolioGames, Footer }
+}
+</script>

@@ -1,14 +1,24 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Portfolio from '../views/Portfolio.vue'
+import Games from '../views/Games.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Portfolio',
-    component: Portfolio
+    name: 'Home',
+    component: Games
+  },
+  {
+    path: '/games',
+    name: 'Games',
+    component: () => import('../views/Games.vue')
+  },
+  {
+    path: '/software',
+    name: 'Softwares',
+    component: () => import('../views/Softwares.vue')
   },
   {
     path: '/resume',

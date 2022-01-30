@@ -12,8 +12,8 @@
 						<h6>Me</h6>
 					</div>
 					<p>
-                        My skillset mainly consists of programming and a broad knowledge of various fields in software engineering and game development.
-                        I am a rather straightforward and structured individual with an appreciation for the small things in life.
+                        My skillset mainly consists of <strong>software engineering</strong> and <strong>game development</strong>, 
+						with a specialization in <strong>Unity</strong>, <strong>C#</strong>, <strong>software architecture</strong> and <strong>data visualization</strong>.
                     </p>
                     <br>
 					<div class="separator-line"></div>

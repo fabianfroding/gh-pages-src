@@ -3,7 +3,7 @@
       <div v-if="showArrow" @click="scrollToTop" class="up" id="up">
           <i class="fas fa-chevron-up"></i>
       </div>
-      <p>&copy; {{ new Date().getFullYear() }} Fabian F.</p>
+      <p>&copy; 2020 - {{ new Date().getFullYear() }} Fabian F.</p>
     </footer>
 </template>
 
