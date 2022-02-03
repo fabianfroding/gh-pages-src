@@ -17,12 +17,13 @@ export default {
               mainImage: {name: "metroidvania03.gif", index: 0},
               images: [[
                     {name: "metroidvania00.jpg", index: 1},
+                    {name: "metroidvania03.jpg", index: 2},
               ],
               [
-                    {name: "metroidvania01.jpg", index: 2},
+                    {name: "metroidvania01.jpg", index: 3},
               ],
               [
-                    {name: "metroidvania02.jpg", index: 3},
+                    {name: "metroidvania02.jpg", index: 4},
               ]],
               descriptionComponent: "metroidvania-descript"
           }
