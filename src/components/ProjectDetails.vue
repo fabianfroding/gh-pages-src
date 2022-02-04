@@ -37,8 +37,9 @@
 <script>
 import VaultOfDarknessDescript from './ProjectDescriptions/VaultOfDarknessDescript.vue';
 import MetroidvaniaDescript from './ProjectDescriptions/MetroidvaniaDescript.vue';
-import BloodlineDescript from './ProjectDescriptions/BloodlineDescript.vue';
 import PlanetaryRevelationDescript from './ProjectDescriptions/PlanetaryRevelationDescript.vue';
+import CatsEyeDescript from './ProjectDescriptions/CatsEyeDescript.vue';
+import BloodlineDescript from './ProjectDescriptions/BloodlineDescript.vue';
 import CodeAnalyzerDescript from './ProjectDescriptions/CodeAnalyzerDescript.vue';
 import CyberCarDescript from './ProjectDescriptions/CyberCarDescript.vue';
 import MediaShopDescript from './ProjectDescriptions/MediaShopDescript.vue';
@@ -51,8 +52,9 @@ export default {
     components: { 
         VaultOfDarknessDescript,
         MetroidvaniaDescript,
-        BloodlineDescript,
+        CatsEyeDescript,
         PlanetaryRevelationDescript,
+        BloodlineDescript,
         CodeAnalyzerDescript,
         CyberCarDescript,
         MediaShopDescript,

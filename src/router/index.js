@@ -51,14 +51,19 @@ const routes = [
     component: () => import('../views/ProjectViews/Metroidvania.vue')
   },
   {
-    path: '/bloodline',
-    name: 'Bloodline',
-    component: () => import('../views/ProjectViews/Bloodline.vue')
+    path: '/catseye',
+    name: 'CatsEye',
+    component: () => import('../views/ProjectViews/CatsEye.vue')
   },
   {
     path: '/planetaryrevelation',
     name: 'PlanetaryRevelation',
     component: () => import('../views/ProjectViews/PlanetaryRevelation.vue')
+  },
+  {
+    path: '/bloodline',
+    name: 'Bloodline',
+    component: () => import('../views/ProjectViews/Bloodline.vue')
   },
 
   // SE Project Details pages.

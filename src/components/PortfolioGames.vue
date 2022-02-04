@@ -68,6 +68,33 @@
 
                 <div class="portfolio-item">
                     <div class="portfolio-description has-margin-right">
+                        <h6>3D Game Development</h6>
+                        <h1>Cat's Eye</h1>
+                        <p>
+                            A group project from Global Game Jam 2022. 
+                            Cat's Eye is a short adventure/horror where the player can switch between a dark/light world and collect cat statues.
+                        </p>
+                        <p class="cta">Highlights: <strong>UNITY</strong>, <strong>C#</strong>, <strong>PROJECT MANAGEMENT</strong>, <strong>GIT</strong>.</p>
+                        <br><br>
+                        <p class="cta"><router-link to="/catseye"><strong>View Details</strong></router-link></p>
+                        <br><br>
+                        <a href="https://github.com/fabianfroding/ggj2022" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="portfolio-img">
+                        <router-link to="/catseye"><img src="../resources/project-images/catseye00.jpg" alt=""></router-link>
+                    </div>
+                    
+                </div>
+
+                <div class="separator-line"></div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
+                        <router-link to="/bloodline"><img src="../resources/project-images/deig00.jpg" alt=""></router-link>
+                    </div>
+                    <div class="portfolio-description">
                         <h6>Game Prototyping</h6>
                         <h1>Bloodline</h1>
                         <p>
@@ -78,9 +105,6 @@
                         <p class="cta">Highlights: <strong>Visual Scripting</strong>, <strong>Worldbuilding</strong>.</p>
                         <br><br>
                         <p class="cta"><router-link to="/bloodline"><strong>View Details</strong></router-link></p>
-                    </div>
-                    <div class="portfolio-img">
-                        <router-link to="/bloodline"><img src="../resources/project-images/deig00.jpg" alt=""></router-link>
                     </div>
                 </div>
 
