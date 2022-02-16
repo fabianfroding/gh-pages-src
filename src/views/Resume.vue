@@ -148,10 +148,10 @@
 
                     <div class="skill">
                         <div class="icon-container">
-                            <i class="fas fa-search"></i>
+                            <i class="fas fa-chart-bar"></i>
                         </div>
-                        <h1>Playtesting</h1>
-                        <p>Capable of performing user experience-tests consisting of data collection, analyzation and visualization.</p>
+                        <h1>Data Analysis</h1>
+                        <p>Proficient in collecting, analyzing and visualizing data using automatization and statistics.</p>
                     </div>
 
                 </div>
