@@ -9,8 +9,8 @@
                 <div class="my-skills">
                     <div class="skill">
                         <!--h1>Resume</h1-->
-                        <p class="global-link resume-file"><a href="./Resume_Fabian_Froding_2021a.docx" target="_blank"><i class="far fa-file-alt"/> Resume_Fabian_Froding_2021a.docx</a></p>
-                        <p class="global-link resume-file"><a href="./Resume_Fabian_Froding_2021a.pdf" target="_blank"><i class="far fa-file-pdf"/> Resume_Fabian_Froding_2021a.pdf</a></p>
+                        <p class="global-link resume-file"><a href="./Resume_FabianFroding_2022a.docx" target="_blank"><i class="far fa-file-alt"/> Resume_FabianFroding_2022a.docx</a></p>
+                        <p class="global-link resume-file"><a href="./Resume_FabianFroding_2022a.pdf" target="_blank"><i class="far fa-file-pdf"/> Resume_FabianFroding_2022a.pdf</a></p>
                     </div>
                 </div>
                 <div class="separator-line"></div>
@@ -44,21 +44,6 @@
                         <br><br>- <strong>Master Shi Yan Jia, 34th generation Shaolin Warrior Monk at Qufu Shaolin Kung Fu School.</strong></p><p class="global-link"><a href="resources/QufuShaolinSchool_Certificate.pdf" target="_blank"></a></p>
                         <!--p class="global-link"><a href="./QufuShaolinSchoolCertificate_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Certificate from Qufu Shaolin Kung Fu School.pdf</a></p-->
                     </div>
-                </div>
-                <div class="separator-line"></div>
-                <div class="my-skills">
-                    <div class="skill"></div>
-                    <div class="skill">
-                        <h1>Academic Reports</h1>
-                        <p class="global-link"><a href="https://gupea.ub.gu.se/handle/2077/67098" target="_blank"><i class="fas fa-link"/> The Evolution of Role Stereotypes and Related Design (Anti) Patterns</a></p>
-                        <br>
-                        <p class="global-link"><a href="./PlaytestStudyWarcryYCJY_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Games User Experience - An experimental playtest-study with two external studios.pdf</a></p>
-                        <br>
-                        <p class="global-link"><a href="./ImmersionInGamesAndMovies_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Measuring the Degree of Immersion in Video Games.pdf</a></p>
-                        <br>
-                        <p class="global-link"><a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Exploring ways to evaluate the effect of time-loop systems on player experience in video games.pdf</a></p>
-                    </div>
-                    <div class="skill"></div>
                 </div>
             </div>
         </section>
@@ -153,9 +138,26 @@
                         <h1>Data Analysis</h1>
                         <p>Proficient in collecting, analyzing and visualizing data using automatization and statistics.</p>
                     </div>
-
                 </div>
             </div>
+        </section>
+        <div class="separator-line"></div>
+        <section class="services" id="services">
+            <div class="my-skills">
+                <div class="skill"></div>
+                <div class="skill">
+                    <h1>Academic Reports</h1>
+                    <p class="global-link"><a href="https://gupea.ub.gu.se/handle/2077/67098" target="_blank"><i class="fas fa-link"/> The Evolution of Role Stereotypes and Related Design (Anti) Patterns</a></p>
+                    <br>
+                    <p class="global-link"><a href="./PlaytestStudyWarcryYCJY_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Games User Experience - An experimental playtest-study with two external studios.pdf</a></p>
+                    <br>
+                    <p class="global-link"><a href="./ImmersionInGamesAndMovies_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Measuring the Degree of Immersion in Video Games.pdf</a></p>
+                    <br>
+                    <p class="global-link"><a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Exploring ways to evaluate the effect of time-loop systems on player experience in video games.pdf</a></p>
+                </div>
+                <div class="skill"></div>
+            </div>
+            <br><br><br><br><br>
         </section>
         <Footer :showArrow="true"></Footer>
     </div>
