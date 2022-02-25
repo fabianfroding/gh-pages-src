@@ -325,7 +325,16 @@ li {
     transition: color 650ms;
 }
 
-.fa-github:hover {
+/*.fa-github:hover {
+    color: var(--text-theme-link);
+}*/
+
+.footer-icon {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.footer-icon:hover {
     color: var(--text-theme-link);
 }
 

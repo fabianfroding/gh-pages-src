@@ -1,14 +1,16 @@
 <template>
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Game Projects</h1>
-                <br><br>
+    <div>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Game Projects</h1>
+                    <br><br>
+                </div>
+                <PortfolioGames></PortfolioGames>
             </div>
-            <PortfolioGames></PortfolioGames>
-        </div>
+        </section>
         <Footer :showArrow="true"></Footer>
-    </section>
+    </div>
 </template>
 
 <script>
