@@ -771,6 +771,10 @@ input[type="submit"]:hover {
     .contact-img img {
         width: 35%;
     }
+
+    #nav-research {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -836,6 +840,10 @@ input[type="submit"]:hover {
 
     .contact-img img {
         width: 50%;
+    }
+
+    #nav-research {
+        display: none;
     }
 }
 /* END MEDIA QUERIES */

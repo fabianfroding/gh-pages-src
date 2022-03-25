@@ -8,6 +8,9 @@
             <li>
                 <router-link class="nav-link" to="/software">Software</router-link>
             </li>
+            <li id="nav-research">
+                <router-link class="nav-link" to="/research">Research</router-link>
+            </li>
             <li id="nav-services">
                 <router-link class="nav-link" to="/resume">Resume</router-link>
             </li>

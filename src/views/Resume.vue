@@ -141,24 +141,6 @@
                 </div>
             </div>
         </section>
-        <div class="separator-line"></div>
-        <section class="services" id="services">
-            <div class="my-skills">
-                <div class="skill"></div>
-                <div class="skill">
-                    <h1>Academic Reports</h1>
-                    <p class="global-link"><a href="https://gupea.ub.gu.se/handle/2077/67098" target="_blank"><i class="fas fa-link"/> The Evolution of Role Stereotypes and Related Design (Anti) Patterns</a></p>
-                    <br>
-                    <p class="global-link"><a href="./PlaytestStudyWarcryYCJY_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Games User Experience - An experimental playtest-study with two external studios.pdf</a></p>
-                    <br>
-                    <p class="global-link"><a href="./ImmersionInGamesAndMovies_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Measuring the Degree of Immersion in Video Games.pdf</a></p>
-                    <br>
-                    <p class="global-link"><a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Exploring ways to evaluate the effect of time-loop systems on player experience in video games.pdf</a></p>
-                </div>
-                <div class="skill"></div>
-            </div>
-            <br><br><br><br><br>
-        </section>
         <Footer :showArrow="true"></Footer>
     </div>
 </template>

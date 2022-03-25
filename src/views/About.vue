@@ -87,7 +87,7 @@
                 </div>
             </div>
 			<br><br><br><br><br>
-		<Footer :showArrow="false"></Footer>
+		<Footer :showArrow="true"></Footer>
 	</div>
 </template>
 
