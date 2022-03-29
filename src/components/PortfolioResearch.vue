@@ -3,7 +3,9 @@
         <div id="portfolio-research">
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                        <img src="../resources/project-images/research-sembsc00.jpg" alt="">
+                        <a href="https://gupea.ub.gu.se/handle/2077/67098" target="_blank">
+                            <img src="../resources/project-images/research-sembsc00.jpg" alt="">
+                        </a>
                     </div>
                     <div class="portfolio-description">
                         <h6>Bsc Thesis</h6>
@@ -33,7 +35,9 @@
                         <p class="global-link"><a href="./InvestigatingVideoGameDevelopProblems_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Investigating Video Game Development Problems Among Genres and Platforms.pdf</a></p>
                     </div>
                     <div class="portfolio-img">
-                        <img src="../resources/project-images/research-ege00.jpg" alt="">
+                        <a href="./InvestigatingVideoGameDevelopProblems_Fabian_Froding.pdf" target="_blank">
+                            <img src="../resources/project-images/research-ege00.jpg" alt="">
+                        </a>
                     </div>
                 </div>
 
@@ -41,7 +45,9 @@
 
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                        <img src="../resources/project-images/research-agux00.jpg" alt="">
+                        <a href="./PlaytestStudyWarcryYCJY_Fabian_Froding.pdf" target="_blank">
+                            <img src="../resources/project-images/research-agux00.jpg" alt="">
+                        </a>
                     </div>
                     <div class="portfolio-description">
                         <h6>Academic Report</h6>
@@ -71,7 +77,9 @@
                         <p class="global-link"><a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Exploring ways to evaluate the effect of time-loop systems on player experience in video games.pdf</a></p>
                     </div>
                     <div class="portfolio-img">
-                        <img src="../resources/project-images/research-guxrd00.jpg" alt="">
+                        <a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank">
+                            <img src="../resources/project-images/research-guxrd00.jpg" alt="">
+                        </a>
                     </div>
                     
                 </div>
