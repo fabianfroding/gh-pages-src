@@ -3,6 +3,9 @@
       <div v-if="showArrow" @click="scrollToTop" class="up" id="up">
           <i class="fas fa-chevron-up"></i>
       </div>
+      <a href="https://www.linkedin.com/in/fabian-fr%C3%B6ding-7b52ab160/" target="_blank" class="project-link">
+          <i class="fab fa-linkedin footer-icon"></i>
+      </a>
       <a href="https://github.com/fabianfroding" target="_blank" class="project-link">
           <i class="fab fa-github footer-icon"></i>
       </a>
