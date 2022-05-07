@@ -39,7 +39,7 @@ import VaultOfDarknessDescript from './ProjectDescriptions/VaultOfDarknessDescri
 import MetroidvaniaDescript from './ProjectDescriptions/MetroidvaniaDescript.vue';
 import PlanetaryRevelationDescript from './ProjectDescriptions/PlanetaryRevelationDescript.vue';
 import CatsEyeDescript from './ProjectDescriptions/CatsEyeDescript.vue';
-import BloodlineDescript from './ProjectDescriptions/BloodlineDescript.vue';
+import AbyssusDescript from './ProjectDescriptions/AbyssusDescript.vue';
 import CodeAnalyzerDescript from './ProjectDescriptions/CodeAnalyzerDescript.vue';
 import CyberCarDescript from './ProjectDescriptions/CyberCarDescript.vue';
 import MediaShopDescript from './ProjectDescriptions/MediaShopDescript.vue';
@@ -54,7 +54,7 @@ export default {
         MetroidvaniaDescript,
         CatsEyeDescript,
         PlanetaryRevelationDescript,
-        BloodlineDescript,
+        AbyssusDescript,
         CodeAnalyzerDescript,
         CyberCarDescript,
         MediaShopDescript,

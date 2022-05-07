@@ -9,8 +9,8 @@
                 <div class="my-skills">
                     <div class="skill">
                         <!--h1>Resume</h1-->
-                        <p class="global-link resume-file"><a href="./Resume_FabianFroding_2022a.docx" target="_blank"><i class="far fa-file-alt"/> Resume_FabianFroding_2022a.docx</a></p>
-                        <p class="global-link resume-file"><a href="./Resume_FabianFroding_2022a.pdf" target="_blank"><i class="far fa-file-pdf"/> Resume_FabianFroding_2022a.pdf</a></p>
+                        <p class="global-link resume-file"><a href="./Resume_FabianFroding_2022b.docx" target="_blank"><i class="far fa-file-alt"/> Resume_FabianFroding_2022b.docx</a></p>
+                        <p class="global-link resume-file"><a href="./Resume_FabianFroding_2022b.pdf" target="_blank"><i class="far fa-file-pdf"/> Resume_FabianFroding_2022b.pdf</a></p>
                     </div>
                 </div>
                 <div class="separator-line"></div>
@@ -62,17 +62,21 @@
 
                 <div class="timeline">
                     <ul>
+                        <li class="date" data-date="2022 - Present">
+                            <h1>Double Moose Games</h1>
+                            <p>Game Programming Intern</p><p class="timeline-job-spec"></p>
+                        </li>
                         <li class="date" data-date="2021 - Present">
                             <h1>University of Skövde</h1>
-                            <p>MSc in Game Development</p><p class="timeline-job-spec"> (Games User Experience)</p>
+                            <p>MSc in Game Development</p><p class="timeline-job-spec"></p>
                         </li>
                         <li class="date" data-date="2021 - 2022">
                             <h1>Evoma</h1>
-                            <p>Software Engineer</p><p class="timeline-job-spec"> (Data Visualization)</p>
+                            <p>Software Engineer</p><p class="timeline-job-spec"></p>
                         </li>
                         <li class="date" data-date="2020 - 2021">
                             <h1>Smoofit</h1>
-                            <p>Software Developer</p><p class="timeline-job-spec"> (Embedded Systems)</p>
+                            <p>Software Developer</p><p class="timeline-job-spec"></p>
                         </li>
                         <li class="date" data-date="2019 - 2020">
                             <h1>Chalmers Student Housing</h1>
@@ -86,7 +90,7 @@
                 </div>
             </div>
         </section>
-        <div class="separator-line"></div>
+        <!--div class="separator-line"></div>
         <section class="services" id="services">
             <div class="container">
                 <div class="my-skills">
@@ -140,7 +144,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section-->
         <Footer :showArrow="true"></Footer>
     </div>
 </template>

@@ -66,9 +66,9 @@ const routes = [
     component: () => import('../views/ProjectViews/PlanetaryRevelation.vue')
   },
   {
-    path: '/bloodline',
-    name: 'Bloodline',
-    component: () => import('../views/ProjectViews/Bloodline.vue')
+    path: '/abyssus',
+    name: 'Abyssus',
+    component: () => import('../views/ProjectViews/Abyssus.vue')
   },
 
   // SE Project Details pages.

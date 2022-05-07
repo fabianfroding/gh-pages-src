@@ -25,7 +25,7 @@
     <header>
         <div class="landing-text" id="landing-text">
             <h1>Fabian Fröding</h1>
-            <h6>Game Developer & Software Engineer</h6>
+            <h6>Game Programmer & Software Engineer</h6>
         </div>
     </header>
     <div class="separator-line"></div>

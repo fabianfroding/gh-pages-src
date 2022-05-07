@@ -1,23 +1,26 @@
 <template>
     <div>
         <div id="portfolio-gd">
+                
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                        <router-link to="/vaultofdarkness"><img src="../resources/project-images/vod-01.jpg" alt=""></router-link>
+                        <a href="https://www.youtube.com/watch?v=tvi46fUURsA" target="_blank" class="project-link">
+                            <img src="../resources/project-images/abyssus00.jpg" alt="">
+                        </a>
                     </div>
                     <div class="portfolio-description">
-                        <h6>Warcraft 3 Mod</h6>
-                        <h1>Vault of Darkness</h1>
+                        <h6>3D Game Development - Double Moose Games</h6>
+                        <h1>Abyssus</h1>
                         <p>
-                            A dungeon-crawler mod for Warcraft 3: The Frozen Throne
-                            with scripted enemy AI, custom level design, dynamic hero selection system, custom UI and more.
+                            An FPS game currently being developed in Unreal Engine.
+                            My responsibilities currently include programming weapons and enemy behaviours in both Blueprints and C++.
                         </p>
-                        <p class="cta">Highlights: <strong>Scripting</strong>, <strong>3D Level Design</strong>.</p>
+                        <p class="cta">Highlights: <strong>C++</strong>, <strong>Blueprints</strong>, <strong>Unreal Engine</strong>, <strong>Gameplay Programming</strong>.</p>
                         <br><br>
-                        <p class="cta"><router-link to="/vaultofdarkness"><strong>View Details</strong></router-link></p>
+                        <p class="cta"><router-link to="/abyssus"><strong>View Details</strong></router-link></p>
                         <br><br>
-                        <a href="https://github.com/fabianfroding/wc3-vod-jass" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i>
+                        <a href="https://www.youtube.com/watch?v=tvi46fUURsA" target="_blank" class="project-link">
+                            <i class="fab fa-youtube"></i>
                         </a>
                     </div>
                 </div>
@@ -26,7 +29,7 @@
 
                 <div class="portfolio-item">
                     <div class="portfolio-description has-margin-right">
-                        <h6>2D Game Development (Group Project)</h6>
+                        <h6>2D Game Development - Group Project</h6>
                         <h1>Clockwork Metroidvania</h1>
                         <p>
                             A metroidvania with a clockwork system. Inspired by Hollow Knight and The Legend of Zelda: Majora's Mask.
@@ -68,11 +71,11 @@
 
                 <div class="portfolio-item">
                     <div class="portfolio-description has-margin-right">
-                        <h6>3D Game Development</h6>
+                        <h6>3D Game Development - Group Project</h6>
                         <h1>Cat's Eye</h1>
                         <p>
                             A group project from Global Game Jam 2022. 
-                            Cat's Eye is a short adventure/horror where the player can switch between a dark/light world and collect cat statues.
+                            Cat's Eye is a short adventure/horror game where the player can switch between a dark/light world and collect cat statues.
                         </p>
                         <p class="cta">Highlights: <strong>UNITY</strong>, <strong>C#</strong>, <strong>PROJECT MANAGEMENT</strong>, <strong>GIT</strong>.</p>
                         <br><br>
@@ -92,19 +95,22 @@
 
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                        <router-link to="/bloodline"><img src="../resources/project-images/deig00.jpg" alt=""></router-link>
+                        <router-link to="/vaultofdarkness"><img src="../resources/project-images/vod-01.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
-                        <h6>Game Prototyping</h6>
-                        <h1>Bloodline</h1>
+                        <h6>Warcraft 3 Mod</h6>
+                        <h1>Vault of Darkness</h1>
                         <p>
-                            A dialogue-based game created with the Deig editor.
-                            Features 4 different endings based on player choices, a custom-made map, 
-                            and art and sprites from the Fire Emblem series.
+                            A dungeon-crawler mod for Warcraft 3: The Frozen Throne
+                            with scripted enemy AI, custom level design, dynamic hero selection system, custom UI and more.
                         </p>
-                        <p class="cta">Highlights: <strong>Visual Scripting</strong>, <strong>Worldbuilding</strong>.</p>
+                        <p class="cta">Highlights: <strong>Scripting</strong>, <strong>3D Level Design</strong>.</p>
                         <br><br>
-                        <p class="cta"><router-link to="/bloodline"><strong>View Details</strong></router-link></p>
+                        <p class="cta"><router-link to="/vaultofdarkness"><strong>View Details</strong></router-link></p>
+                        <br><br>
+                        <a href="https://github.com/fabianfroding/wc3-vod-jass" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
                     </div>
                 </div>
 

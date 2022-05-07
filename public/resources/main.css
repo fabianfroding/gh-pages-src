@@ -485,6 +485,12 @@ li {
     font-size: 3rem;
 }
 
+.project-link:hover {
+    font-size: 3rem;
+    color: #577efd88 !important;
+    transition: color 112ms;
+}
+
 .project-buttons {
     text-align: center;
     padding-bottom: 40px;
@@ -594,13 +600,12 @@ li {
     margin: 0 auto;
 }
 
-/* TODO: Fix so only icon links to mail, not entire width of the div */
 .mail-icon i {
     font-size: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 650ms;
+    transition: color 325ms; /*650ms;*/
 }
 
 .mail-icon:hover i {
