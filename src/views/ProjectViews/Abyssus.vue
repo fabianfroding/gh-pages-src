@@ -13,7 +13,7 @@ export default {
       return {
           projectDetails: {
               title: "Abyssus",
-              subtitle: "A Roguelike Brinepunk FPS",
+              subtitle: "A Roguelike FPS",
               mainImage: {name: "abyssus00.jpg", index: 0},
               images: [[
                     {name: "abyssus01.jpg", index: 1},
