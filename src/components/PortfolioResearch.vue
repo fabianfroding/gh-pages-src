@@ -23,6 +23,29 @@
 
                 <div class="portfolio-item">
                     <!--div class="portfolio-img has-margin-right">
+                        <a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank">
+                            <img src="../resources/project-images/research-guxrd00.jpg" alt="">
+                        </a>
+                    </div-->
+                    <div class="portfolio-description">
+                        <h6>Field Studies</h6>
+                        <h1>Game Development Disciplines and their Perspective on the Software Engineering Process</h1>
+                        <br>
+                        <p class="global-link"><a href="./GameDevDisciplinesAndSoftwareEngineering_FabianFroding.pdf" target="_blank"><i class="far fa-file-pdf"/> Game Development Disciplines and their Perspective on the Software Engineering Process in Game Development.pdf</a></p>
+                        <br>
+                        <p>
+                            This report examines the differences between how game development disciplines percieve the development process 
+                            and how they affect each other.
+                            <br>The study was conducted at a local game company using in-depth interviews.
+                        </p>
+                        <p class="cta">Highlights: <strong>Case Study</strong>, <strong>In-depth Interviews</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="separator-line"></div>
+
+                <div class="portfolio-item">
+                    <!--div class="portfolio-img has-margin-right">
                         <a href="./InvestigatingVideoGameDevelopProblems_Fabian_Froding.pdf" target="_blank">
                             <img src="../resources/project-images/research-ege00.jpg" alt="">
                         </a>
@@ -81,28 +104,6 @@
                             <img src="../resources/project-images/research-agux00.jpg" alt="">
                         </a>
                     </div-->
-                </div>
-
-                <div class="separator-line"></div>
-
-                <div class="portfolio-item">
-                    <!--div class="portfolio-img has-margin-right">
-                        <a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank">
-                            <img src="../resources/project-images/research-guxrd00.jpg" alt="">
-                        </a>
-                    </div-->
-                    <div class="portfolio-description">
-                        <h6>Academic Report</h6>
-                        <h1>Exploring Ways to Evaluate the Effect of Time-loop Systems on Player Experience</h1>
-                        <br>
-                        <p class="global-link"><a href="./ExploringTimeLoopSystems_Fabian_Froding.pdf" target="_blank"><i class="far fa-file-pdf"/> Exploring ways to evaluate the effect of time-loop systems on player experience in video games.pdf</a></p>
-                        <br>
-                        <p>
-                            This report discusses how concepts from previous research on temporality in video games can potentially be used
-                            to evaluate the effect that timeloop systems has on player experience.
-                        </p>
-                        <p class="cta">Highlights: <strong>Timeloop Systems</strong>, <strong>Exploratory Review</strong>.</p>
-                    </div>
                 </div>
 
                 <div class="separator-line"></div>
