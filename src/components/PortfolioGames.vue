@@ -4,16 +4,14 @@
                 
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
-                        <a href="https://www.youtube.com/watch?v=tvi46fUURsA" target="_blank" class="project-link">
-                            <img src="../resources/project-images/abyssus00.jpg" alt="">
-                        </a>
+                        <router-link to="/abyssus"><img src="../resources/project-images/abyssus00.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
                         <h6>3D Game Development - Double Moose Games</h6>
                         <h1>Abyssus</h1>
                         <p>
                             An FPS game currently being developed in Unreal Engine.
-                            My responsibilities currently include programming weapons and enemy behaviours in both Blueprints and C++.
+                            My responsibilities include gameplay programming in C++ and Blueprints.
                         </p>
                         <p class="cta">Highlights: <strong>C++</strong>, <strong>Blueprints</strong>, <strong>Unreal Engine</strong>, <strong>Gameplay Programming</strong>.</p>
                         <br><br>

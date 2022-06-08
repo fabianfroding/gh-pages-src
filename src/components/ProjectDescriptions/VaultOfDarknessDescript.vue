@@ -39,6 +39,6 @@
             <i class="fab fa-github"></i>
         </a>
         <br><br>
-        <p>Download coming soon!</p>
+        <p><s>Download coming soon!</s><br>Project is no longer being worked on due to Warcraft 3: Reforged.</p>
     </div>
 </template>
