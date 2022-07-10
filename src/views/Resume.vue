@@ -74,9 +74,9 @@
                             <h1>Evoma</h1>
                             <p>Software Engineer</p><p class="timeline-job-spec"></p>
                         </li>
-                        <li class="date" data-date="2020">
+                        <li class="date" data-date="2021">
                             <h1>Warcry Interactive</h1>
-                            <p>Games User Experience Consultant</p><p class="timeline-job-spec"></p>
+                            <p>Quality Assurance Consultant</p><p class="timeline-job-spec"></p>
                         </li>
                         <li class="date" data-date="2020 - 2021">
                             <h1>Smoofit</h1>

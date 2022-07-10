@@ -8,6 +8,7 @@
             <br> • <strong>Weapons</strong>
             <br> • <strong>UI</strong>
             <br> • <strong>Customizable keybindings</strong>
+            <br> • <strong>Gamepad functionality</strong>
             <br> • <strong>Bugfixing anything between core mechanics and small adjustments</strong>
             
             <br><br>In addition, I keep a close eye on the project management system and make sure tasks are updated and correct.
