@@ -14,18 +14,18 @@
 					<p>
 						My time in the industry and academia have contributed to a diverse yet useful set of skills mainly consisting of 
 						<strong>software engineering</strong> and <strong>game development</strong>, with a specialization in 
-						<strong>Unity</strong>, <strong>Unreal Engine</strong> and <strong>software architecture</strong>.
+						<strong>software architecture</strong>, <strong>Unity</strong> and <strong>Unreal Engine</strong>.
                     </p>
                     <br>
 					<div class="separator-line"></div>
                     <br>
 					<p>
-                        My journey in game development began early at the age of 13 when I discovered the Warcraft 3 World Editor.
+                        My journey in game development began at the age of 13 when I discovered the Warcraft 3 World Editor.
 						Since then, I've had somewhat of an obsession with creating things.
 						Now, I'm experienced in both Unity and Unreal Engine.
 						<br>I occasionally like to play my favourite games and try out new ones, 
 						but most of my time I prefer to <strong>develop things</strong>, 
-						be it programming complex gameplay systems or creating immersive environments.
+						be it programming complex gameplay systems or creating immersive experiences.
                     </p>
                 </div>
 			</div>
@@ -45,18 +45,19 @@
 							<li><h2>Some of my favourite games include:</h2></li>
 							<br>
 							<li><p> • Hollow Knight</p></li>
-							<li><p> • Octopath Traveler</p></li>
+							<li><p> • Subnautica</p></li>
 							<li><p> • Metroid</p></li>
-							<li><p> • Shadow of the Colossus</p></li>
-							<li><p> • Abzu</p></li>
 							<li><p> • The Legend of Zelda</p></li>
 							<li><p> • Banjo-Kazooie/Tooie</p></li>
-							<li><p> • Donkey Kong 64</p></li>
-							<li><p> • Celeste</p></li>
-							<li><p> • The Last Guardian</p></li>
-							<li><p> • The Pathless</p></li>
+							<li><p> • Donkey Kong</p></li>
 							<li><p> • Little Nightmares</p></li>
 							<li><p> • Ori and the Blind Forest</p></li>
+							<li><p> • Celeste</p></li>
+							<li><p> • Shadow of the Colossus</p></li>
+							<li><p> • The Last Guardian</p></li>
+							<li><p> • Abzu</p></li>
+							<li><p> • The Pathless</p></li>
+							<li><p> • Octopath Traveler</p></li>
 							<li><p> • Tales of Symphonia</p></li>
 							<li><p> • Warcraft 3</p></li>
 						</ul>
@@ -68,19 +69,19 @@
 							<h2>Outside of my time spent on development, I occasionally occupy myself with:</h2>
 							<br>
 							<li><p> • Practicing martial arts</p></li>
+							<li><p> • Reading books about psychology, philosophy, health and entrepreneurship</p></li>
 							<li><p> • Running</p></li>
-							<li><p> • Reading non-fiction books</p></li>
 							<li><p> • Animals</p></li>
 							<li><p> • Watching immersive movies &amp; series</p></li>
 							<li><p> • Cooking</p></li>
-							<li><p> • Watching game developers on Youtube:</p></li>
-							<li>
+							<li><p> • Watching game developers on Youtube</p></li>
+							<!--li>
 								<ul>
 									<li><p class="global-link"> • <a href="https://www.youtube.com/channel/UCuHVjteDW9tCb8QqMrtGvwQ" target="_blank"><strong>Thomas Brush</strong></a></p></li>
 									<li><p class="global-link"> • <a href="https://www.youtube.com/c/LostRelicGames" target="_blank"><strong>Lost Relic Games</strong></a></p></li>
 									<li><p class="global-link"> • <a href="https://www.youtube.com/c/Unity3dCollege" target="_blank"><strong>Jason Weimann</strong></a></p></li>
 								</ul>
-							</li>
+							</li-->
 						</ul>
                     </div>
 
