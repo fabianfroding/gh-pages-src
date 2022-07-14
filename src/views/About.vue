@@ -53,12 +53,11 @@
 							<li><p> • Little Nightmares</p></li>
 							<li><p> • Ori and the Blind Forest</p></li>
 							<li><p> • Celeste</p></li>
+							<li><p> • Dead Cells</p></li>
 							<li><p> • Shadow of the Colossus</p></li>
 							<li><p> • The Last Guardian</p></li>
 							<li><p> • Abzu</p></li>
-							<li><p> • The Pathless</p></li>
 							<li><p> • Octopath Traveler</p></li>
-							<li><p> • Tales of Symphonia</p></li>
 							<li><p> • Warcraft 3</p></li>
 						</ul>
                     </div>
@@ -70,10 +69,10 @@
 							<br>
 							<li><p> • Practicing martial arts</p></li>
 							<li><p> • Reading books about psychology, philosophy, health and entrepreneurship</p></li>
-							<li><p> • Running</p></li>
 							<li><p> • Animals</p></li>
 							<li><p> • Watching immersive movies &amp; series</p></li>
 							<li><p> • Cooking</p></li>
+							<li><p> • Running</p></li>
 							<li><p> • Watching game developers on Youtube</p></li>
 							<!--li>
 								<ul>
