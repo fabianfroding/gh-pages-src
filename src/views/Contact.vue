@@ -5,7 +5,7 @@
                 <div class="section-heading">
                     <h1>Contact</h1>
                     <h6>I am always looking for ways to sharpen my crafts.</h6>
-                    <h6>You can reach me easiest by mail:</h6>
+                    <h6>You can reach me by mail:</h6>
                 </div>
                 <div class="contact-icons">
                     <a href="mailto:fabian.froding@gmail.com" class="mail-icon">

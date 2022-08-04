@@ -9,6 +9,9 @@
       <a href="https://github.com/fabianfroding" target="_blank" class="project-link">
           <i class="fab fa-github footer-icon"></i>
       </a>
+      <a href="https://hungryhusky.itch.io/" target="_blank" class="project-link">
+          <i class="fab fa-itch-io"></i>
+      </a>
       <a href="https://www.researchgate.net/profile/Fabian-Froeding-2" target="_blank" class="project-link">
           <i class="fab fa-researchgate footer-icon"></i>
       </a>

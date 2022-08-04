@@ -3,7 +3,7 @@
         <section class="portfolio" id="portfolio">
             <div class="container">
                 <div class="section-heading">
-                    <h1>Software Projects</h1>
+                    <h1>Software Portfolio</h1>
                     <br><br>
                 </div>
                 <PortfolioSoftwares></PortfolioSoftwares>

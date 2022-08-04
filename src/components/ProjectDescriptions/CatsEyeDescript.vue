@@ -32,5 +32,6 @@
         <br>
         <p> • Extract CatsEye.zip</p>
         <p> • Run Cats Eye.exe</p>
+        <Footer :showArrow="false"></Footer>
     </div>
 </template>

@@ -73,7 +73,7 @@
 							<li><p> • Watching immersive movies &amp; series</p></li>
 							<li><p> • Cooking</p></li>
 							<li><p> • Running</p></li>
-							<li><p> • Watching game developers on Youtube</p></li>
+							<li><p> • Learning from game developers on Youtube</p></li>
 							<!--li>
 								<ul>
 									<li><p class="global-link"> • <a href="https://www.youtube.com/channel/UCuHVjteDW9tCb8QqMrtGvwQ" target="_blank"><strong>Thomas Brush</strong></a></p></li>
