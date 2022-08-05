@@ -13,7 +13,7 @@ export default {
       return {
           projectDetails: {
               title: "Abyssus",
-              subtitle: "A Roguelike FPS",
+              subtitle: "Game Programming at DoubleMoose Games",
               mainImage: {name: "abyssus00.jpg", index: 0},
               images: [],
               descriptionComponent: "abyssus-descript"
