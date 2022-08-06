@@ -21,7 +21,9 @@
             <br> • <a href="https://docs.unity3d.com/Manual/UnityAnalyticsCustomEventsSDK.html" target="_blank"><strong>CUSTOM EVENTS</strong></a>
             <br> • <a href="https://www.plasticscm.com/" target="_blank"><strong>PLASTIC SCM</strong></a> (For version control)
         </p>
-        <br><br><br>
-        <p>Code base can be demonstrated upon request.</p>
+        <br><br>
+        <a href="https://github.com/fabianfroding/project-jolly-src" target="_blank" class="project-link">
+            <i class="fab fa-github"></i>
+        </a>
     </div>
 </template>

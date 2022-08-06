@@ -7,7 +7,7 @@
                         <router-link to="/abyssus"><img src="../resources/project-images/abyssus00.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
-                        <h6>3D Game Development - Double Moose Games</h6>
+                        <h6>3D Game Development - DoubleMoose Games</h6>
                         <h1>Abyssus</h1>
                         <p>
                             An FPS game currently being developed in Unreal Engine.
@@ -36,6 +36,10 @@
                         <p class="cta">Highlights: <strong>Unity</strong>, <strong>C#</strong>, <strong>STATE MACHINES</strong>, <strong>2D ART</strong>.</p>
                         <br><br>
                         <p class="cta"><router-link to="/metroidvania"><strong>View Details</strong></router-link></p>
+                        <br><br>
+                        <a href="https://github.com/fabianfroding/project-jolly-src" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
                     </div>
                     <div class="portfolio-img">
                         <router-link to="/metroidvania"><img src="../resources/project-images/metroidvania01.jpg" alt=""></router-link>
