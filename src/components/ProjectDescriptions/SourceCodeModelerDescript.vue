@@ -19,7 +19,7 @@
             <br> • <a href="https://graphviz.org/" target="_blank"><strong>GRAPHVIZ</strong></a> (For generating the UML diagram visualization)
         </p>
         <br><br>
-        <a href="https://github.com/noranavas/group4DIT355/tree/master/source-code-modeler/src/sourcecodemodeler" target="_blank" class="project-link">
+        <a href="https://github.com/fabianfroding/distributed-systems" target="_blank" class="project-link">
             <i class="fab fa-github"></i>
         </a>
     </div>

@@ -92,6 +92,11 @@ const routes = [
     name: 'SourceCodeModeler',
     component: () => import('../views/ProjectViews/SourceCodeModeler.vue')
   },
+  {
+    path: '/parallelcar',
+    name: 'ParallelCar',
+    component: () => import('../views/ProjectViews/ParallelCar.vue')
+  },
 ]
 
 const router = new VueRouter({

@@ -27,7 +27,7 @@
     
                 <div class="portfolio-item">
                     <div class="portfolio-description has-margin-right">
-                        <h6>System Development (Group Project)</h6>
+                        <h6>Cyber-Physical Systems Development (Group Project)</h6>
                         <h1>Autonomous Vehicle: Intersection</h1>
                         <p>
                             Self-driving miniature vehicle designed to handle a traffic situation in an intersection.
@@ -82,7 +82,7 @@
                         <br><br>
                         <p class="cta"><router-link to="/sourcecodemodeler"><strong>View Details</strong></router-link></p>
                         <br><br>
-                        <a href="https://github.com/noranavas/group4DIT355/tree/master/source-code-modeler/src/sourcecodemodeler" target="_blank" class="project-link">
+                        <a href="https://github.com/fabianfroding/distributed-systems" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
@@ -92,6 +92,26 @@
                 </div>
 
                 <div class="separator-line"></div>
+    
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
+                        <router-link to="/parallelcar"><img src="../resources/project-images/parallel-car00.jpg" alt=""></router-link>
+                    </div>
+                    <div class="portfolio-description">
+                        <h6>Systems Development (Group Project)</h6>
+                        <h1>Autonomous Vehicle: Parallel Parking</h1>
+                        <p>
+                            Self-driving miniature vehicle programmed to be able to parallel-park autonomously.
+                        </p>
+                        <p class="cta">Highlights: <strong>C++</strong>, <strong>Arduino</strong>, <strong>OpenCV</strong>.</p>
+                        <br><br>
+                        <p class="cta"><router-link to="/parallelcar"><strong>View Details</strong></router-link></p>
+                        <br><br>
+                        <a href="https://github.com/fabianfroding/parallel-car" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
 
             </div>
     </div>

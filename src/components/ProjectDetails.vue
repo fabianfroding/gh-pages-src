@@ -44,6 +44,7 @@ import CodeAnalyzerDescript from './ProjectDescriptions/CodeAnalyzerDescript.vue
 import CyberCarDescript from './ProjectDescriptions/CyberCarDescript.vue';
 import MediaShopDescript from './ProjectDescriptions/MediaShopDescript.vue';
 import SourceCodeModelerDescript from './ProjectDescriptions/SourceCodeModelerDescript.vue';
+import ParallelCarDescript from './ProjectDescriptions/ParallelCarDescript.vue';
 import LightBox from '../../node_modules/vue-image-lightbox';
 require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
 
@@ -59,6 +60,7 @@ export default {
         CyberCarDescript,
         MediaShopDescript,
         SourceCodeModelerDescript,
+        ParallelCarDescript,
         LightBox,
     },
     methods: {
