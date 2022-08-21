@@ -11,6 +11,7 @@
                         <h6>Journal Article</h6>
                         <h1>Role Stereotypes in Software Designs and their Evolution</h1>
                         <p class="global-link"><a href="https://www.sciencedirect.com/science/article/pii/S0164121222000504?dgcid=author" target="_blank"><i class="fas fa-link"/> Role Stereotypes in Software Designs and their Evolution</a></p>
+                        <p class="global-link"><a href="https://gupea.ub.gu.se/handle/2077/67098" target="_blank"><i class="fas fa-link"/> The Evolution of Role-Stereotypes and Related Design (Anti)Patterns</a> (Thesis version)</p>
                         <br>
                         <p>
                             Originally from my BSc thesis work, this article now presents how classes based on the role-stereotypes defined by Wirfs-Brock change over time in software systems.
