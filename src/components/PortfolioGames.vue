@@ -17,9 +17,12 @@
                         <br><br>
                         <p class="cta"><router-link to="/abyssus"><strong>View Details</strong></router-link></p>
                         <br><br>
-                        <a href="https://www.youtube.com/watch?v=tvi46fUURsA" target="_blank" class="project-link">
-                            <i class="fab fa-youtube"></i>
+                        <a href="https://store.steampowered.com/app/1721110/Abyssus/" target="_blank" class="project-link">
+                            <i class="fab fa-steam"></i>
                         </a>
+                        <!--a href="https://www.youtube.com/watch?v=tvi46fUURsA" target="_blank" class="project-link">
+                            <i class="fab fa-youtube"></i>
+                        </a-->
                     </div>
                 </div>
 

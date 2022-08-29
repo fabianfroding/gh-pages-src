@@ -14,6 +14,11 @@
             <br><br>In addition, I keep a close eye on the project management system and make sure tasks are updated and correct.
 
             <br><br>
+            <a href="https://store.steampowered.com/app/1721110/Abyssus/" target="_blank" class="project-link">
+                <i class="fab fa-steam"></i>
+            </a>
+            
+            <br><br>
             </p><p class="global-link"><a href="https://doublemoose.com/" target="_blank">DoubleMoose Games</a>
         </p>
     </div>
