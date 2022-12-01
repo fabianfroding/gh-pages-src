@@ -3,12 +3,12 @@
         <p>
             Programming work at DoubleMoose Games. My work on this project is ongoing. <strong>More details coming soon.</strong>
             <br><br>
-            My current responsibilities include working on:
+            My responsibilities include working on:
             <br> • <strong>Enemy behaviours</strong>
-            <br> • <strong>Weapons</strong>
+            <br> • <strong>Network programming</strong>
             <br> • <strong>UI</strong>
             <br> • <strong>Customizable keybindings</strong>
-            <br> • <strong>Gamepad functionality</strong>
+            <br> • <strong>Gamepad support</strong>
             <br> • <strong>An FPS aim assist system</strong>
             <br> • <strong>Bugfixing anything between core mechanics and small adjustments</strong>
             

@@ -12,7 +12,7 @@
 						<h6>Me</h6>
 					</div>
 					<p>
-						My time in the industry and academia have contributed to a diverse yet useful set of skills mainly consisting of 
+						My time in the industry and academia have contributed to a diverse yet useful set of skills consisting of 
 						<strong>software engineering</strong> and <strong>game development</strong>, with a specialization in 
 						<strong>software architecture</strong> and <strong>AI for games</strong>.
                     </p>

@@ -66,7 +66,7 @@
                 </div>
             </div>
         </section>
-        <div class="separator-line"></div>
+        <!--div class="separator-line"></div>
         <section class="experience" id="experience">
             <div class="my-skills">
                     <div class="skill">
@@ -74,12 +74,12 @@
                     </div>
                 </div>
             <div class="container">
-                <!--div class="section-heading">
+                <div class="section-heading">
                     <h1>Experience & Education</h1>
                     <h6>Recent Occupations</h6>
                 </div-->
 
-                <div class="timeline">
+                <!--div class="timeline">
                     <ul>
                         <li class="date" data-date="2022 - Present">
                             <h1>Double Moose Games</h1>
@@ -113,7 +113,7 @@
                 </div>
             </div>
         </section>
-        <!--div class="separator-line"></div>
+        <div class="separator-line"></div>
         <section class="services" id="services">
             <div class="container">
                 <div class="my-skills">
