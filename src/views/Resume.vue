@@ -42,7 +42,7 @@
                             Fabian’s sense of maturity is not only shown when dealing with technical issues, but also with his tact and consideration in human relationships. 
                             This has not only contributed to a sense of safety and fun in a work atmosphere, but also a voice of insight and reason as a friend. 
                             I believe Fabian can be a core asset to any team he wishes to be part of. As such, I can confidently recommend him."</i> 
-                        <br><br>- <strong>Nigel Chao, Software Developer at Repli5 and MSc Graduate in Game Design and Technology.</strong></p><p class="global-link"><a href="resources/QufuShaolinSchool_Certificate.pdf" target="_blank"></a></p>
+                        <br><br>- <strong>Nigel Chao, Software Engineer.</strong></p><p class="global-link"><a href="resources/QufuShaolinSchool_Certificate.pdf" target="_blank"></a></p>
                         <!--p class="global-link"><a href="./ReferenceLetter_Fabian_Froding_Evoma_2021.pdf" target="_blank"><i class="far fa-file-pdf"/> Evoma Reference Letter.pdf</a></p-->
                     </div>
                 </div>
