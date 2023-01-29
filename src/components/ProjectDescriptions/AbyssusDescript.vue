@@ -6,8 +6,9 @@
             My responsibilities include working on:
             <br> • <strong>Enemy behaviours</strong>
             <br> • <strong>Network programming</strong>
+            <br> • <strong>Amazon web services integration for game analytics</strong>
             <br> • <strong>UI</strong>
-            <br> • <strong>Customizable keybindings</strong>
+            <br> • <strong>Input relations and keybindings</strong>
             <br> • <strong>Gamepad support</strong>
             <br> • <strong>An FPS aim assist system</strong>
             <br> • <strong>Bugfixing anything between core mechanics and small adjustments</strong>
