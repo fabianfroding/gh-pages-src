@@ -14,7 +14,7 @@
 					<p>
 						My time in the industry and academia have contributed to a diverse yet useful set of skills consisting of 
 						<strong>software engineering</strong> and <strong>game development</strong>, with a specialization in 
-						<strong>software architecture</strong> and <strong>AI for games</strong>.
+						<strong>software architecture</strong> and <strong>game programming</strong>.
                     </p>
                     <br>
 					<div class="separator-line"></div>
@@ -67,9 +67,10 @@
                         <ul>
 							<h2>Outside of my time spent on development, I occasionally occupy myself with:</h2>
 							<br>
-							<li><p> • Practicing martial arts</p></li>
+							<li><p> • Martial arts</p></li>
 							<li><p> • Reading books about entrepreneurship, psychology, philosophy, and health</p></li>
-							<li><p> • Watching immersive movies &amp; series</p></li>
+							<li><p> • Interior design</p></li>
+							<li><p> • Watching and discussing movies &amp; series</p></li>
 							<li><p> • Cooking</p></li>
 							<li><p> • Exercising</p></li>
 							<li><p> • Learning from game developers on Youtube</p></li>

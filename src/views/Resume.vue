@@ -9,8 +9,16 @@
                 <div class="my-skills">
                     <div class="skill">
                         <!--h1>Resume</h1-->
+                        <p class="global-link resume-file"><a href="./BachelorsDegree.pdf" target="_blank"><i class="far fa-file-pdf"/> BachelorsDegree.pdf</a></p>
+                    </div>
+                    <div class="skill">
+                        <!--h1>Resume</h1-->
                         <p class="global-link resume-file"><a href="./Resume_FabianFroding_2022c.docx" target="_blank"><i class="far fa-file-alt"/> Resume_FabianFroding_2022c.docx</a></p>
                         <p class="global-link resume-file"><a href="./Resume_FabianFroding_2022c.pdf" target="_blank"><i class="far fa-file-pdf"/> Resume_FabianFroding_2022c.pdf</a></p>
+                    </div>
+                    <div class="skill">
+                        <!--h1>Resume</h1-->
+                        <p class="global-link resume-file"><a href="./CourseCertificates.pdf" target="_blank"><i class="far fa-file-pdf"/> CourseCertificates.pdf</a></p>
                     </div>
                 </div>
                 <div class="separator-line"></div>
