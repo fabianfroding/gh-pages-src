@@ -19,6 +19,8 @@
           <i class="fa fa-envelope footer-icon"></i>
       </a>
       <p>&copy; 2020 - {{ new Date().getFullYear() }} Fabian F.</p>
+      <br>
+      <div style="color: #2235aa; opacity: 0.67; font-weight: bold;">Made with Vue and Github Pages</div>
     </footer>
 </template>
 
