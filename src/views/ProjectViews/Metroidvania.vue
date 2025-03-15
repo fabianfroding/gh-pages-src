@@ -12,7 +12,7 @@ export default {
   data: () => {
       return {
           projectDetails: {
-              title: "Clockwork Metroidvania",
+              title: "Eternal Emissary",
               subtitle: "Unity 2D Game Group Project",
               mainImage: {name: "metroidvania03.gif", index: 0},
               images: [[

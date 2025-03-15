@@ -435,14 +435,22 @@ li {
 .portfolio-description h1 {
     font-size: 2rem;
     font-weight: 300;
+    text-transform: uppercase;
     margin: 1rem 0;
+}
+
+.portfolio-description h5 {
+    font-size: 1.45rem;
+    font-weight: 300;
+    margin-left: auto;
+    text-align: right;
+    color: #b5d1ff;
 }
 
 .portfolio-description h6 {
     font-size: 1.45rem;
-    text-transform: uppercase;
     font-weight: 300;
-    opacity: 0.45;
+    color: #b5d1ff;
 }
 
 .portfolio-description p {
@@ -455,7 +463,6 @@ li {
     display: inline-block;
     margin-top: 2.5rem;
     font-size: 1.33rem;
-    text-transform: uppercase;
     color: #b5d1ff;
     transition: color 650ms;
 }
@@ -473,6 +480,17 @@ li {
     text-decoration-thickness: 0.12em;
     -webkit-text-decoration-thickness: 0.12em;
     color: var(--text-theme-link);
+}
+
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.align-right {
+    margin-left: auto;
+    text-align: right;
 }
 
 /*

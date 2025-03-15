@@ -9,16 +9,16 @@
       <a href="https://github.com/fabianfroding" target="_blank" class="project-link">
           <i class="fab fa-github footer-icon"></i>
       </a>
-      <a href="https://hungryhusky.itch.io/" target="_blank" class="project-link">
+      <!--a href="https://hungryhusky.itch.io/" target="_blank" class="project-link">
           <i class="fab fa-itch-io"></i>
-      </a>
+      </a-->
       <a href="https://www.researchgate.net/profile/Fabian-Froeding-2" target="_blank" class="project-link">
           <i class="fab fa-researchgate footer-icon"></i>
       </a>
       <a href="mailto:fabian.froding@gmail.com" target="_blank" class="project-link">
           <i class="fa fa-envelope footer-icon"></i>
       </a>
-      <p>&copy; 2020 - {{ new Date().getFullYear() }} Fabian F.</p>
+      <p>&copy; 2020 - {{ new Date().getFullYear() }} Fabian Fröding.</p>
       <br>
       <div style="color: #2235aa; opacity: 0.67; font-weight: bold;">Made with Vue and Github Pages</div>
     </footer>

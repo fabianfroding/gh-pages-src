@@ -28,8 +28,9 @@
 					<div class="separator-line"></div>
                     <br>
 					<p>
-						Whether I’m crafting intricate gameplay systems or optimizing performance, I’m always looking for creative and technical challenges to push my skills further.
-                    </p>
+						Whether I’m crafting intricate gameplay systems or refining code architecture, 
+						I’m always looking for creative and technical challenges to push my skills further.
+					</p>
                 </div>
 			</div>
 		</section>
@@ -56,7 +57,6 @@
 							<li><p> • Abzu</p></li>
 							<li><p> • The Pathless</p></li>
 							<li><p> • Octopath Traveler</p></li>
-							<li><p> • Tales of Symphonia</p></li>
 							<li><p> • Warcraft III</p></li>
 							<li><p> • World of Warcraft</p></li>
 						</ul>
@@ -70,7 +70,7 @@
 							<li><p> • <strong>Cooking &amp; fitness</strong> – balancing creativity in the kitchen with staying active.</p></li>
 							<li><p> • <strong>Movies &amp; series</strong> – especially discussing storytelling and cinematography.</p></li>
 							<li><p> • <strong>Interior design</strong> – I love creating aesthetically pleasing and functional spaces.</p></li>
-							<li><p> • <strong>Reading</strong> – topics like entrepreneurship, psychology, philosophy, and health.</p></li>
+							<li><p> • <strong>Reading</strong> – topics like entrepreneurship, philosophy, and health.</p></li>
 							<li><p> • <strong>Martial arts</strong> – both practicing and studying different styles.</p></li>
 							<li><p> • <strong>Learning from game developers</strong> – always exploring new techniques on YouTube.</p></li>
 						</ul>
