@@ -19,6 +19,7 @@
                     <div class="skill">
                         <!--h1>Resume</h1-->
                         <p class="global-link resume-file"><a href="./CourseCertificates.pdf" target="_blank"><i class="far fa-file-pdf"/> CourseCertificates.pdf</a></p>
+                        <p class="global-link resume-file"><a href="https://www.udemy.com/certificate/UC-49481515-4977-4768-9795-882048bb634b/" target="_blank"><i class="fa fa-link" /> Unreal Engine Gameplay Ability System Certificate</a></p>
                     </div>
                 </div>
                 <div class="separator-line"></div>
