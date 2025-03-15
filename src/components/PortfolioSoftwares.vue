@@ -26,7 +26,10 @@
                 <div class="separator-line"></div>
     
                 <div class="portfolio-item">
-                    <div class="portfolio-description has-margin-right">
+                    <div class="portfolio-img has-margin-right">
+                        <router-link to="/cybercar"><img src="../resources/project-images/cyber-car01.jpg" alt=""></router-link>
+                    </div>
+                    <div class="portfolio-description">
                         <h6>Cyber-Physical Systems Development (Group Project)</h6>
                         <h1>Autonomous Vehicle: Intersection</h1>
                         <p>
@@ -40,9 +43,6 @@
                         <a href="https://github.com/fabianfroding/dit638-cyber-car/tree/master/microservices" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
                         </a>
-                    </div>
-                    <div class="portfolio-img">
-                        <router-link to="/cybercar"><img src="../resources/project-images/cyber-car01.jpg" alt=""></router-link>
                     </div>
                 </div>
 
@@ -71,7 +71,10 @@
                 <div class="separator-line"></div>
     
                 <div class="portfolio-item">
-                    <div class="portfolio-description has-margin-right">
+                    <div class="portfolio-img has-margin-right">
+                        <router-link to="/sourcecodemodeler"><img src="../resources/project-images/src-code-modeler00.jpg" alt=""></router-link>
+                    </div>
+                    <div class="portfolio-description">
                         <h6>Software Development (Group Project)</h6>
                         <h1>Source Code Modeler</h1>
                         <p>
@@ -85,9 +88,6 @@
                         <a href="https://github.com/fabianfroding/distributed-systems" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
                         </a>
-                    </div>
-                    <div class="portfolio-img">
-                        <router-link to="/sourcecodemodeler"><img src="../resources/project-images/src-code-modeler00.jpg" alt=""></router-link>
                     </div>
                 </div>
 

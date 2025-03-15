@@ -258,7 +258,7 @@ li {
 .separator-line {
     margin: auto;
     width: 80%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.85);
     margin-bottom: 1rem;
     padding-bottom: 1rem;
 }
@@ -290,7 +290,7 @@ li {
 
 .about-details p {
     color: #a1d3eb;
-    font-size: 15px;
+    font-size: 13.5px;
     line-height: 2.8rem;
     text-align: center;
 }
@@ -425,7 +425,7 @@ li {
 }
 
 .portfolio-img {
-    flex: 1;
+    flex: 0.5;
 }
 
 .portfolio-description {

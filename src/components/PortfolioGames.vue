@@ -29,7 +29,10 @@
                 <div class="separator-line"></div>
 
                 <div class="portfolio-item">
-                    <div class="portfolio-description has-margin-right">
+                    <div class="portfolio-img has-margin-right">
+                        <router-link to="/metroidvania"><img src="../resources/project-images/metroidvania01.jpg" alt=""></router-link>
+                    </div>
+                    <div class="portfolio-description">
                         <h6>2D Game Development - Group Project</h6>
                         <h1>Clockwork Metroidvania</h1>
                         <p>
@@ -43,9 +46,6 @@
                         <a href="https://github.com/fabianfroding/project-jolly-src" target="_blank" class="project-link">
                             <i class="fab fa-github"></i>
                         </a>
-                    </div>
-                    <div class="portfolio-img">
-                        <router-link to="/metroidvania"><img src="../resources/project-images/metroidvania01.jpg" alt=""></router-link>
                     </div>
                 </div>
 
@@ -75,7 +75,10 @@
                 <div class="separator-line"></div>
 
                 <div class="portfolio-item">
-                    <div class="portfolio-description has-margin-right">
+                    <div class="portfolio-img has-margin-right">
+                        <router-link to="/catseye"><img src="../resources/project-images/catseye00.jpg" alt=""></router-link>
+                    </div>
+                    <div class="portfolio-description">
                         <h6>3D Game Development - Group Project</h6>
                         <h1>Cat's Eye</h1>
                         <p>
@@ -90,10 +93,6 @@
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
-                    <div class="portfolio-img">
-                        <router-link to="/catseye"><img src="../resources/project-images/catseye00.jpg" alt=""></router-link>
-                    </div>
-                    
                 </div>
 
                 <div class="separator-line"></div>
