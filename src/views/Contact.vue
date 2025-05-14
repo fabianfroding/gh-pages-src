@@ -15,10 +15,10 @@
                 <br>
                 <!--p id="contact-p-number">0736236760</p-->
             </div>
-            <br><br>
-            <div class="contact-img">
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <!--div class="contact-img">
                 <img src="../resources/contact-img.png">
-            </div>
+            </div-->
         </section>
         <Footer :showArrow="false"></Footer>
     </div>
