@@ -13,7 +13,7 @@
 					</div>
 					<p>Hello! I'm Fabian.</p>
 					<p>
-						My jounrey in programming started at age 13, when I first discovered modding in PC games. 
+						My journey in programming started at age 13, when I first discovered modding in PC games. 
 						That early fascination turned into a drive to learn, experiment and create.
                     </p>
                     <br>
@@ -69,6 +69,7 @@
 							<br>
 							<li><p> • <strong>Execerise &amp; health</strong> – long jogs or hikes, and sometimes intense workout sessions followed by rest and recovery.</p></li>
 							<li><p> • <strong>Reading</strong> – non-fiction books about entrepreneurship, philosophy, and health.</p></li>
+							<li><p> • <strong>2D art &amp; animation</strong> – not professionally, but as a recreational activity.</p></li>
 							<li><p> • <strong>Movies &amp; series</strong> – I enjoy discussing cinematography and storytelling.</p></li>
 							<li><p> • <strong>Staying up with industry news</strong> – mainly code architecture and game industry news.</p></li>
 							<li><p> • <strong>Martial arts</strong> – periodically practicing karate when I can fit it into my schedule.</p></li>
