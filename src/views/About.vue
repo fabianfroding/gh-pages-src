@@ -65,7 +65,7 @@
 							<li><p> • Exercise.</p></li>
 							<li><p> • Following tech news.</p></li>
 							<li><p> • Martial arts.</p></li>
-							<li><p> • Reading novels, non-fiction book and poetry.</p></li>
+							<li><p> • Reading novels, non-fiction books and poetry.</p></li>
 							<li><p> • 2D art as a recreational activity.</p></li>
 						</ul>
                     </div>
