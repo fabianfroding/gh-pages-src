@@ -37,23 +37,20 @@
                     <div class="skill fav-games">
                         <h1>Favourite Games</h1>
 						<ul>
-							<li><p>
-								I love games that emphasize exploration, especially Metroidvanias, platformers, and collectathons.
-								The thrill of uncovering secrets and mastering intricate level designs is what inspires me as both a player and a developer.
-							</p></li>
+							<li><h2>I enjoy playing a wide variety of games, such as:</h2></li>
 							<br>
-							<li><h2>Some of my favorite titles are:</h2></li>
-							<br>
-							<li><p> • Metroid</p></li>
-							<li><p> • Hollow Knight</p></li>
+							<li><p> • Abzu</p></li>
 							<li><p> • Banjo-Kazooie</p></li>
 							<li><p> • Donkey Kong</p></li>
+							<li><p> • Fire Emblem</p></li>
+							<li><p> • Hollow Knight</p></li>
+							<li><p> • Metroid</p></li>
+							<li><p> • Octopath Traveler</p></li>
 							<li><p> • Ori and the Blind Forest</p></li>
 							<li><p> • Subnautica</p></li>
-							<li><p> • The Legend of Zelda</p></li>
-							<li><p> • Abzu</p></li>
+							<li><p> • Tales of Symphonia</p></li>
 							<li><p> • The Pathless</p></li>
-							<li><p> • Octopath Traveler</p></li>
+							<li><p> • The Legend of Zelda</p></li>
 							<li><p> • Warcraft III</p></li>
 							<li><p> • World of Warcraft</p></li>
 						</ul>
@@ -64,12 +61,12 @@
                         <ul>
 							<h2>In my spare time, I occasionally occupy myself with:</h2>
 							<br>
-							<li><p> • <strong>Reading</strong> – non-fiction books about entrepreneurship, philosophy, and health.</p></li>
-							<li><p> • <strong>Staying up with industry news</strong> – mainly code architecture and game industry news.</p></li>
-							<li><p> • <strong>Execerise &amp; health</strong> – long jogs or hikes, and sometimes intense workout sessions followed by rest and recovery.</p></li>
-							<li><p> • <strong>2D art &amp; animation</strong> – not professionally, but as a recreational activity.</p></li>
-							<li><p> • <strong>Movies &amp; series</strong> – I enjoy discussing cinematography and storytelling.</p></li>
-							<li><p> • <strong>Martial arts</strong> – periodically practicing karate when I can fit it into my schedule.</p></li>
+							<li><p> • Discussing cinematography and storytelling.</p></li>
+							<li><p> • Exercise.</p></li>
+							<li><p> • Following tech news.</p></li>
+							<li><p> • Martial arts.</p></li>
+							<li><p> • Reading novels, non-fiction book and poetry.</p></li>
+							<li><p> • 2D art as a recreational activity.</p></li>
 						</ul>
                     </div>
 
