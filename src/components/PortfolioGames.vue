@@ -36,12 +36,12 @@
                         <router-link to="/planetaryrevelation"><img src="../resources/project-images/planetary-rev06.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
-                        <h1>Planetary Revelation</h1>
+                        <h1>Solar System Simulation</h1>
                         <h6 class="job-title"><span>Solo Project</span></h6>
                         <h6 class="job-title"><span>Unity</span><span class="align-right">2021-2022</span></h6>
                         <br>
                         <p>
-                            Planetary Revelation is an interactable solar-system simulation with a custom gravity system based on real-time physics.
+                            An interactable solar-system simulation with a custom gravity system based on real-time physics.
                         </p>
                         <p class="cta">Highlights: 
                             <strong>Physics Programming</strong>, 
@@ -62,12 +62,12 @@
                         <router-link to="/metroidvania"><img src="../resources/project-images/metroidvania01.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
-                        <h1>Eternal Emissary</h1>
+                        <h1>Clockwork 2D Action Platformer</h1>
                         <h6 class="job-title"><span>Team Project</span><span class="align-right">Game Programmer, 2D Artist</span></h6>
                         <h6 class="job-title"><span>Unity</span><span class="align-right">2020-2022</span></h6>
                         <br>
                         <p>
-                            Eternal Emissary is a 2D action metroidvania featuring a looping 3-day cycle system inspired by The Legend of Zelda Majora's Mask.
+                            A 2D action metroidvania featuring a looping 3-day cycle system inspired by The Legend of Zelda Majora's Mask.
                         </p>
                         <p class="cta">Highlights: 
                             <strong>Gameplay Programmer</strong>, 
@@ -90,7 +90,7 @@
                     <div class="portfolio-description">
                         <h1>Vault of Darkness</h1>
                         <h6 class="job-title"><span>Solo Project</span></h6>
-                        <h6 class="job-title"><span>Warcraft III World Editor</span><span class="align-right">2019-2022</span></h6>
+                        <h6 class="job-title"><span>Warcraft III World Editor</span><span class="align-right">2019-Present</span></h6>
                         <br>
                         <p>
                             Vault of Darkness is a co-op dungeon crawler mod for Warcraft III The Frozen Throne where you explore an ancient vault in a desert.
@@ -117,6 +117,7 @@
                         <h1>Cat's Eye</h1>
                         <h6 class="job-title"><span>Team Project</span><span class="align-right">Project Lead, Game Programmer</span></h6>
                         <h6 class="job-title"><span>Unity</span><span class="align-right">2022</span></h6>
+                        <h6 class="job-title"><span>Game Jam</span></h6>
                         <br>
                         <p>
                             Cat's Eye is a horror collectathon game where the player can switch between a dark/light world.

@@ -12,8 +12,8 @@ export default {
   data: () => {
       return {
           projectDetails: {
-              title: "Planetary Revelation",
-              subtitle: "Unity 3D Simulation",
+              title: "Solar System Simulation",
+              subtitle: "Unity 3D",
               mainImage: {name: "planetary-rev05.gif", index: 0},
               images: [[
                     {name: "planetary-rev00.jpg", index: 1},

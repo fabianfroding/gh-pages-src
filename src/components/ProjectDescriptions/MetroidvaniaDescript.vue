@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>
-            This project is a metroidvania featuring a three-day cycle system inspired by the same system as in The Legend of Zelda: Majora's Mask.
+            This project is a 2d action platformer featuring a three-day cycle system inspired by the same system as in The Legend of Zelda: Majora's Mask.
         </p>
         <br><br>
         <p>The project is a collaboration with a friend and old classmate: </p><p class="global-link"><a href="https://niguelchaos.github.io/" target="_blank">Nigel</a></p>
@@ -23,5 +23,7 @@
         <a href="https://github.com/fabianfroding/project-jolly-src" target="_blank" class="project-link">
             <i class="fab fa-github"></i>
         </a>
+        <br><br>
+        <p><br>Project is currently suspended and is no longer being worked on.</p>
     </div>
 </template>

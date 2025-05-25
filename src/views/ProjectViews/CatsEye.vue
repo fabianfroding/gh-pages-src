@@ -13,7 +13,7 @@ export default {
       return {
           projectDetails: {
               title: "Cat's Eye",
-              subtitle: "Unity 3D Group Project",
+              subtitle: "Unity 3D",
               mainImage: {name: "catseye05.gif", index: 0},
               images: [[
                     {name: "catseye00.jpg", index: 1},

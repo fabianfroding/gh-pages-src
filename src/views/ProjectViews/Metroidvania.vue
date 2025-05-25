@@ -12,8 +12,8 @@ export default {
   data: () => {
       return {
           projectDetails: {
-              title: "Eternal Emissary",
-              subtitle: "Unity 2D Game Group Project",
+              title: "Clockwork 2D Action Platformer",
+              subtitle: "Unity 2D",
               mainImage: {name: "metroidvania03.gif", index: 0},
               images: [[
                     {name: "metroidvania00.jpg", index: 1},

@@ -13,7 +13,7 @@ export default {
       return {
           projectDetails: {
               title: "Abyssus",
-              subtitle: "Game Programming at DoubleMoose Games",
+              subtitle: "Unreal Engine 5",
               mainImage: {name: "abyssus01.jpg", index: 0},
               images: [[
                     {name: "abyssus02.jpg", index: 1},

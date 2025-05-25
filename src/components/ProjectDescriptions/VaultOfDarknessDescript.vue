@@ -39,6 +39,8 @@
             <i class="fab fa-github"></i>
         </a>
         <br><br>
-        <p><s>Download coming soon!</s><br>Project is no longer being worked on due to problems with Warcraft 3: Reforged.</p>
+        <p><br>Project is currently paused.
+        I occasionally return to this project as recreational activity.
+        This page will be updated once the project reaches a playable demo.</p>
     </div>
 </template>

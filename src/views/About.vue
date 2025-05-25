@@ -33,13 +33,16 @@
 		</section>
 		<div class="separator-line"></div>
             <div class="container">
+				<div class="my-skills">
+                    <div class="skill">
+                        <h1>Hobbies and Interests</h1>
+                    </div>
+                </div>
                 <div class="my-skills">
                     <div class="skill fav-games">
-                        <h1>Favourite Games</h1>
 						<ul>
-							<li><h2>I enjoy playing a wide variety of games, such as:</h2></li>
+							<li><h2>While I spend most of my time developing things, I occasionally enjoy trying new indie games, and sometimes returning to my favourites:</h2></li>
 							<br>
-							<li><p> • Abzu</p></li>
 							<li><p> • Banjo-Kazooie</p></li>
 							<li><p> • Donkey Kong</p></li>
 							<li><p> • Fire Emblem</p></li>
@@ -49,7 +52,6 @@
 							<li><p> • Ori and the Blind Forest</p></li>
 							<li><p> • Subnautica</p></li>
 							<li><p> • Tales of Symphonia</p></li>
-							<li><p> • The Pathless</p></li>
 							<li><p> • The Legend of Zelda</p></li>
 							<li><p> • Warcraft III</p></li>
 							<li><p> • World of Warcraft</p></li>
@@ -57,14 +59,14 @@
                     </div>
 
                     <div class="skill fav-games">
-                        <h1>Hobbies</h1>
                         <ul>
 							<h2>In my spare time, I occasionally occupy myself with:</h2>
 							<br>
 							<li><p> • Discussing cinematography and storytelling.</p></li>
-							<li><p> • Exercise.</p></li>
+							<li><p> • Exercising.</p></li>
 							<li><p> • Following tech news.</p></li>
 							<li><p> • Martial arts.</p></li>
+							<li><p> • Modding.</p></li>
 							<li><p> • Reading novels, non-fiction books and poetry.</p></li>
 							<li><p> • 2D art as a recreational activity.</p></li>
 						</ul>
