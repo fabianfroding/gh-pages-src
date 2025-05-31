@@ -73,6 +73,11 @@ const routes = [
 
   // SE Project Details pages.
   {
+    path: '/portfoliosite',
+    name: 'PortfolioSite',
+    component: () => import('../views/ProjectViews/PortfolioSite.vue')
+  },
+  {
     path: '/codeanalyzer',
     name: 'CodeAnalyzer',
     component: () => import('../views/ProjectViews/CodeAnalyzer.vue')

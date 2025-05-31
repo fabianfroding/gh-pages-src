@@ -428,6 +428,14 @@ li {
     flex: 0.5;
 }
 
+.portfolio-img img {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-img img:hover {
+    transform: scale(1.065);
+}
+
 .portfolio-description {
     flex: 1;
 }

@@ -8,6 +8,8 @@
             Simply select a directory containing the C# files and the tool will recursively find files in sub-directories as well.
             <br><br>
             The program was developed as a hobby-project with the aim of providing an easy way to get a quick overview of a project's architecture and code complexity.
+            <br><br>
+            I occasionally use this tool to evaluate the architectural dependencies in my C# projects.
         </p>
         <p class="tool-used">Tools Used:
             <br> • <strong>C#</strong>

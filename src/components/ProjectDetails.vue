@@ -40,6 +40,7 @@ import MetroidvaniaDescript from './ProjectDescriptions/MetroidvaniaDescript.vue
 import PlanetaryRevelationDescript from './ProjectDescriptions/PlanetaryRevelationDescript.vue';
 import CatsEyeDescript from './ProjectDescriptions/CatsEyeDescript.vue';
 import AbyssusDescript from './ProjectDescriptions/AbyssusDescript.vue';
+import PortfolioSiteDescript from './ProjectDescriptions/PortfolioSiteDescript.vue';
 import CodeAnalyzerDescript from './ProjectDescriptions/CodeAnalyzerDescript.vue';
 import CyberCarDescript from './ProjectDescriptions/CyberCarDescript.vue';
 import MediaShopDescript from './ProjectDescriptions/MediaShopDescript.vue';
@@ -56,6 +57,7 @@ export default {
         CatsEyeDescript,
         PlanetaryRevelationDescript,
         AbyssusDescript,
+        PortfolioSiteDescript,
         CodeAnalyzerDescript,
         CyberCarDescript,
         MediaShopDescript,

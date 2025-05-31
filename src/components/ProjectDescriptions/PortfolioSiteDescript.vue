@@ -1,0 +1,26 @@
+<template>
+    <div>
+        <p>
+            This portfolio website is a showcase of my projects and skills, built using Vue and Github Pages. It features:
+            <br><br>
+            A responsive design that adapts to various screen sizes.
+            <br><br>
+            Smooth animations and transitions for an engaging user experience.
+            <br><br>
+            A detailed and modern layout that highlights my work effectively.
+            <br><br>
+            The website serves as a platform to present my projects, skills, and experiences in a visually appealing manner.
+        </p>
+        <p class="tool-used">Tools Used:
+            <br> • <strong>Github Pages</strong>
+            <br> • <strong>Vue</strong>
+            <br> • <strong>HTML</strong>
+            <br> • <strong>CSS</strong>
+            <br> • <strong>Javascript</strong>
+        </p>
+        <br><br>
+        <a href="https://github.com/fabianfroding/gh-pages-src" target="_blank" class="project-link">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+</template>

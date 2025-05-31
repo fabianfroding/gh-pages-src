@@ -20,7 +20,7 @@
       </a>
       <p>&copy; 2020 - {{ new Date().getFullYear() }} Fabian Fröding.</p>
       <br>
-      <div style="color: #2235aa; opacity: 0.67; font-weight: bold;">Made with Vue and Github Pages</div>
+      <div style="color: #3346bb; opacity: 0.85; font-weight: bold; font-size: 1.1em;">Made with Vue and Github Pages</div>
     </footer>
 </template>
 

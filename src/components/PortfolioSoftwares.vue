@@ -3,6 +3,35 @@
         <div id="portfolio-se">
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
+                        <router-link to="/portfoliosite"><img src="../resources/project-images/portfoliosite00.jpg" alt=""></router-link>
+                    </div>
+                    <div class="portfolio-description">
+                        <h1>Portfolio Website</h1>
+                        <h6 class="job-title"><span>Solo Project</span></h6>
+                        <h6 class="job-title"><span>Web Development</span><span class="align-right">2020 - Present</span></h6>
+                        <br>
+                        <p>
+                            A personal portfolio website showcasing my projects and skills.
+                        </p>
+                        <p class="cta">Highlights: 
+                            <strong>HTML</strong>, 
+                            <strong>CSS</strong>, 
+                            <strong>Javascript</strong>, 
+                            <strong>Vue</strong>, 
+                            <strong>Github Pages</strong>.</p>
+                        <br>
+                        <p class="cta"><router-link to="/portfoliosite"><strong>View Details</strong></router-link></p>
+                        <br><br>
+                        <a href="https://github.com/fabianfroding/gh-pages-src" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="separator-line"></div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
                         <router-link to="/codeanalyzer"><img src="../resources/project-images/code-analyzer03.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
