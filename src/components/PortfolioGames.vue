@@ -107,7 +107,7 @@
                     </div>
                 </div>
 
-                <div class="separator-line"></div>
+                <!--div class="separator-line"></div>
 
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
@@ -134,7 +134,7 @@
                     </div>
                 </div>
 
-                <div class="separator-line"></div>
+                <div class="separator-line"></div-->
 
             </div>
     </div>

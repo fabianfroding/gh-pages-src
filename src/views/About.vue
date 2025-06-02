@@ -4,6 +4,25 @@
 			<div class="container">
 				<div class="profile-img">
 					<img src="../resources/profile-pic.png">
+
+					<br><br><br>
+
+					<div class="skill">
+						<h1>Hobbies and Interests</h1>
+					</div>
+					<div class="skill fav-games">
+                        <ul>
+							<h2>In my spare time, I occasionally occupy myself with:</h2>
+							<br>
+							<li><p> • Cinematography and storytelling.</p></li>
+							<li><p> • Exercising.</p></li>
+							<li><p> • Following tech news.</p></li>
+							<li><p> • Martial arts.</p></li>
+							<li><p> • Modding.</p></li>
+							<li><p> • Reading non-fiction books and poetry.</p></li>
+							<li><p> • 2D art &amp; animation.</p></li>
+						</ul>
+					</div>
 				</div>
 
 				<div class="about-details">
@@ -11,8 +30,8 @@
 						<h1>About</h1>
 						<h6>Me</h6>
 					</div>
-					<p>Hello! I'm Fabian, a game programmer and software engineer with a specific interest in modular and scalable software design.
-						My development skills are quite versatile, with core strengths in <strong>Unreal Engine and C++</strong>, and <strong>Unity and C#</strong>.
+					<p>Hello! I'm Fabian, a game programmer and software engineer with a passion for modular and scalable software design.
+						My development skills are quite versatile, with core strengths in <strong>Unreal Engine &amp; C++</strong>, <strong>Unity &amp; C#</strong>, and <strong>Web Development</strong>.
                     </p>
                     <br>
 					<div class="separator-line"></div>
@@ -31,7 +50,7 @@
                 </div>
 			</div>
 		</section>
-		<div class="separator-line"></div>
+		<!--div class="separator-line"></div>
             <div class="container">
 				<div class="my-skills">
                     <div class="skill">
@@ -62,7 +81,7 @@
                         <ul>
 							<h2>In my spare time, I occasionally occupy myself with:</h2>
 							<br>
-							<li><p> • Discussing cinematography and storytelling.</p></li>
+							<li><p> • Cinematography and storytelling.</p></li>
 							<li><p> • Exercising.</p></li>
 							<li><p> • Following tech news.</p></li>
 							<li><p> • Martial arts.</p></li>
@@ -74,7 +93,7 @@
 
                 </div>
             </div>
-			<br><br><br><br><br>
+			<br><br><br><br><br-->
 		<Footer :showArrow="true"></Footer>
 	</div>
 </template>
