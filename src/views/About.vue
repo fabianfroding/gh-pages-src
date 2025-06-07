@@ -14,9 +14,10 @@
                         <ul>
 							<h2>In my spare time, I occasionally occupy myself with:</h2>
 							<br>
-							<li><p> • Cinematography and storytelling.</p></li>
+							<li><p> • Breathwork &amp; mindfulness.</p></li>
+							<li><p> • Cinematography &amp; storytelling.</p></li>
 							<li><p> • Exercising.</p></li>
-							<li><p> • Following tech news.</p></li>
+							<li><p> • Following industry news &amp; trends.</p></li>
 							<li><p> • Martial arts.</p></li>
 							<li><p> • Modding.</p></li>
 							<li><p> • Reading non-fiction books and poetry.</p></li>
@@ -27,8 +28,8 @@
 
 				<div class="about-details">
 					<div class="about-heading">
-						<h1>About</h1>
-						<h6>Me</h6>
+						<h1>About Me</h1>
+						<!--h6>Me</h6-->
 					</div>
 					<p>Hello! I'm Fabian, a software engineer and game developer with a passion for modular and scalable software design.
 						My development skills are quite versatile, with core strengths in <strong>Unreal Engine &amp; C++</strong>, <strong>Unity &amp; C#</strong>, and <strong>Web Development</strong>.

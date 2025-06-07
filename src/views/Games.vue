@@ -4,7 +4,6 @@
             <div class="container">
                 <div class="section-heading">
                     <h1>Game Portfolio</h1>
-                    <br><br>
                 </div>
                 <PortfolioGames></PortfolioGames>
             </div>

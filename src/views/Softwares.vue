@@ -4,7 +4,6 @@
             <div class="container">
                 <div class="section-heading">
                     <h1>Software Portfolio</h1>
-                    <br><br>
                 </div>
                 <PortfolioSoftwares></PortfolioSoftwares>
             </div>

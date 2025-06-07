@@ -38,7 +38,6 @@
 import VaultOfDarknessDescript from './ProjectDescriptions/VaultOfDarknessDescript.vue';
 import MetroidvaniaDescript from './ProjectDescriptions/MetroidvaniaDescript.vue';
 import PlanetaryRevelationDescript from './ProjectDescriptions/PlanetaryRevelationDescript.vue';
-import CatsEyeDescript from './ProjectDescriptions/CatsEyeDescript.vue';
 import AbyssusDescript from './ProjectDescriptions/AbyssusDescript.vue';
 import PortfolioSiteDescript from './ProjectDescriptions/PortfolioSiteDescript.vue';
 import CodeAnalyzerDescript from './ProjectDescriptions/CodeAnalyzerDescript.vue';
@@ -54,7 +53,6 @@ export default {
     components: { 
         VaultOfDarknessDescript,
         MetroidvaniaDescript,
-        CatsEyeDescript,
         PlanetaryRevelationDescript,
         AbyssusDescript,
         PortfolioSiteDescript,

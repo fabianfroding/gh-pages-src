@@ -1,7 +1,7 @@
 <template>
     <div>
         <div id="portfolio-gd">
-                
+
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
                         <router-link to="/abyssus"><img src="../resources/project-images/abyssus00.jpg" alt=""></router-link>
@@ -107,34 +107,7 @@
                     </div>
                 </div>
 
-                <!--div class="separator-line"></div>
-
-                <div class="portfolio-item">
-                    <div class="portfolio-img has-margin-right">
-                        <router-link to="/catseye"><img src="../resources/project-images/catseye00.jpg" alt=""></router-link>
-                    </div>
-                    <div class="portfolio-description">
-                        <h1>Cat's Eye</h1>
-                        <h6 class="job-title"><span>Team Project</span><span class="align-right">Project Lead, Game Programmer</span></h6>
-                        <h6 class="job-title"><span>Unity</span><span class="align-right">2022</span></h6>
-                        <h6 class="job-title"><span>Game Jam</span></h6>
-                        <br>
-                        <p>
-                            Cat's Eye is a horror collectathon game where the player can switch between a dark/light world.
-                        </p>
-                        <p class="cta">Highlights: 
-                            <strong>Project Lead</strong>,
-                            <strong>Gameplay Programmer</strong>.</p>
-                        <br>
-                        <p class="cta"><router-link to="/catseye"><strong>View Details</strong></router-link></p>
-                        <br><br>
-                        <a href="https://github.com/fabianfroding/ggj2022" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="separator-line"></div-->
+                <div class="separator-line"></div>
 
             </div>
     </div>
