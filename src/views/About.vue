@@ -3,54 +3,88 @@
 		<section class="about" id="about">
 			<div class="container">
 				<div class="profile-img">
-					<img src="../resources/profile-pic.png">
-
-					<br><br><br>
-
-					<div class="skill">
-						<h1>Hobbies and Interests</h1>
-					</div>
-					<div class="skill fav-games">
-                        <ul>
-							<h2>In my spare time, I occasionally occupy myself with:</h2>
-							<br>
-							<li><p> • Breathwork &amp; mindfulness.</p></li>
-							<li><p> • Cinematography &amp; storytelling.</p></li>
-							<li><p> • Exercising.</p></li>
-							<li><p> • Following industry news &amp; trends.</p></li>
-							<li><p> • Martial arts.</p></li>
-							<li><p> • Modding.</p></li>
-							<li><p> • Reading non-fiction books and poetry.</p></li>
-							<li><p> • 2D art &amp; animation.</p></li>
-						</ul>
-					</div>
+					<img class="fade-only" src="../resources/profile-pic.png">
 				</div>
-
-				<div class="about-details">
-					<div class="about-heading">
-						<h1>About Me</h1>
-						<!--h6>Me</h6-->
+				<div>
+					<div class="about-intro">
+						<h2 class="fade-up">Fabian Fröding</h2>
+						<h1 class="fade-up delay-1">[Software Engineer]</h1>
+						<p class="fade-only delay-1">
+						</p>
 					</div>
-					<p>Hello! I'm Fabian, a software engineer and game developer with a passion for modular and scalable software design.
-						My development skills are quite versatile, with core strengths in <strong>Unreal Engine &amp; C++</strong>, <strong>Unity &amp; C#</strong>, and <strong>Web Development</strong>.
-                    </p>
-                    <br>
-					<div class="separator-line"></div>
-                    <br>
-					<p>
-                        My journey in programming began at age 13, when I first discovered modding in PC games. 
-						That curiosity turned into a passion to learn, create and improve.
-					</p>
-					<br>
-					<div class="separator-line"></div>
-                    <br>
-					<p>
-						Whether I'm crafting immersive experiences or exploring innovative code architectures,  
-						I'm always open to creative and technical collaborations.
-					</p>
                 </div>
 			</div>
 		</section>
+
+		<div class="separator-line"></div>
+
+		<section class="experience" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Experiences</h1><!--h6>Recent Occupations</h6-->
+                </div>
+
+                <div class="timeline">
+                    <ul>
+                        <li class="date" data-date="2022 - Present">
+                            <h1>Double Moose Games</h1>
+                            <p>Software Engineer / Game Programmer</p><p class="timeline-job-spec"></p>
+                        </li>
+                        <li class="date" data-date="2021">
+                            <h1>Evoma</h1>
+                            <p>Software Engineer</p><p class="timeline-job-spec"></p>
+                        </li>
+                        <li class="date" data-date="2021">
+                            <h1>Warcry Interactive</h1>
+                            <p>UX Consultant</p><p class="timeline-job-spec"></p>
+                        </li>
+                        <li class="date" data-date="2020 - 2021">
+                            <h1>Smoofit</h1>
+                            <p>Software Engineer</p><p class="timeline-job-spec"></p>
+                        </li>
+                        <li class="date" data-date="2019 - 2020">
+                            <h1>Chalmers Student Housing</h1>
+                            <p>Customer Service</p>
+						</li>
+					</ul>
+                </div>
+            </div>
+        </section>
+
+		<div class="separator-line"></div>
+
+		<section class="experience" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Education</h1><!--h6>Recent Occupations</h6-->
+                </div>
+
+                <div class="timeline">
+                    <ul>
+                        <li class="date" data-date="2022">
+                            <h1>Uppsala University</h1>
+                            <p>AI Algorithms [15 ECTS]</p><p class="timeline-job-spec"></p>
+                        </li>
+                        <li class="date" data-date="2021-2022">
+                            <h1>University of Skövde</h1>
+                            <p>UX Courses [60 ECTS]</p><p class="timeline-job-spec"></p>
+                        </li>
+						<li class="date" data-date="2017-2020">
+                            <h1>University of Gothenburg</h1>
+                            <p>Bachelor in Software Engineering and Management</p><p class="timeline-job-spec"></p>
+                        </li>
+						<li class="date" data-date="2014">
+                            <h1>Shibuya Gaigo Gakuin</h1>
+                            <p>Japanese Language Courses (Tokyo, Japan)</p><p class="timeline-job-spec"></p>
+                        </li>
+						<li class="date" data-date="2013">
+                            <h1>Qufu Shaolin Kung Fu School</h1>
+                            <p>Martial Arts Education (Qufu, China)</p><p class="timeline-job-spec"></p>
+                        </li>
+					</ul>
+                </div>
+            </div>
+        </section>
 
 		<div class="separator-line"></div>
 
@@ -78,17 +112,11 @@
 								</div>
 							</a>
 							<a href="https://www.udemy.com/certificate/UC-49481515-4977-4768-9795-882048bb634b/" target="_blank">
-								<h1>Unreal Engine - Gameplay Ability System</h1>
+								<h1>Unreal Engine - GAS</h1>
 							</a>
 						</div>
                     </div>
 				</div>
-
-				<!--div class="about-details">
-					<div class="skill">
-						<h1>Game Development Skills</h1>
-					</div>
-				</div-->
 			</div>
         </section>
 
@@ -160,6 +188,39 @@
 	.fav-games h2 {
 		color: #638dccdd;
 	}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.5s ease-out forwards;
+}
+
+.fade-only {
+  opacity: 0;
+  animation: fadeOnly 0.5s ease-out forwards;
+}
+
+.delay-1 {
+  animation-delay: 0s;
+}
+
+.delay-2 {
+  animation-delay: 0s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOnly {
+  to {
+    opacity: 1;
+  }
+}
+
 </style>
 
 <script>

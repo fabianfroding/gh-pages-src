@@ -3,22 +3,50 @@
         <div id="portfolio-se">
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
+                        <router-link to="/abyssus"><img src="../resources/project-images/abyssus00.jpg" alt=""></router-link>
+                    </div>
+                    <div class="portfolio-description">
+                        <h1>Abyssus</h1>
+                        <h6 class="job-title"><span>DoubleMoose Games - Software Engineer / Game Programmer</span><span class="align-right"></span></h6>
+                        <h6 class="job-title"><span>Unreal Engine 5</span><span class="align-right"></span></h6>
+                        <br>
+                        <p>
+                            Abyssus is a 4-player co-op brinepunk roguelike FPS game set in an underwater world where you explore the ruins of a lost civilization.
+                        </p>
+                        <p class="cta">Highlights: 
+                            <strong>C++</strong>, 
+                            <strong>Lead UI Programmer</strong>, 
+                            <strong>Azure Playfab / AWS</strong>.
+                        </p>
+                        <br>
+                        <p class="cta"><router-link to="/abyssus"><strong>View Details</strong></router-link></p>
+                        <br><br>
+                        <a href="https://store.steampowered.com/app/1721110/Abyssus/" target="_blank" class="project-link">
+                            <i class="fab fa-steam"></i>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=nUaW1SlwEi0" target="_blank" class="project-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="separator-line"></div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
                         <router-link to="/portfoliosite"><img src="../resources/project-images/portfoliosite00.jpg" alt=""></router-link>
                     </div>
                     <div class="portfolio-description">
                         <h1>Portfolio Website</h1>
-                        <h6 class="job-title"><span>Solo Project</span></h6>
-                        <h6 class="job-title"><span>Web Development</span><span class="align-right">2020 - Present</span></h6>
+                        <h6 class="job-title"><span>Web Development</span><span class="align-right"></span></h6>
                         <br>
                         <p>
                             A personal portfolio website showcasing my projects and skills.
                         </p>
                         <p class="cta">Highlights: 
-                            <strong>HTML</strong>, 
-                            <strong>CSS</strong>, 
-                            <strong>Javascript</strong>, 
                             <strong>Vue</strong>, 
-                            <strong>Github Pages</strong>.</p>
+                            <strong>CSS</strong>, 
+                            <strong>Javascript</strong>.</p>
                         <br>
                         <p class="cta"><router-link to="/portfoliosite"><strong>View Details</strong></router-link></p>
                         <br><br>
@@ -36,8 +64,7 @@
                     </div>
                     <div class="portfolio-description">
                         <h1>C# Code Analyzer</h1>
-                        <h6 class="job-title"><span>Solo Project</span></h6>
-                        <h6 class="job-title"><span>C# .NET</span><span class="align-right">2020</span></h6>
+                        <h6 class="job-title"><span>C# .NET</span><span class="align-right"></span></h6>
                         <br>
                         <p>
                             C# Code Analyzer is a tool that visualizes dependencies between classes.
@@ -57,6 +84,32 @@
                 </div>
 
                 <div class="separator-line"></div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
+                        <router-link to="/metroidvania"><img src="../resources/project-images/metroidvania01.jpg" alt=""></router-link>
+                    </div>
+                    <div class="portfolio-description">
+                        <h1>2D Action Platformer Game</h1>
+                        <h6 class="job-title"><span>Team Project</span><span class="align-right"></span></h6>
+                        <h6 class="job-title"><span>Unity</span><span class="align-right"></span></h6>
+                        <br>
+                        <p>
+                            A 2D action platformer featuring various gameplay mechanics and a repeating time cycle.
+                        </p>
+                        <p class="cta">Highlights: 
+                            <strong>C#</strong>, 
+                            <strong>2D Art &amp; Animation</strong>.</p>
+                        <br>
+                        <p class="cta"><router-link to="/metroidvania"><strong>View Details</strong></router-link></p>
+                        <br><br>
+                        <a href="https://github.com/fabianfroding/project-jolly-src" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="separator-line"></div>
     
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
@@ -64,8 +117,7 @@
                     </div>
                     <div class="portfolio-description">
                         <h1>Media Shop &amp; Integrator</h1>
-                        <h6 class="job-title"><span>Solo Project</span></h6>
-                        <h6 class="job-title"><span>C# .NET</span><span class="align-right">2020</span></h6>
+                        <h6 class="job-title"><span>C# .NET</span><span class="align-right"></span></h6>
                         <br>
                         <p>
                             Media Shop &amp; Integrator is a shop system that handles a product register, 
@@ -86,6 +138,32 @@
                 </div>
 
                 <div class="separator-line"></div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
+                        <router-link to="/planetaryrevelation"><img src="../resources/project-images/planetary-rev06.jpg" alt=""></router-link>
+                    </div>
+                    <div class="portfolio-description">
+                        <h1>Solar System Simulation</h1>
+                        <h6 class="job-title"><span>Unity</span><span class="align-right"></span></h6>
+                        <br>
+                        <p>
+                            An interactable solar-system simulation with a custom gravity system based on real-time physics.
+                        </p>
+                        <p class="cta">Highlights: 
+                            <strong>C#</strong>, 
+                            <strong>Game Programming</strong>, 
+                            <strong>Physics Simulation</strong>.</p>
+                        <br>
+                        <p class="cta"><router-link to="/planetaryrevelation"><strong>View Details</strong></router-link></p>
+                        <br><br>
+                        <a href="https://github.com/fabianfroding/unity-planetary-revelation/" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="separator-line"></div>
     
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right">
@@ -93,14 +171,15 @@
                     </div>
                     <div class="portfolio-description">
                         <h1>Autonomous Vehicle: Intersection</h1>
-                        <h6 class="job-title"><span>Team Project</span><span class="align-right">Embedded Systems Programming, Project Management</span></h6>
-                        <h6 class="job-title"><span>C++</span><span class="align-right">2019</span></h6>
+                        <h6 class="job-title"><span>Team Project</span><span class="align-right"></span></h6>
+                        <h6 class="job-title"><span>Embedded Systems Programming, Project Management</span><span class="align-right"></span></h6>
                         <br>
                         <p>
                             Autonomous Vehicle: Intersection is the behavior for a self-driving miniature 
                             vehicle designed to handle a traffic situation in an intersection.
                         </p>
                         <p class="cta">Highlights: 
+                            <strong>C++</strong>, 
                             <strong>Raspberry Pi</strong>, 
                             <strong>Beagle Bone</strong>,
                             <strong>OpenCV</strong>, 
@@ -123,8 +202,8 @@
                     </div>
                     <div class="portfolio-description">
                         <h1>Source Code Modeler</h1>
-                        <h6 class="job-title"><span>Team Project</span><span class="align-right">Distributed Systems Programming, Project Management</span></h6>
-                        <h6 class="job-title"><span>Java</span><span class="align-right">2018-2019</span></h6>
+                        <h6 class="job-title"><span>Team Project</span><span class="align-right"></span></h6>
+                        <h6 class="job-title"><span>Distributed Systems Programming, Project Management</span><span class="align-right"></span></h6>
                         <br>
                         <p>
                             Source Code Modeler is a program that can generate a UML class-diagram based on source code input
@@ -152,8 +231,8 @@
                     </div>
                     <div class="portfolio-description">
                         <h1>Autonomous Vehicle: Parallel Parking</h1>
-                        <h6 class="job-title"><span>Team Project</span><span class="align-right">Embedded Systems Programming, Project Management</span></h6>
-                        <h6 class="job-title"><span>C++</span><span class="align-right">2018</span></h6>
+                        <h6 class="job-title"><span>Team Project</span><span class="align-right"></span></h6>
+                        <h6 class="job-title"><span>Embedded Systems Programming, Project Management</span><span class="align-right"></span></h6>
                         <br>
                         <p>
                             Autonomous Vehicle: Parallel Parking is the behavior for a self-driving miniature 
