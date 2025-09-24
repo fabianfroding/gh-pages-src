@@ -1,29 +1,207 @@
 <template>
     <div>
+        <h6 class="job-title"><span><strong>Development Period</strong>: 2021 - Present</span>
+        <span class="align-right"><strong>Engine</strong>: Unity 6</span></h6>
+        <h6 class="job-title"><span><strong>Team Project</strong></span>
+        <span class="align-right"><strong>Status</strong>: Alpha</span></h6>
+        <div class="separator-line"></div>
         <p>
-            This project is a 2d action platformer featuring a three-day cycle system inspired by the same system as in The Legend of Zelda: Majora's Mask.
+            'Emissary' is an experimental 2D action platformer sample inspired by Hollow Knight. 
+            In this project I showcase various core game systems and gameplay mechanics that I coded.
+            All systems were coded from scratch without any third-party frameworks.
+            Below is a list examples of systems that I created with links to the specific parts of the project repository.
         </p>
+
         <br><br>
-        <p>The project is a collaboration with a friend and old classmate: </p><p class="global-link"><a href="https://niguelchaos.github.io/" target="_blank">Nigel</a></p>
+
+        <h1>Code Architecture</h1>
+
+        <p>
+            One lesson I quickly realized when working in Unity's C# is how tightly coupled the codebase can become when using events and actions.
+            To find a solution to this, I found 
+            <a href="https://www.youtube.com/watch?v=raQ3iHhE_Kk" target="_blank" class="global-link">
+                an interesting talk about using Scriptable Objects
+            </a>
+            as event delegates to prevent classes creating dependencies to each other. While this approach works, I found an even
+            better alternative, the Event Bus. I wrote the event bus purely in C# to reduce Unity overhead and decoupled from the Unity ecosystem.
+            In addition, when using many events in a game it can affect performance, so a pure C# solution contributes to that aspect as well.
+        </p>
+
         <br>
+
+        <div class="repo-link">
+            <span><p>Event Bus Script:</p></span>
+            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/Events/EventBus.cs" target="_blank" class="project-link">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <br>
+
+        <h1>State Machine System</h1>
+
         <p>
-            The game and all systems were coded from scratch without any third-party frameworks, and all art was drawn by ourselves.
-            <br><br>It features a 2D-player controller and enemies with AI based on <strong>state machines</strong>, various <strong>player abilities</strong>,
-            an <strong>equipment system</strong>, a three-day cycle system based on <strong>custom events</strong>, a <strong>dialogue system</strong>, 
-            and <strong>hand-drawn 2D art and animations</strong> and more.
+            For the player and AI-characters, I used a state machine system. These classes were made pure C# classes since they don't needed to
+            represent game objects in the world, and to prevent unnecessary Unity overhead.
         </p>
-        <p class="tool-used">Tools Used:
-            <br> • <strong>UNITY</strong>
-            <br> • <a href="https://docs.unity3d.com/Manual/StateMachineBasics.html" target="_blank"><strong>STATE MACHINES</strong></a>
-            <br> • <a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html" target="_blank"><strong>SCRIPTABLE OBJECTS</strong></a>
-            <br> • <a href="https://docs.unity3d.com/Manual/UnityAnalyticsCustomEventsSDK.html" target="_blank"><strong>CUSTOM EVENTS</strong></a>
-            <br> • <a href="https://www.plasticscm.com/" target="_blank"><strong>PLASTIC SCM</strong></a> (For version control)
+
+        <br>
+
+        <div class="repo-link">
+            <span><p>Enemy State Machine Script:</p></span>
+            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/EnemyStateMachine/StateMachine/FiniteStateMachine.cs" target="_blank" class="project-link">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <br>
+
+        <div class="repo-link">
+            <span><p>Enemy Charge State Sample:</p></span>
+            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/EnemyStateMachine/BaseStates/ChargeState.cs" target="_blank" class="project-link">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <br>
+
+        <div class="repo-link">
+            <span><p>Player Ascend State Sample:</p></span>
+            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/Player/PlayerStates/SubStates/PlayerAscendState.cs" target="_blank" class="project-link">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p>The Ascend ability/state warps the player through terrain.</p>
+
+        <br>
+
+        <h1>Performance Optimization</h1>
+
+        <br>
+
+        <p>
+            During the project, I explored various tips and tricks in Unity. One that I applied is called the Update Manager.
+            In short, when individual MonoBehaviours in Unity run their Update() and FixedUpdate() functions, those execute with hidden Unity overhead
+            checks.
+            The Update Manager, which is a variant of the Observer programming pattern, is a clever way to bypass these overhead checks when having
+            numerous game objects in a scene.
+            <br><br>
+            The update manager register and tracks each object that needs tp be updated, and runs a custom update function on each of them.
+            This way, the only game object i nthe entire game using Unity's default Update() and FixedUpdate() functions is the update manager.
         </p>
-        <br><br>
-        <a href="https://github.com/fabianfroding/project-jolly-src" target="_blank" class="project-link">
-            <i class="fab fa-github"></i>
-        </a>
-        <br><br>
-        <p><br>Project is currently suspended and is no longer being worked on.</p>
+
+        <br>
+
+        <div class="repo-link">
+            <span><p>Update Manager:</p></span>
+            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/Game/UpdateManager.cs" target="_blank" class="project-link">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <br>
+
+        <div class="separator-line"></div>
+
+        <br>
+
+        <h1>UI Programming</h1>
+
+        <br>
+
+        <p>
+            Using my professional experience in UI programming, I crafted my own UI stack and pooling system inspired by Epic Games plugin Common UI.
+            <br><br>
+            You may ask, why pooling for a UI system? Pooling closed menues is much more efficient since destroying and recreating the menu 
+            game objects can be expensive for performance, especially if a user spams inputs and causing menues to toggle rapidly, which is something
+            developers need to be aware of when creating interactble systems.
+        </p>
+
+        <br>
+
+        <div class="repo-link">
+            <span><p>Widget Stack System:</p></span>
+            <a href="" target="_blank" class="project-link">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <br>
+
+        <div class="repo-link">
+            <span><p>Widget Base Class:</p></span>
+            <a href="" target="_blank" class="project-link">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <br>
+
+        <div class="separator-line"></div>
+
+        <br>
+
+        <h1>Creating 2D Art</h1>
+
+        <br>
+
+        <p>
+            Working as an engineer both professionally and for side projects, creating 2D art was a needed and fun task, and challenge.
+            All the art in the images were drawn and animated by myself, and while it is far from professional art, it is incredibly fun.
+            As with any craft, becoming better requires time and dedication, and is certainly gratifying when you see your skills improve.
+        </p>
+
+        <br>
+
+        <div class="separator-line"></div>
+
+        <br>
+
+        <h1>Working as a Duo</h1>
+
+        <p>External Contributor: </p><p class="global-link"><a href="https://niguelchaos.github.io/" target="_blank">Nigel</a></p>
+        <p>Nigel and I worked together on this project. Before we parted ways, Nigel helped develop the camera system, 
+            and contributed to various game design, level design, and combat design aspects of the game.</p>
+
+        <section class="services" id="resume">
+            <div class="container">
+                <div class="my-skills">
+                    <div class="skill">
+                        <h1>Recommendations</h1>
+                    </div>
+                </div>
+                <div class="my-skills">
+                    <div class="skill">
+                        <p><i>"I have worked with Fabian on projects during our Bachelor’s in Software Engineering as well as on a project in Unity since March 2021. 
+                            I find that little fazes Fabian - when approaching a complex problem, he calmly tries to understand the problem, then forms a plan to solve it and executes it effectively. 
+                            His eagerness to learn, enthusiasm and dedication to his craft can be seen when he continually tries to improve the code architecture, grasp new concepts, and learn new tools quickly.
+                            <br><br>
+                            Fabian can always be relied on to work independently, delivering quality work. 
+                            He is often proactive, unafraid to bring up issues or his thoughts when he believes it is necessary. 
+                            During our academic projects, his strong work ethic was also shown when put under pressure, completing his tasks within tight deadlines.
+                            <br><br>
+                            Fabian’s sense of maturity is not only shown when dealing with technical issues, but also with his tact and consideration in human relationships. 
+                            This has not only contributed to a sense of safety and fun in a work atmosphere, but also a voice of insight and reason as a friend. 
+                            I believe Fabian can be a core asset to any team he wishes to be part of. As such, I can confidently recommend him."</i> 
+                        <br><br>- <strong>Nigel Chao, Software Engineer/Game Designer.</strong></p><p class="global-link"><a href="resources/QufuShaolinSchool_Certificate.pdf" target="_blank"></a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
+
+<style scoped>
+
+.repo-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.repo-link a {
+  display: flex;
+  align-items: center;
+}
+
+</style>

@@ -1,5 +1,9 @@
 <template>
     <div>
+        <h6 class="job-title"><span><strong>Development Period</strong>: 2020</span>
+        <span class="align-right"><strong>Engine</strong>: Unity</span></h6>
+        <h6 class="job-title"><span><strong>Solo Project</strong></span>
+        <span class="align-right"><strong>Status</strong>: Complete</span></h6>
         <p>
             This project is a simulation of an interactable and fictional solar system.
             <br><br>
@@ -26,12 +30,5 @@
             <i class="fab fa-github"></i>
         </a>
         <br><br>
-        <p>DOWNLOAD (WINDOWS):</p>
-        <p class="global-link"><a href="https://drive.google.com/file/d/1cvqb9BZwV1xBvGttEpUR2ngVY1HIqiIa/view?usp=sharing" target="_blank"><i class="far fa-file-archive"/> PlanetaryRevelation.zip</a></p>
-    
-        <br>
-        <p> • Extract PlanetaryRevelation.zip</p>
-        <p> • Run Planetary Revelation.exe</p>
-        <p> • Press Esc to exit the simulation</p>
     </div>
 </template>

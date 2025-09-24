@@ -8,7 +8,7 @@
                     <h6>You can reach me by mail:</h6>
                 </div>
                 <div class="contact-icons">
-                    <a href="mailto:fabian.froding@gmail.com" class="mail-icon">
+                    <a href="mailto:fabianfroding@proton.me" class="mail-icon">
                         <i class="fa fa-envelope"></i>
                     </a>
                 </div>

@@ -1,5 +1,10 @@
 <template>
     <div>
+        <h6 class="job-title"><span><strong>Development Period</strong>: 2020</span>
+        <span class="align-right"><strong>Tech Stack</strong>: C#, .NET, WPF, D3.js, LiveCharts</span></h6>
+        <h6 class="job-title"><span><strong>Solo Project</strong></span>
+        <span class="align-right"><strong>Status</strong>: Complete</span></h6>
+        <div class="separator-line"></div>
         <p>
             A tool to analyze and visualize the software architecture in a C# project.
             <br><br>

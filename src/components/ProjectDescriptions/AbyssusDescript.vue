@@ -1,5 +1,11 @@
 <template>
     <div>
+        <h6 class="job-title"><span><strong>Game</strong>: Abyssus</span>
+        <span class="align-right"><strong>Engine</strong>: Unreal Engine 5</span></h6>
+        <h6 class="job-title"><span><strong>Job Title</strong>: Game Programmer/Software Engineer</span>
+        <span class="align-right"><strong>Release Date</strong>: 12 August 2025</span></h6>
+        <h6 class="job-title"><span><strong>Studio Project at DoubleMoose Games</strong></span></h6>
+        <div class="separator-line"></div>
         <p>
             My primary responsibilities have included developing both the core gameplay systems and the complete UI stack. The game is built using a custom implementation of Unreal Engine’s 
             Gameplay Ability System (GAS), which serves as the architectural foundation for most of the gameplay features.
@@ -25,6 +31,12 @@
                 </ul>
             </p>
             </div>
+
+            <br>
+            <!--div>
+                <img :src="require(`@/resources/project-images/abyssus02.jpg`)" />
+            </div>
+            <p>Picture description.</p-->
 
             <br><br>
             <!-- Gameplay Ability System -->

@@ -8,19 +8,31 @@
 import ProjectDetails from '@/components/ProjectDetails.vue';
 
 export default {
-  components: { ProjectDetails },
-  data: () => {
-      return {
-          projectDetails: {
-              title: "Autonomous Vehicle: Intersection",
-              subtitle: "Group Project in Cyber-Physical Systems",
-              mainImage: {name: "cyber-car00.gif", index: 0},
-              images: [[
+    components: { ProjectDetails },
+    data: () => {
+        return {
+            projectDetails: {
+                id: "cybercar",
+                title: "Autonomous Vehicle: Intersection",
+                subtitle: "Group Project in Cyber-Physical Systems",
+                category: "software",
+                duration: "2019",
+                displayOrder: 3,
+                route: "/cybercar",
+                previewImage: "cyber-car01.jpg",
+                company: "Team Project",
+                jobtitle: "",
+                tool: "C++",
+                description: "Autonomous Vehicle: Intersection is the behavior for a self-driving miniature vehicle designed to handle a traffic situation in an intersection.",
+                highlights: ["C++", "Raspberry Pi", "Beagle Bone", "OpenCV", "Machine Learning", "Docker", "Project Management"],
+                links: [ { url: "https://github.com/fabianfroding/dit638-cyber-car/tree/master/microservices", icon: "fab fa-github" } ],
+                mainImage: {name: "cyber-car00.gif", index: 0},
+                images: [[
                     {name: "cyber-car01.jpg", index: 1},
-              ]],
-              descriptionComponent: "cyber-car-descript"
-          }
-      }
-  }
+                ]],
+                descriptionComponent: "cyber-car-descript"
+            }
+        }
+    }
 }
 </script>

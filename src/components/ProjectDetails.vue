@@ -3,7 +3,6 @@
         <div class="container">
             <div class="section-heading">
                 <h1>{{ projectDetails.title }}</h1>
-                <h6>{{ projectDetails.subtitle }}</h6>
             </div>
             <div class="portfolio-item">
                 <div class="portfolio-img has-margin-right">
@@ -23,7 +22,7 @@
                 <div class="portfolio-description">
                     <div :is="projectDetails.descriptionComponent"></div>
                 </div>
-            </div>
+            </div>  
             <LightBox
                 ref="lightbox"
                 :media="getLightboxMedia()"
@@ -39,6 +38,7 @@ import VaultOfDarknessDescript from './ProjectDescriptions/VaultOfDarknessDescri
 import MetroidvaniaDescript from './ProjectDescriptions/MetroidvaniaDescript.vue';
 import PlanetaryRevelationDescript from './ProjectDescriptions/PlanetaryRevelationDescript.vue';
 import AbyssusDescript from './ProjectDescriptions/AbyssusDescript.vue';
+import OnlyLeadDescript from './ProjectDescriptions/OnlyLeadDescript.vue';
 import PortfolioSiteDescript from './ProjectDescriptions/PortfolioSiteDescript.vue';
 import CodeAnalyzerDescript from './ProjectDescriptions/CodeAnalyzerDescript.vue';
 import CyberCarDescript from './ProjectDescriptions/CyberCarDescript.vue';
@@ -55,6 +55,7 @@ export default {
         MetroidvaniaDescript,
         PlanetaryRevelationDescript,
         AbyssusDescript,
+        OnlyLeadDescript,
         PortfolioSiteDescript,
         CodeAnalyzerDescript,
         CyberCarDescript,

@@ -1,49 +1,38 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Projects from '../views/Projects.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Projects
-  },
-  {
-    path: '/games',
-    name: 'Games',
-    component: () => import('../views/Games.vue')
-  },
-  {
-    path: '/projects',
     name: 'Projects',
-    component: () => import('../views/Projects.vue')
+    component: () => import('../views/Projects.vue'),
+  },
+  {
+    path: '/resume',
+    name: 'Resume',
+    component: () => import('../views/Resume.vue')
   },
   {
     path: '/about',
     name: 'About',
     component: () => import('../views/About.vue')
   },
-  {
-    path: '/contact',
-    name: 'Contact',
-    component: () => import('../views/Contact.vue')
-  },
   
   // Gamedev Project Details pages.
   {
-    path: '/vaultofdarkness',
+    path: '/vod',
     name: 'VaultOfDarkness',
     component: () => import('../views/ProjectViews/VaultOfDarkness.vue')
   },
   {
-    path: '/metroidvania',
+    path: '/nara',
     name: 'Metroidvania',
     component: () => import('../views/ProjectViews/Metroidvania.vue')
   },
   {
-    path: '/planetaryrevelation',
+    path: '/solarsystemsim',
     name: 'PlanetaryRevelation',
     component: () => import('../views/ProjectViews/PlanetaryRevelation.vue')
   },
@@ -84,6 +73,13 @@ const routes = [
     name: 'ParallelCar',
     component: () => import('../views/ProjectViews/ParallelCar.vue')
   },
+
+  // Misc/Research Project Details pages.
+  {
+    path: '/onlylead',
+    name: 'OnlyLead',
+    component: () => import('../views/ProjectViews/OnlyLead.vue')
+  }
 ]
 
 const router = new VueRouter({

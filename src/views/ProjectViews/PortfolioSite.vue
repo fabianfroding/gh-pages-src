@@ -12,11 +12,23 @@ export default {
   data: () => {
       return {
           projectDetails: {
-              title: "Portfolio Website",
-              subtitle: "Fabian Fröding's Portfolio",
-              mainImage: {name: "portfoliosite00.jpg", index: 0},
-              images: [],
-              descriptionComponent: "portfolio-site-descript"
+            id: "portfoliosite",
+            title: "Portfolio Website",
+            subtitle: "",
+            category: "software",
+            duration: "2020",
+            displayOrder: 2,
+            route: "/portfoliosite",
+            previewImage: "portfoliosite00.jpg",
+            company: "Solo Project",
+            jobtitle: "",
+            tool: "Vue",
+            description: "A personal portfolio website showcasing my projects and skills.",
+            highlights: ["Vue", "CSS", "Javascript"],
+            links: [ { url: "https://github.com/fabianfroding/gh-pages-src", icon: "fab fa-github" } ],
+            mainImage: {name: "portfoliosite00.jpg", index: 0},
+            images: [],
+            descriptionComponent: "portfolio-site-descript"
           }
       }
   }

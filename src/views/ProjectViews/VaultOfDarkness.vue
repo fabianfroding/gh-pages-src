@@ -12,8 +12,19 @@ export default {
   data: () => {
       return {
           projectDetails: {
+              id: "vaultofdarkness",
               title: "Vault of Darkness",
-              subtitle: "Warcraft 3 Mod",
+              category: "game",
+              duration: "2019",
+              displayOrder: 4,
+              route: "/vod",
+              previewImage: "vod-00.jpg",
+              company: "Solo Project",
+              jobtitle: "",
+              tool: "Warcraft 3 World Editor",
+              description: "Vault of Darkness is a 4-player co-op dungeon crawler mod for Warcaft 3.",
+              highlights: ["Scripting", "Game Design", "Level Design"],
+              links: [ { url: "https://github.com/fabianfroding/wc3-vod-jass", icon: "fab fa-github" } ],
               mainImage: {name: "vod-05.gif", index: 0},
               images: [[
                     {name: "vod-00.jpg", index: 1},

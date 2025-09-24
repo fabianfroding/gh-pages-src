@@ -6,7 +6,7 @@
       <a href="https://www.linkedin.com/in/fabian-fr%C3%B6ding-7b52ab160/" target="_blank" class="project-link">
           <i class="fab fa-linkedin footer-icon"></i>
       </a>
-      <a href="mailto:fabian.froding@gmail.com" target="_blank" class="project-link">
+      <a href="mailto:fabianfroding@proton.me" target="_blank" class="project-link">
           <i class="fa fa-envelope footer-icon"></i>
       </a>
       <a href="https://github.com/fabianfroding" target="_blank" class="project-link">

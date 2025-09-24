@@ -1,7 +1,12 @@
 <template>
     <div>
+        <h6 class="job-title"><span><strong>Development Period</strong>: 2019-2020</span>
+        <span class="align-right"><strong>Engine</strong>: Warcraft 3 World Editor</span></h6>
+        <h6 class="job-title"><span><strong>Solo Project</strong></span>
+        <span class="align-right"><strong>Status</strong>: Alpha</span></h6>
+        <div class="separator-line"></div>
         <p>
-            A dungeon-crawler mod for Warcraft 3: The Frozen Throne (2003).
+            A dungeon-crawler mod for Warcraft 3: The Frozen Throne.
             <br><br>
             The mod allows 1-6 players to control a group of heroes and descend into a dark desert dungeon.
             Players must collaborate to solve puzzles, and strategize to overcome coordination-demanding and reaction-based boss fights.
@@ -39,8 +44,5 @@
             <i class="fab fa-github"></i>
         </a>
         <br><br>
-        <p><br>Project is currently paused.
-        I occasionally return to this project as recreational activity.
-        This page will be updated once the project reaches a playable demo.</p>
     </div>
 </template>

@@ -1,5 +1,10 @@
 <template>
     <div>
+        <h6 class="job-title"><span><strong>Development Period</strong>: 2020</span>
+        <span class="align-right"><strong>Tech Stack</strong>: C#, .NET, Windows Forms, Entity Framework, SQL</span></h6>
+        <h6 class="job-title"><span><strong>Solo Project</strong></span>
+        <span class="align-right"><strong>Status</strong>: Complete</span></h6>
+        <div class="separator-line"></div>
         <p>
             The project consists of three programs; the <strong>media shop</strong>, the <strong>integrator</strong>, and an <strong>external shop program</strong>.
             <br><br>

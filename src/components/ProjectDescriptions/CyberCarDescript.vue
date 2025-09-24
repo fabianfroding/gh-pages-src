@@ -1,5 +1,10 @@
 <template>
     <div>
+        <h6 class="job-title"><span><strong>Development Period</strong>: 2019</span>
+        <span class="align-right"><strong>Tech Stack</strong>: C++, Raspberry Pi, Beagle Bone, OpenCV, Docker</span></h6>
+        <h6 class="job-title"><span><strong>Group Project</strong></span>
+        <span class="align-right"><strong>Status</strong>: Complete</span></h6>
+        <div class="separator-line"></div>
         <p>
             A group project that consisted of developing a miniature vehicle to handle traffic situations in an intersection, 
             using <strong>Raspberry Pi</strong> and a <strong>Beagle Bone</strong> board.

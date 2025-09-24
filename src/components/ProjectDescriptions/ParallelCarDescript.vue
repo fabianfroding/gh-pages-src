@@ -1,5 +1,10 @@
 <template>
     <div>
+        <h6 class="job-title"><span><strong>Development Period</strong>: 2018</span>
+        <span class="align-right"><strong>Tech Stack</strong>: C++, Aurduino, OpenCV</span></h6>
+        <h6 class="job-title"><span><strong>Group Project</strong></span>
+        <span class="align-right"><strong>Status</strong>: Complete</span></h6>
+        <div class="separator-line"></div>
         <p>
             This group project consisted of developing a miniature vehicle to handle a parallel parking-scenario, 
             using <strong>Arduino</strong> and <strong>OpenCV</strong>.
