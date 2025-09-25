@@ -36,6 +36,13 @@
             </a>
         </div>
 
+        <!--details id="code-details">
+            <summary>View EventBus.cs</summary>
+            <div class="code-editor">
+                <pre><code id="code-block">Loading...</code></pre>
+            </div>
+        </details-->
+
         <br>
 
         <h1>State Machine System</h1>
@@ -120,8 +127,8 @@
         <br>
 
         <div class="repo-link">
-            <span><p>Widget Stack System:</p></span>
-            <a href="" target="_blank" class="project-link">
+            <span><p>Widget Stack &amp; Pooling System:</p></span>
+            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/UI/WidgetManager.cs" target="_blank" class="project-link">
                 <i class="fab fa-github"></i>
             </a>
         </div>
@@ -130,7 +137,7 @@
 
         <div class="repo-link">
             <span><p>Widget Base Class:</p></span>
-            <a href="" target="_blank" class="project-link">
+            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/UI/WidgetBase.cs" target="_blank" class="project-link">
                 <i class="fab fa-github"></i>
             </a>
         </div>
@@ -157,7 +164,7 @@
 
         <br>
 
-        <h1>Working as a Duo</h1>
+        <h1>Collaboration</h1>
 
         <p>External Contributor: </p><p class="global-link"><a href="https://niguelchaos.github.io/" target="_blank">Nigel</a></p>
         <p>Nigel and I worked together on this project. Before we parted ways, Nigel helped develop the camera system, 
@@ -205,3 +212,16 @@
 }
 
 </style>
+    
+<script>
+    async function loadCode() {
+        try {
+            const response = await fetch("https://raw.githubusercontent.com/fabianfroding/project-jolly-src/master/Events/EventBus.cs");
+            const text = await response.text();
+            document.getElementById("code-block").textContent = text; 
+        } catch (err) {
+            document.getElementById("code-block").textContent = "Failed to load code: " + err;
+        }
+    }
+    loadCode();
+</script>

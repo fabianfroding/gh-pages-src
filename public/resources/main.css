@@ -865,6 +865,69 @@ input[type="submit"]:hover {
     font-weight: 550;
 }
 
+/* CODE EDITOR STYLES */
+
+.code-editor {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: "Fira Code", "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre;
+  position: relative;
+
+  max-height: 500px;
+  overflow: auto;
+}
+
+.code-editor pre {
+  counter-reset: line;
+}
+
+.code-editor code {
+  display: block;
+}
+
+.code-editor code span {
+  display: block;
+  counter-increment: line;
+}
+
+.code-editor code span::before {
+  content: counter(line);
+  display: inline-block;
+  width: 2em;
+  margin-right: 1em;
+  text-align: right;
+  color: #555;
+}
+
+details {
+  margin: 1em 0;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background: #1e1e1e;
+  overflow: hidden;
+}
+
+summary {
+  cursor: pointer;
+  padding: 10px 14px;
+  font-weight: bold;
+  color: #d4d4d4;
+  background: #2d2d2d;
+  user-select: none;
+}
+
+summary:hover {
+  background: #3a3a3a;
+}
+
+/* END CODE EDITOR STYLES */
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
     body {

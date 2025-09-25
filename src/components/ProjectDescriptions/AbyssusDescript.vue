@@ -6,8 +6,23 @@
         <span class="align-right"><strong>Release Date</strong>: 12 August 2025</span></h6>
         <h6 class="job-title"><span><strong>Studio Project at DoubleMoose Games</strong></span></h6>
         <div class="separator-line"></div>
+
+        <div class="video-container">
+            <iframe 
+                width="400" 
+                height="225" 
+                src="https://www.youtube.com/embed/nUaW1SlwEi0" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <br><br>
+
         <p>
-            My primary responsibilities have included developing both the core gameplay systems and the complete UI stack. The game is built using a custom implementation of Unreal Engine’s 
+            My primary responsibilities have included developing both core gameplay systems and the complete UI stack. The game is built using a custom implementation of Unreal Engine’s 
             Gameplay Ability System (GAS), which serves as the architectural foundation for most of the gameplay features.
             <br><br>
 
@@ -20,7 +35,6 @@
             <h1>
                 Asset Loading
             </h1>
-            <p class="global-link"><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/asset-management-in-unreal-engine" target="_blank">Asset Manager</a></p>
             <br>
             <p>
                 I used Unreal’s Asset Manager and Primary Asset system to organize and load game content:
@@ -44,7 +58,6 @@
             <h1>
                 Gameplay Programming &amp; GAS
             </h1>
-            <p class="global-link"><a href="https://docs.unrealengine.com/en-US/gameplay-ability-system/" target="_blank">Gameplay Ability System</a></p>
             <br>
             <p>
                 Abyssus is built on a custom implementation of Unreal Engine’s GAS.
@@ -79,7 +92,6 @@
             <h1>
                 UI Programming
             </h1>
-            <p class="global-link"><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/overview-of-advanced-multiplatform-user-interfaces-with-common-ui-for-unreal-engine" target="_blank">Common UI</a></p>
             <br>
             <p>
                 During development I was tasked to take on full responsibility of the UI systems in the game:
@@ -98,7 +110,6 @@
             <h1>
                 Procedural Level Generation &amp; Level Streaming
             </h1>
-            <p class="global-link"><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/level-streaming-in-unreal-engine" target="_blank">Level Streaming</a></p>
             <br>
             <p>
                 Early in development I acquired full responsibility of the procedural level generation system,
@@ -118,7 +129,6 @@
             <h1>
                 Telemetry Services
             </h1>
-            <p class="global-link"><a href="https://playfab.com/" target="_blank">Playfab</a></p>
             <br>
             <p>
                 During development, I also worked on integrating telemetry services to track player behavior, 
@@ -131,13 +141,25 @@
                 </ul>
             </p>
             </div>
-
-            <br><br><br>
-            <a href="https://store.steampowered.com/app/1721110/Abyssus/" target="_blank" class="project-link">
-                <i class="fab fa-steam"></i>
-            </a>
-            <!--br><br>
-            <p class="global-link"><a href="https://doublemoose.com/" target="_blank">DoubleMoose Games</a-->
-        
     </div>
 </template>
+
+<style scoped>
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+</style>
