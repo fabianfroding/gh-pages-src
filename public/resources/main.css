@@ -880,7 +880,8 @@ input[type="submit"]:hover {
   position: relative;
 
   max-height: 500px;
-  overflow: auto;
+  max-width: 767px;
+  overflow: scroll;
 }
 
 .code-editor pre {

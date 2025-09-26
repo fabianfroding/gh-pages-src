@@ -1,6 +1,32 @@
 <template>
     <div>
         <ProjectDetails :projectDetails="projectDetails"></ProjectDetails>
+        <!--section class="project-details">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>{{ projectDetails.title }}</h1>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right">
+                    <div>
+                        <img @click="openLightboxGallery(0)" :src="require(`../../resources/project-images/${projectDetails.mainImage.name}`)" alt="">
+                    </div>
+                    <div class="project-thumbnail-gallery">
+                        <div class="project-thumbnail-gallery-row">
+							<div v-for="(col, index1) in projectDetails.images" v-bind:key="index1" class="project-thumbnail-gallery-col">
+								<div v-for="image in col" v-bind:key="image.id">
+									<img @click="openLightboxGallery(image.index)" class="project-img-thumbnail" :src="require(`../../resources/project-images/${image.name}`)"/>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="portfolio-description">
+                        <AbyssusDescript :projectDetails="projectDetails"></AbyssusDescript>
+                    </div>
+                </div>
+            </div>
+        </section-->
     </div>
 </template>
 

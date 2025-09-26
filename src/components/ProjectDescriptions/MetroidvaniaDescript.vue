@@ -14,6 +14,17 @@
 
         <br><br>
 
+        <div class="repo-link">
+            <span><p>Project Repository:</p></span>
+            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/" target="_blank" class="project-link">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <br>
+            <div class="separator-line"></div>
+        <br>
+        
         <h1>Code Architecture</h1>
 
         <p>
@@ -29,19 +40,12 @@
 
         <br>
 
-        <div class="repo-link">
-            <span><p>Event Bus Script:</p></span>
-            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/Events/EventBus.cs" target="_blank" class="project-link">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-
-        <!--details id="code-details">
-            <summary>View EventBus.cs</summary>
+        <details id="code-details">
+            <summary>View Event Bus Script <i class="fab fa-github"></i></summary>
             <div class="code-editor">
-                <pre><code id="code-block">Loading...</code></pre>
+                <pre><code id="event-bus">Loading...</code></pre>
             </div>
-        </details-->
+        </details>
 
         <br>
 
@@ -54,30 +58,37 @@
 
         <br>
 
-        <div class="repo-link">
+        <!--div class="repo-link">
             <span><p>Enemy State Machine Script:</p></span>
             <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/EnemyStateMachine/StateMachine/FiniteStateMachine.cs" target="_blank" class="project-link">
                 <i class="fab fa-github"></i>
             </a>
-        </div>
+        </div-->
+
+        <details id="code-details">
+            <summary>View Enemy State Machine Script <i class="fab fa-github"></i></summary>
+            <div class="code-editor">
+                <pre><code id="enemy-stm">Loading...</code></pre>
+            </div>
+        </details>
 
         <br>
 
-        <div class="repo-link">
-            <span><p>Enemy Charge State Sample:</p></span>
-            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/EnemyStateMachine/BaseStates/ChargeState.cs" target="_blank" class="project-link">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
+        <details id="code-details">
+            <summary>View Enemy Charge State Sample <i class="fab fa-github"></i></summary>
+            <div class="code-editor">
+                <pre><code id="enemy-charge-state">Loading...</code></pre>
+            </div>
+        </details>
 
         <br>
 
-        <div class="repo-link">
-            <span><p>Player Ascend State Sample:</p></span>
-            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/Player/PlayerStates/SubStates/PlayerAscendState.cs" target="_blank" class="project-link">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
+        <details id="code-details">
+            <summary>View Player Ascend State Sample <i class="fab fa-github"></i></summary>
+            <div class="code-editor">
+                <pre><code id="player-ascend-state">Loading...</code></pre>
+            </div>
+        </details>
         <p>The Ascend ability/state warps the player through terrain.</p>
 
         <br>
@@ -99,12 +110,12 @@
 
         <br>
 
-        <div class="repo-link">
-            <span><p>Update Manager:</p></span>
-            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/Game/UpdateManager.cs" target="_blank" class="project-link">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
+        <details id="code-details">
+            <summary>View Update Manager Script <i class="fab fa-github"></i></summary>
+            <div class="code-editor">
+                <pre><code id="update-manager">Loading...</code></pre>
+            </div>
+        </details>
 
         <br>
 
@@ -126,21 +137,21 @@
 
         <br>
 
-        <div class="repo-link">
-            <span><p>Widget Stack &amp; Pooling System:</p></span>
-            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/UI/WidgetManager.cs" target="_blank" class="project-link">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
+        <details id="code-details">
+            <summary>View Widget Stack &amp; Pooling System <i class="fab fa-github"></i></summary>
+            <div class="code-editor">
+                <pre><code id="widget-manager">Loading...</code></pre>
+            </div>
+        </details>
 
         <br>
 
-        <div class="repo-link">
-            <span><p>Widget Base Class:</p></span>
-            <a href="https://github.com/fabianfroding/project-jolly-src/blob/master/UI/WidgetBase.cs" target="_blank" class="project-link">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
+        <details id="code-details">
+            <summary>View Widget Base Class <i class="fab fa-github"></i></summary>
+            <div class="code-editor">
+                <pre><code id="widget-base">Loading...</code></pre>
+            </div>
+        </details>
 
         <br>
 
@@ -213,15 +224,47 @@
 
 </style>
     
-<script>
-    async function loadCode() {
-        try {
-            const response = await fetch("https://raw.githubusercontent.com/fabianfroding/project-jolly-src/master/Events/EventBus.cs");
-            const text = await response.text();
-            document.getElementById("code-block").textContent = text; 
-        } catch (err) {
-            document.getElementById("code-block").textContent = "Failed to load code: " + err;
-        }
+<script setup>
+    import { onMounted } from "vue";
+
+    const eventBusURL = "https://raw.githubusercontent.com/fabianfroding/project-jolly-src/master/Events/EventBus.cs";
+    const eventBusID = "event-bus";
+
+    const enemySTMURL = "https://raw.githubusercontent.com/fabianfroding/project-jolly-src/refs/heads/master/EnemyStateMachine/StateMachine/FiniteStateMachine.cs";
+    const enemySTMID = "enemy-stm";
+
+    const enemyChargeStateURL = "https://raw.githubusercontent.com/fabianfroding/project-jolly-src/refs/heads/master/EnemyStateMachine/BaseStates/ChargeState.cs";
+    const enemyChargeStateID = "enemy-charge-state";
+
+    const playerAscendStateURL = "https://raw.githubusercontent.com/fabianfroding/project-jolly-src/refs/heads/master/Player/PlayerStates/SubStates/PlayerAscendState.cs";
+    const playerAscendStateID = "player-ascend-state";
+
+    const updateManagerURL = "https://raw.githubusercontent.com/fabianfroding/project-jolly-src/refs/heads/master/Game/UpdateManager.cs";
+    const updateManagerID = "update-manager";
+
+    const widgetManagerURL = "https://raw.githubusercontent.com/fabianfroding/project-jolly-src/refs/heads/master/UI/WidgetManager.cs";
+    const widgetManagerID = "widget-manager";
+
+    const widgetBaseURL = "https://raw.githubusercontent.com/fabianfroding/project-jolly-src/refs/heads/master/UI/WidgetBase.cs";
+    const widgetBaseID = "widget-base";
+
+    async function loadCode(Url, elementId) {
+    try {
+        const response = await fetch(Url);
+        const text = await response.text();
+        document.getElementById(elementId).textContent = text; 
+    } catch (err) {
+        document.getElementById(elementId).textContent = "Failed to load code: " + err;
     }
-    loadCode();
+    }
+
+    onMounted(() => {
+        loadCode(eventBusURL, eventBusID);
+        loadCode(enemySTMURL, enemySTMID);
+        loadCode(enemyChargeStateURL, enemyChargeStateID);
+        loadCode(playerAscendStateURL, playerAscendStateID);
+        loadCode(updateManagerURL, updateManagerID);
+        loadCode(widgetManagerURL, widgetManagerID);
+        loadCode(widgetBaseURL, widgetBaseID);
+    });
 </script>

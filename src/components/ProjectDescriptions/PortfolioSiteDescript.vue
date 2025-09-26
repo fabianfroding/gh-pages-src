@@ -15,6 +15,8 @@
             A detailed and modern layout that highlights my work effectively.
             <br><br>
             The website serves as a platform to present my projects, skills, and experiences in a visually appealing manner.
+            <br><br>
+            It uses Vue components for modularization and JS requests to fetch the latest code from my showcased projects' repositories.
         </p>
         <p class="tool-used">Tools Used:
             <br> • <strong>Github Pages</strong>

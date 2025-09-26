@@ -13,11 +13,11 @@ export default {
       return {
           projectDetails: {
             id: "portfoliosite",
-            title: "Portfolio Website",
+            title: "My Website",
             subtitle: "",
             category: "software",
-            duration: "2020",
-            displayOrder: 2,
+            duration: "2020 - Present",
+            displayOrder: 0,
             route: "/portfoliosite",
             previewImage: "portfoliosite00.jpg",
             company: "Solo Project",
