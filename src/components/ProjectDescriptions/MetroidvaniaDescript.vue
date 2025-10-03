@@ -81,15 +81,18 @@
             </div>
         </details>
 
-        <br>
+        <br><br>
 
+        <div>
+            <img class="detail-img" :src="require(`@/resources/project-images/metroidvania08.gif`)" />
+        </div>
+        <p>The Ascend ability/state warps the player through terrain.</p>
         <details id="code-details">
             <summary>View Player Ascend State Sample <i class="fab fa-github"></i></summary>
             <div class="code-editor">
                 <pre><code id="player-ascend-state">Loading...</code></pre>
             </div>
         </details>
-        <p>The Ascend ability/state warps the player through terrain.</p>
 
         <br>
 
@@ -220,6 +223,15 @@
 .repo-link a {
   display: flex;
   align-items: center;
+}
+
+.detail-img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  align-content: left;
 }
 
 </style>

@@ -25,7 +25,7 @@ export default {
             description: "A 2D action platformer hybrid inspired by Hollow Knight.",
             highlights: ["Programming", "Game Design", "2D Art", "Project Manager"],
             links: [ { url: "https://github.com/fabianfroding/project-jolly-src", icon: "fab fa-github" } ],
-            mainImage: {name: "metroidvania03.gif", index: 0},
+            mainImage: {name: "metroidvania07.gif", index: 0},
             images: [[
                 {name: "metroidvania00.jpg", index: 1},
                 {name: "metroidvania03.jpg", index: 2},
