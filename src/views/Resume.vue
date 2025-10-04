@@ -7,10 +7,13 @@
                 </div>
                 <div class="timeline">
                     <ul>
-                        <li class="date">
-                            <p>Resume.pdf</p><p class="timeline-job-spec"></p>
+                        <li class="date global-link">
+                            <p>
+                                <a href="/Resume_FabianFroding.pdf" target="_blank">Resume.pdf</a>
+                            </p>
+                            <p class="timeline-job-spec"></p>
                         </li>
-					</ul>
+                    </ul>
                 </div>
             </div>
         </section>
