@@ -43,21 +43,21 @@
 								<div class="icon-container">
 									<i class="fa-brands fa-unity"></i>
 								</div>
-								<h3>Developing my own game in Unity</h3>
+								<h3>Developing a 2D game in Unity</h3>
 							</div>
 
 							<div class="skill">
 								<div class="icon-container">
-									<i class="fa-solid fa-paintbrush"></i>
+									<i class="fa-solid fa-gear"></i>
 								</div>
-								<h3>Drawing 2D art and animations</h3>
+								<h3>Tinkering with State Trees in UE 5.7</h3>
 							</div>
 
 							<div class="skill">
 								<div class="icon-container">
-									<i class="fa-solid fa-book"></i>
+									<i class="fa-solid fa-dungeon"></i>
 								</div>
-								<h3>Reading about software engineering practices</h3>
+								<h3>Working on my Warcraft 3 Mod</h3>
 							</div>
 						</div>
 					</div>
