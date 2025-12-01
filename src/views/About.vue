@@ -8,8 +8,11 @@
 				<div class="about-details">
 					<h3>Background:</h3>
 					<p>
-						I’m a developer who loves clean architecture, smart UI systems, and code that future-me won’t regret.
-						I get most joy from well-organized architecture and code that does its job without being bloated. 
+						I'm a developer with a love for software architecture, designing intuitive UI-systems, 
+						and collaborating with people around me.
+						<br>
+						I get most joy from developing features without leaving a trail of technical debt behind them.
+						<br>
 						My career started with modding games and evolved into building systems that feel good to use, 
 						both for users and for teammates.
                     </p>
@@ -41,6 +44,13 @@
 						<div class="busy-grid">
 							<div class="skill">
 								<div class="icon-container">
+									<i class="fa-solid fa-dungeon"></i>
+								</div>
+								<h3>Working on Post-game content for Abyssus at DoubleMoose Games</h3>
+							</div>
+
+							<div class="skill">
+								<div class="icon-container">
 									<i class="fa-brands fa-unity"></i>
 								</div>
 								<h3>Developing a 2D game in Unity</h3>
@@ -51,13 +61,6 @@
 									<i class="fa-solid fa-gear"></i>
 								</div>
 								<h3>Tinkering with State Trees in UE 5.7</h3>
-							</div>
-
-							<div class="skill">
-								<div class="icon-container">
-									<i class="fa-solid fa-dungeon"></i>
-								</div>
-								<h3>Working on my Warcraft 3 Mod</h3>
 							</div>
 						</div>
 					</div>

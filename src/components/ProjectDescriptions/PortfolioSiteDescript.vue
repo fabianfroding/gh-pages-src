@@ -6,16 +6,11 @@
         <span class="align-right"><strong>Status</strong>: Deployed</span></h6>
         <div class="separator-line"></div>
         <p>
-            This portfolio website is a showcase of my projects and skills, built using Vue and Github Pages. It features:
+            This portfolio website is a showcase of my projects and skills, built using Vue and Github Pages.
+            The  site was built from ground up, including structuring the HTML document, designing all the layout with CSS, 
+            various scripting functionalities with JavaScript, and Vue for reusable components and architecture.
             <br><br>
-            A responsive design that adapts to various screen sizes.
-            <br><br>
-            Smooth animations and transitions for an engaging user experience.
-            <br><br>
-            A detailed and modern layout that highlights my work effectively.
-            <br><br>
-            The website serves as a platform to present my projects, skills, and experiences in a visually appealing manner.
-            <br><br>
+            The website serves as a platform to present my projects, skills, and experiences.
             It uses Vue components for modularization and JS requests to fetch the latest code from my showcased projects' repositories.
         </p>
         <p class="tool-used">Tools Used:

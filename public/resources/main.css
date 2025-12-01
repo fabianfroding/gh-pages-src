@@ -4,8 +4,8 @@
     --gradient-theme-end: #324891be;
 
     --text-theme-generic: #DADADA;
-    --text-theme-link: #2e438d; /*#4267b2*/ /*#7878FF*/;
-    --text-theme-link-active: #4a6be3;
+    --text-theme-link: #687ecf; /*#4267b2*/ /*#7878FF*/;
+    --text-theme-link-active: #7d99ff;
   }
 /* END CUSTOM PROPERTIES */
 
@@ -547,7 +547,8 @@ li {
 
 .portfolio-description p {
     font-size: 1.25rem;
-    line-height: 1.8rem;
+    line-height: 2.25rem;
+    font-weight: 350;
     color: var(--text-theme-generic);
 }
 
@@ -657,6 +658,11 @@ li {
     text-transform: none;
     font-weight: 500;
     font-size: 35px;
+}
+
+.project-details h2 {
+    font-weight: 350;
+    font-size: 18px;
 }
 
 /* END PORTFOLIO */
