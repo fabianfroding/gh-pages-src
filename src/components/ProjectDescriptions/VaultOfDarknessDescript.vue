@@ -1,68 +1,125 @@
 <template>
     <div>
         <div>
-        <h6 class="job-title"><span><strong>Development Period</strong>: 2019-2020</span>
+        <h6 class="job-title"><span><strong>Development Period</strong>: 2019</span>
         <span class="align-right"><strong>Engine</strong>: Warcraft 3 World Editor</span></h6>
         <h6 class="job-title"><span><strong>Solo Project</strong></span>
-        <span class="align-right"><strong>Status</strong>: Alpha</span></h6>
+        <span class="align-right"><strong>Status</strong>: Completed Prototype</span></h6>
         <div class="separator-line"></div>
         <p>
             Vault of Darkness is a dungeon-crawler mod for Warcraft 3: The Frozen Throne.
-            The mod allows 1-4 players to control a group of custom heroes and descend into a dark desert dungeon.
+            The mod allows 1-6 players to control a group of custom heroes and descend into a dark desert dungeon.
             Players must collaborate to solve puzzles, and strategize to overcome coordination-demanding and reaction-based boss fights.
-            <!--br><br>
-            Main features include 
-            <strong>scripted enemy AI</strong>, 
-            <strong>dynamic hero selection system</strong>,
-            a <strong>custom damage system</strong>, 
-            <strong>scripted custom abilities</strong>,
-            <strong>custom items</strong>,
-            <strong>custom UI</strong>, and
-            <strong>custom textures for all units</strong>.
-            <br><br>
-            The level design was heavily inspired by The Temple of Ahn'Qiraj from World of Warcraft and Agon Wastes from Metroid Prime 2: Echoes.
-            My main goal was to create a feeling of a desolate wasteland for the exterior, and a enigmatic atmosphere for the dungeon interior.<br-->
+            The mod was scripted using JASS, Warcraft III's native scripting language.
         </p>
-
-        <br><br>
-
+        <br>
         </div>
 
         <div>
-        <h1>
-            Responsibilities
-        </h1>
-        <br>
-            <h2>Game and Level Design</h2>
+            <h2>Media:</h2>
+            <ul>
+                <li class="global-link">
+                    <p>
+                        <a href="/resources/project-files/VoD1.0c.w3x" download>
+                            Download: Vault of Darkness Version 1.0c
+                        </a>
+                    </p>
+                </li>
+            </ul>
+            <p>
+                Requires Warcraft III: The Frozen Throne to play.
+            </p>
             <br>
             <p>
-                <ul>
-                <li>Designed 6 custom heroes with custom abilities.</li>
-                <li>Created 20+ custom enemies/bosses with custom abilities.</li>
-                <li>Created 40+ custom items with scripted custom effects.</li>
-                <li>Designed encounter rooms and the progression system.</li>
-                </ul>
+                In order to play the mod put the VoD1.0c.w3x file into your Warcraft 3 Maps folder, 
+                then start it in the game by locating "Vault of Darkness".
             </p>
-            <br><br>
+        </div>
+        <br>
 
+        <div>
+        <h1>
+            Features Developed
+        </h1>
+        <br>
             <h2>Scripting</h2>
             <br>
             <p>
                 <ul>
                 <li>Developed a dynamic hero selection system suited for a dungeon crawler.</li>
                 <li>Scripted a custom damage system.</li>
-                <li>Implemented 50+ scripted custom abilities for heroes/enemies.</li>
+                <li>Implemented 50+ scripted custom abilities for heroes and enemies.</li>
                 <li>Custom enemy AI behavior.</li>
                 </ul>
             </p>
+
             <br>
-            <p>Sample Scripts:</p>
+            <p>Sample Ability Script "Radiant Nova". Heals targets in an area where the amount is split among the number of targets.</p>
+            <details id="code-details">
+                <summary>View Radiant Nova Sample Script <i class="fab fa-github"></i></summary>
+                <div class="code-editor">
+                    <pre><code id="radiant-nova">Loading...</code></pre>
+                </div>
+            </details>
+            <br>
+
+            <br>
+            <p>Sample AI script to determine when an enemy should use an ability based on remaining HP and cooldown states.</p>
+            <details id="code-details">
+                <summary>View Enemy AI Sample Script <i class="fab fa-github"></i></summary>
+                <div class="code-editor">
+                    <pre><code id="enemy-ai">Loading...</code></pre>
+                </div>
+            </details>
+            <br>
+
+            <br>
+            <p>Sample script that fetches a custom stat, Spell Power, based on the unit's status and equipped items.</p>
+            <details id="code-details">
+                <summary>View Fetch Custom Stat Script <i class="fab fa-github"></i></summary>
+                <div class="code-editor">
+                    <pre><code id="fetch-stat">Loading...</code></pre>
+                </div>
+            </details>
+            <br>
+
+            <p>Script Repository:</p>
             <a href="https://github.com/fabianfroding/wc3-vod-jass" target="_blank" class="project-link">
                 <i class="fab fa-github"></i>
             </a>
-            <br><br>
+            <br><br><br><br>
 
-            
+            <h2>Game and Level Design</h2>
+            <br>
+            <p>
+                <ul>
+                <li>Designed 7 custom heroes with custom abilities.</li>
+                <li>Created 20+ custom enemies/bosses with custom abilities.</li>
+                <li>Designed dungeon layout, encounter rooms and a progression system.</li>
+                </ul>
+            </p>
+
+            <br>
+            <p>Dungeon Layout Birdsview</p>
+            <details id="code-details">
+                <summary>View Dungeon Layout <i class="fab fa-github"></i></summary>
+                <div class="code-editor">
+                    <img src="/resources/project-files/vod-06.png">
+                </div>
+            </details>
+            <br>
+
+            <br>
+            <p>Maze Room</p>
+            <details id="code-details">
+                <summary>View Maze Room <i class="fab fa-github"></i></summary>
+                <div class="code-editor">
+                    <img src="/resources/project-files/vod-07.png">
+                </div>
+            </details>
+            <br>
+
+            <br><br><br>
 
             <h2>Art</h2>
             <br>
@@ -93,3 +150,33 @@
         </div>
     </div>
 </template>
+
+<script setup>
+    import { onMounted } from "vue";
+
+    const radiantNovaURL = "https://raw.githubusercontent.com/fabianfroding/wc3-vod-jass/refs/heads/master/CustomAbilityRadiantNova_Sample.txt";
+    const radiantNovaID = "radiant-nova";
+
+    const enemyAIURL = "https://raw.githubusercontent.com/fabianfroding/wc3-vod-jass/refs/heads/master/EnemyAbilityUsageAI_Sample.txt";
+    const enemyAIID = "enemy-ai";
+
+    const fetchStatURL = "https://raw.githubusercontent.com/fabianfroding/wc3-vod-jass/refs/heads/master/FetchCustomStat_Sample.txt";
+    const fetchStatID = "fetch-stat";
+
+    async function loadCode(Url, elementId) {
+    try {
+        const response = await fetch(Url);
+        const text = await response.text();
+        document.getElementById(elementId).textContent = text; 
+    } catch (err) {
+        document.getElementById(elementId).textContent = "Failed to load code: " + err;
+    }
+    }
+
+    onMounted(() => {
+        loadCode(radiantNovaURL, radiantNovaID);
+        loadCode(enemyAIURL, enemyAIID);
+        loadCode(fetchStatURL, fetchStatID);
+    });
+</script>
+

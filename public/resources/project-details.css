@@ -60,6 +60,31 @@
     border: 4px solid rgba(255, 255, 255, 0.15);
 }
 
+.repo-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.repo-link a {
+  display: flex;
+  align-items: center;
+}
+
+.detail-img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  align-content: left;
+}
+
+.global-link
+{
+    list-style: none;;
+}
+
 @media screen and (max-width: 800px) {
     .project-thumbnail-gallery-col {
         flex: 50%;

@@ -211,30 +211,6 @@
         </section>
     </div>
 </template>
-
-<style scoped>
-
-.repo-link {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.repo-link a {
-  display: flex;
-  align-items: center;
-}
-
-.detail-img {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-  align-content: left;
-}
-
-</style>
     
 <script setup>
     import { onMounted } from "vue";
