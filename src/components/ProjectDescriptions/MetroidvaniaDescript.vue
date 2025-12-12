@@ -6,10 +6,13 @@
         <span class="align-right"><strong>Status</strong>: Alpha</span></h6>
         <div class="separator-line"></div>
         <p>
-            'Emissary' is an experimental 2D action platformer sample inspired by Hollow Knight. 
-            In this project I showcase various core game systems and gameplay mechanics that I coded.
-            All systems were coded from scratch without any third-party frameworks.
-            Below is a list examples of systems that I created with links to the specific parts of the project repository.
+            Emissary is an experimental 2D action-platformer prototype inspired by Hollow Knight, 
+            developed as an ongoing exploration of gameplay systems, code architecture, and performance optimization in Unity. 
+            Throughout the project I focused on building all core systems entirely from scratch—without third-party frameworks—to deepen
+            my understanding of robust game-engineering practices. 
+            The project currently remains in active development and is in an Alpha state.
+            <br>
+            Below, I highlight several major systems I implemented, each accompanied by direct links to the relevant portions of the project repository.
         </p>
 
         <br><br>
@@ -28,14 +31,12 @@
         <h1>Code Architecture</h1>
 
         <p>
-            One lesson I quickly realized when working in Unity's C# is how tightly coupled the codebase can become when using events and actions.
-            To find a solution to this, I found 
-            <a href="https://www.youtube.com/watch?v=raQ3iHhE_Kk" target="_blank" class="global-link">
-                an interesting talk about using Scriptable Objects
-            </a>
-            as event delegates to prevent classes creating dependencies to each other. While this approach works, I found an even
-            better alternative, the Event Bus. I wrote the event bus purely in C# to reduce Unity overhead and decoupled from the Unity ecosystem.
-            In addition, when using many events in a game it can affect performance, so a pure C# solution contributes to that aspect as well.
+            Early in development, I encountered one of Unity’s common architectural challenges: 
+            the tendency for event-driven systems to become tightly coupled when implemented through delegates and actions. 
+            While ScriptableObjects provided a partial solution, I ultimately developed a custom C# Event Bus, 
+            fully decoupled from Unity-specific constructs. 
+            This approach reduces engine overhead, improves testability, and provides a scalable event-dispatching mechanism 
+            suitable for complex gameplay systems.
         </p>
 
         <br>
@@ -52,8 +53,9 @@
         <h1>State Machine System</h1>
 
         <p>
-            For the player and AI-characters, I used a state machine system. These classes were made pure C# classes since they don't needed to
-            represent game objects in the world, and to prevent unnecessary Unity overhead.
+            Both player and enemy behaviors are driven by a lightweight, extendable state machine framework written in pure C#. 
+            Since these classes do not need to represent in-world objects, 
+            keeping them independent of Unity’s MonoBehaviour architecture avoids unnecessary overhead and allows for clear, modular logic.
         </p>
 
         <br>
@@ -86,7 +88,10 @@
         <div>
             <img class="detail-img" :src="require(`@/resources/project-images/metroidvania08.gif`)" />
         </div>
-        <p>The Ascend ability/state warps the player through terrain.</p>
+        <p>
+            This system supports various gameplay states—from navigation and combat logic to more specialized abilities 
+            such as the player’s Ascend mechanic, which temporarily phases the character through terrain.
+        </p>
         <details id="code-details">
             <summary>View Player Ascend State Sample <i class="fab fa-github"></i></summary>
             <div class="code-editor">
@@ -101,14 +106,12 @@
         <br>
 
         <p>
-            During the project, I explored various tips and tricks in Unity. One that I applied is called the Update Manager.
-            In short, when individual MonoBehaviours in Unity run their Update() and FixedUpdate() functions, those execute with hidden Unity overhead
-            checks.
-            The Update Manager, which is a variant of the Observer programming pattern, is a clever way to bypass these overhead checks when having
-            numerous game objects in a scene.
+            As the project grew, I explored several performance-oriented techniques within Unity. 
+            One of the most impactful was the implementation of a centralized Update Manager, based on the Observer pattern. 
+            Instead of allowing numerous MonoBehaviours to individually execute Update() and FixedUpdate()—each 
+            incurring engine-side overhead—objects subscribe to a unified manager that invokes their update logic directly.
             <br><br>
-            The update manager register and tracks each object that needs tp be updated, and runs a custom update function on each of them.
-            This way, the only game object i nthe entire game using Unity's default Update() and FixedUpdate() functions is the update manager.
+            This reduces costs, improves predictability, and ensures that the only object relying on Unity’s default update loops is the manager itself.
         </p>
 
         <br>
@@ -131,11 +134,11 @@
         <br>
 
         <p>
-            Using my professional experience in UI programming, I crafted my own UI stack and pooling system inspired by Epic Games plugin Common UI.
-            <br><br>
-            You may ask, why pooling for a UI system? Pooling closed menues is much more efficient since destroying and recreating the menu 
-            game objects can be expensive for performance, especially if a user spams inputs and causing menues to toggle rapidly, which is something
-            developers need to be aware of when creating interactble systems.
+            Drawing on my professional experience, I designed a custom UI stack and pooling system inspired by Epic Games' Common UI framework.
+
+            Pooling UI elements dramatically improves performance, 
+            especially in fast-paced or input-heavy gameplay where menus may be opened and closed in rapid succession.
+             Avoiding frequent destruction and instantiation ensures smoother interactions and reduces frame spikes.
         </p>
 
         <br>
@@ -167,9 +170,10 @@
         <br>
 
         <p>
-            Working as an engineer both professionally and for side projects, creating 2D art was a needed and fun task, and challenge.
-            All the art in the images were drawn and animated by myself, and while it is far from professional art, it is incredibly fun.
-            As with any craft, becoming better requires time and dedication, and is certainly gratifying when you see your skills improve.
+            Although my primary role is engineering, Emissary required a range of custom 2D assets. 
+            All art and animations showcased in the project were created by me. 
+            While I do not consider myself a professional artist, the process has been both challenging and rewarding, 
+            and has broadened my appreciation for the craft and its iterative nature.
         </p>
 
         <br>
@@ -181,8 +185,8 @@
         <h1>Collaboration</h1>
 
         <p>External Contributor: </p><p class="global-link"><a href="https://niguelchaos.github.io/" target="_blank">Nigel</a></p>
-        <p>Nigel and I worked together on this project. Before we parted ways, Nigel helped develop the camera system, 
-            and contributed to various game design, level design, and combat design aspects of the game.</p>
+        <p>Nigel contributed to early development, including the camera system, and supported several aspects of game, level, and combat design. 
+            His collaboration helped shape the project’s initial identity before our paths diverged.</p>
 
         <section class="services" id="resume">
             <div class="container">

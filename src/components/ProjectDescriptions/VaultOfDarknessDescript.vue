@@ -20,8 +20,8 @@
             <ul>
                 <li class="global-link">
                     <p>
-                        <a href="/resources/project-files/VoD1.0c.w3x" download>
-                            Download: Vault of Darkness Version 1.0c
+                        <a href="/resources/project-files/VoD0.1k.w3x" download>
+                            Download: Vault of Darkness.w3x
                         </a>
                     </p>
                 </li>
@@ -31,7 +31,7 @@
             </p>
             <br>
             <p>
-                In order to play the mod put the VoD1.0c.w3x file into your Warcraft 3 Maps folder, 
+                In order to play the mod put the VoD0.1k.w3x file into your Warcraft 3 Maps folder, 
                 then start it in the game by locating "Vault of Darkness".
             </p>
         </div>
