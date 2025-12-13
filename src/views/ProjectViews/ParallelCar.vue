@@ -17,7 +17,7 @@ export default {
             subtitle: "Group Project in Systems Development",
             category: "software",
             duration: "2018",
-            displayOrder: 5,
+            displayOrder: 11,
             route: "/parallelcar",
             previewImage: "parallel-car01.jpg",
             company: "Team Project",

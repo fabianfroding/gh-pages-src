@@ -16,7 +16,7 @@ export default {
               title: "Vault of Darkness",
               category: "game",
               duration: "2019",
-              displayOrder: 4,
+              displayOrder: 8,
               route: "/vod",
               previewImage: "vod-00.jpg",
               company: "Solo Project",

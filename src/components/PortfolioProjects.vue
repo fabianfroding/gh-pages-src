@@ -6,7 +6,7 @@
             <ul class="nav-list">
                 <li class="nav-link" @click="setFilter('game')" :class="{ active: filter === 'game' }">Games</li>
                 <li class="nav-link" @click="setFilter('software')" :class="{ active: filter === 'software' }">Software</li>
-                <li class="nav-link" @click="setFilter('misc')" :class="{ active: filter === 'misc' }">Research</li>
+                <!--li class="nav-link" @click="setFilter('misc')" :class="{ active: filter === 'misc' }">Research</li-->
                 <li class="nav-link" @click="setFilter('all')" :class="{ active: filter === 'all' }">All</li>
             </ul>
         </div>

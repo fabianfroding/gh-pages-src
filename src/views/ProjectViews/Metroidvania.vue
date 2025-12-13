@@ -16,7 +16,7 @@ export default {
             title: "'Emissary' - 2D Action Platformer",
             category: "game",
             duration: "2021 - Present",
-            displayOrder: 3,
+            displayOrder: 2,
             route: "/nara",
             previewImage: "metroidvania05.jpg",
             company: "Team Project",

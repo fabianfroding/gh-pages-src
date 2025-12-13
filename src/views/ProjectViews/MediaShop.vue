@@ -17,7 +17,7 @@ export default {
                 subtitle: "Product Registry & Conversion System",
                 category: "software",
                 duration: "2020",
-                displayOrder: 2,
+                displayOrder: 7,
                 route: "/mediashop",
                 previewImage: "media-shop01.jpg",
                 company: "Solo Project",

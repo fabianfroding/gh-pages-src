@@ -17,7 +17,7 @@ export default {
             subtitle: "",
             category: "software",
             duration: "2020 - Present",
-            displayOrder: 0,
+            displayOrder: 4,
             route: "/portfoliosite",
             previewImage: "portfoliosite00.jpg",
             company: "Solo Project",

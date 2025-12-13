@@ -17,7 +17,7 @@ export default {
                 subtitle: "Group Project in Cyber-Physical Systems",
                 category: "software",
                 duration: "2019",
-                displayOrder: 3,
+                displayOrder: 9,
                 route: "/cybercar",
                 previewImage: "cyber-car01.jpg",
                 company: "Team Project",

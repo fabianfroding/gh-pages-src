@@ -42,7 +42,7 @@ export default {
                 title: "Abyssus",
                 category: "game",
                 duration: "2022 - Present",
-                displayOrder: 0,
+                displayOrder: 1,
                 route: "/abyssus",
                 previewImage: "abyssus00.jpg",
                 company: "DoubleMoose Games",

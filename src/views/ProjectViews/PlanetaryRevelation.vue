@@ -16,7 +16,7 @@ export default {
               title: "Solar System Simulation",
               category: "game",
               duration: "2020",
-              displayOrder: 3,
+              displayOrder: 6,
               route: "/solarsystemsim",
               previewImage: "planetary-rev06.jpg",
               company: "Solo Project",

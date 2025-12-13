@@ -39,13 +39,31 @@
             </ul>
             <br>
             <p>
-                In order to play the simulation download the .zip-file and extract it,
-                <br>
-                then run SolarSystemSim.exe.
+                In order to play the simulation download the .zip-file and extract it, then run SolarSystemSim.exe.
             </p>
         </div>
 
-        <!-- TODO: Add script sample dropdowns -->
+        <br><br>
+        <h2>Script Samples</h2>
+        <br>
+
+        <p>Simulation script to update all velocities and then all positions.</p>
+        <details id="code-details">
+            <summary>View Body Simulator Script <i class="fab fa-github"></i></summary>
+            <div class="code-editor">
+                <pre><code id="body-simulator">Loading...</code></pre>
+            </div>
+        </details>
+        <br>
+
+        <p>Celestial Body script.</p>
+        <details id="code-details">
+            <summary>View Celestial Body Script <i class="fab fa-github"></i></summary>
+            <div class="code-editor">
+                <pre><code id="celestial-body">Loading...</code></pre>
+            </div>
+        </details>
+        <br>
 
         <br><br>
         <p>Project Repository:</p>
@@ -63,3 +81,28 @@
         <br><br>
     </div>
 </template>
+
+<script setup>
+    import { onMounted } from "vue";
+
+    const bodySimulatorURL = "https://raw.githubusercontent.com/fabianfroding/unity-planetary-revelation/refs/heads/master/Assets/Scripts/SolarSystem/BodySimulator.cs";
+    const bodySimulatorID = "body-simulator";
+
+    const celestialBodyURL = "https://raw.githubusercontent.com/fabianfroding/unity-planetary-revelation/refs/heads/master/Assets/Scripts/SolarSystem/CelestialBody.cs";
+    const celestialBodyID = "celestial-body";
+
+    async function loadCode(Url, elementId) {
+    try {
+        const response = await fetch(Url);
+        const text = await response.text();
+        document.getElementById(elementId).textContent = text; 
+    } catch (err) {
+        document.getElementById(elementId).textContent = "Failed to load code: " + err;
+    }
+    }
+
+    onMounted(() => {
+        loadCode(bodySimulatorURL, bodySimulatorID);
+        loadCode(celestialBodyURL, celestialBodyID);
+    });
+</script>

@@ -17,7 +17,7 @@ export default {
               subtitle: "Group Project in Distributed Systems",
               category: "software",
               duration: "2018",
-              displayOrder: 4,
+              displayOrder: 10,
               route: "/sourcecodemodeler",
               previewImage: "src-code-modeler01.jpg",
               company: "Team Project",

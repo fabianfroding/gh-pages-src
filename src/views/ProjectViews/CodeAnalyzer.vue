@@ -17,7 +17,7 @@ export default {
                 subtitle: "Visualization Tool for Software Architecture",
                 category: "software",
                 duration: "2020",
-                displayOrder: 1,
+                displayOrder: 5,
                 route: "/codeanalyzer",
                 previewImage: "code-analyzer03.jpg",
                 company: "Solo Project",
