@@ -135,7 +135,7 @@
                 aiding the design department to make informed decisions:
                 <br><br>
                 <ul>
-                <li>Implemented Amazon Web Servives.</li>
+                <li>Implemented Amazon Web Services.</li>
                 <li>Implemented Azure Playfab.</li>
                 <li>Handled communication with external partner related to player data collection.</li>
                 </ul>

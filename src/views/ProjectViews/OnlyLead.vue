@@ -14,7 +14,7 @@ export default {
           projectDetails: {
               id: "onlylead",
               title: "Only Lead Can Stop Them",
-              category: "game",
+              category: "misc",
               duration: "2021 - 2022",
               displayOrder: 3,
               route: "/onlylead",
