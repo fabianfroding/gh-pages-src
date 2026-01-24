@@ -6,13 +6,12 @@
         <span class="align-right"><strong>Status</strong>: Alpha</span></h6>
         <div class="separator-line"></div>
         <p>
-            Emissary is an experimental 2D action-platformer prototype inspired by Hollow Knight, 
+            Emissary is an experimental 2D action-platformer prototype, 
             developed as an ongoing exploration of gameplay systems, code architecture, and performance optimization in Unity. 
-            Throughout the project I focused on building all core systems entirely from scratch—without third-party frameworks—to deepen
-            my understanding of robust game-engineering practices. 
-            The project currently remains in active development and is in an Alpha state.
+            Throughout the project I focused on building all core systems from scratch to deepen my understanding of game engineering practices. 
+            The project currently remains in active development state.
             <br>
-            Below, I highlight several major systems I implemented, each accompanied by direct links to the relevant portions of the project repository.
+            Below, I highlight some of the systems I implemented, with direct links to the relevant sections of the project repository.
         </p>
 
         <br><br>
@@ -53,9 +52,9 @@
         <h1>State Machine System</h1>
 
         <p>
-            Both player and enemy behaviors are driven by a lightweight, extendable state machine framework written in pure C#. 
+            Both player and enemy behaviors are driven by a state machine framework written in pure C#. 
             Since these classes do not need to represent in-world objects, 
-            keeping them independent of Unity’s MonoBehaviour architecture avoids unnecessary overhead and allows for clear, modular logic.
+            keeping them independent of Unity’s MonoBehaviour architecture avoids unnecessary overhead.
         </p>
 
         <br>
@@ -90,7 +89,7 @@
         </div>
         <p>
             This system supports various gameplay states—from navigation and combat logic to more specialized abilities 
-            such as the player’s Ascend mechanic, which temporarily phases the character through terrain.
+            such as the player’s Ascend ability, which temporarily phases the character through terrain.
         </p>
         <details id="code-details">
             <summary>View Player Ascend State Sample <i class="fab fa-github"></i></summary>
@@ -106,7 +105,7 @@
         <br>
 
         <p>
-            As the project grew, I explored several performance-oriented techniques within Unity. 
+            I've explored several performance-oriented techniques within Unity. 
             One of the most impactful was the implementation of a centralized Update Manager, based on the Observer pattern. 
             Instead of allowing numerous MonoBehaviours to individually execute Update() and FixedUpdate()—each 
             incurring engine-side overhead—objects subscribe to a unified manager that invokes their update logic directly.
@@ -134,11 +133,11 @@
         <br>
 
         <p>
-            Drawing on my professional experience, I designed a custom UI stack and pooling system inspired by Epic Games' Common UI framework.
+            Drawing on my professional experiencein Unreal Engine, I designed a custom UI stack and pooling system inspired by Epic Games' Common UI framework.
 
             Pooling UI elements dramatically improves performance, 
             especially in fast-paced or input-heavy gameplay where menus may be opened and closed in rapid succession.
-             Avoiding frequent destruction and instantiation ensures smoother interactions and reduces frame spikes.
+            Avoiding frequent destruction and instantiation ensures smoother interactions and reduces frame spikes.
         </p>
 
         <br>
@@ -170,7 +169,7 @@
         <br>
 
         <p>
-            Although my primary role is engineering, Emissary required a range of custom 2D assets. 
+            Although my primary role is engineering, Emissary has a range of custom 2D assets. 
             All art and animations showcased in the project were created by me. 
             While I do not consider myself a professional artist, the process has been both challenging and rewarding, 
             and has broadened my appreciation for the craft and its iterative nature.

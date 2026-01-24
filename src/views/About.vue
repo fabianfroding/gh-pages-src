@@ -8,28 +8,25 @@
 				<div class="about-details">
 					<h3>Background:</h3>
 					<p>
-						I'm a developer with a love for software architecture, designing intuitive UI-systems, 
-						and collaborating with people around me.
-						<br>
-						I get most joy from developing features without leaving a trail of technical debt behind them.
-						<br>
-						My career started with modding games and evolved into building systems that feel good to use, 
-						both for users and for teammates.
+						I'm a developer efficient at creating features, systems and rapid prototyping.
+						My journey in programming started by scripting mods for games, which evolved into a curiosity for problem-solving.
+						After earning my degree in software engineering, I've now worked both in the tech and game industry.
+						Apart from bringing expertise in technical areas, and also assist and support the team I work with.
                     </p>
 					<div class="separator-line"></div>
 					<br>
 					<h3>User-Centric Approach:</h3>
 					<p>
-						I’m big on user experience—not just for end users, but for the people building alongside me. 
-						If I can make a tool faster to use, a workflow easier to follow, or a teammate’s day a little less annoying, 
+						I’m big on user experience — not just for end users, but for the people working alongside me. 
+						If I can make a tool faster to use, a workflow easier to follow, or a teammate’s task easier to achieve, 
 						I’m doing my job right.
                     </p>
 					<div class="separator-line"></div>
 					<br>
 					<h3>Soft Skills:</h3>
 					<p>
-						I value empathy, clarity, and trust as much as technical skill. 
-						I’m at my best when I get to blend all three—thinking deeply, building thoughtfully, and collaborating openly. 
+						I value clarity, trust and empathy as much as technical skill. 
+						I’m at my best when I get to blend them all - collaborating openly and building thoughtfully. 
 						If I can make both the project and the process better, I’m happy.
                     </p>
                 </div>
@@ -60,7 +57,7 @@
 								<div class="icon-container">
 									<i class="fa-solid fa-gear"></i>
 								</div>
-								<h3>Tinkering with State Trees in UE 5.7</h3>
+								<h3>Exploring and tinkering with features in UE 5.7</h3>
 							</div>
 						</div>
 					</div>
