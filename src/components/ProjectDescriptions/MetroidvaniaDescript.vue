@@ -6,12 +6,12 @@
         <span class="align-right"><strong>Status</strong>: Alpha</span></h6>
         <div class="separator-line"></div>
         <p>
-            Emissary is an experimental 2D action-platformer prototype, 
-            developed as an ongoing exploration of gameplay systems, code architecture, and performance optimization in Unity. 
-            Throughout the project I focused on building all core systems from scratch to deepen my understanding of game engineering practices. 
+            Emissary is a 2D action-platformer project, 
+            developed as an ongoing exploration of gameplay systems and code architectures in Unity. 
+            Throughout the project I focused on building all core systems from scratch. 
             The project currently remains in active development state.
             <br>
-            Below, I highlight some of the systems I implemented, with direct links to the relevant sections of the project repository.
+            Below, I highlight some of the systems I implemented, with links to the relevant sections of the project repository.
         </p>
 
         <br><br>

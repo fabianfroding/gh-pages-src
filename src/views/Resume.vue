@@ -72,7 +72,7 @@
             </div>
         </section>
 
-		<div class="separator-line"></div>
+		<!--div class="separator-line"></div>
 
 		<section class="services" id="resume">
 			<div class="container">
@@ -94,7 +94,7 @@
                     </div>
 				</div>
 			</div>
-        </section>
+        </section-->
 
 		<Footer :showArrow="true"></Footer>
 	</div>

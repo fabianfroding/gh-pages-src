@@ -32,7 +32,7 @@
                         <h6 class="job-title"><strong><span>{{ project.company }}</span></strong>
                         <strong><span class="align-right">{{ project.jobtitle }}</span></strong></h6>
                         <h6 class="job-title"><strong><span>{{ project.tool }}</span></strong>
-                        <strong><span class="align-right">{{ project.duration }}</span></strong></h6>
+                        <!--strong><span class="align-right">{{ project.duration }}</span></strong--></h6>
                         <br />
                         <p>{{ project.description }}</p>
                         <p class="cta">
@@ -68,7 +68,6 @@ import MediaShop from '@/views/ProjectViews/MediaShop.vue';
 import Metroidvania from '@/views/ProjectViews/Metroidvania.vue';
 import ParallelCar from '@/views/ProjectViews/ParallelCar.vue';
 import PlanetaryRevelation from '@/views/ProjectViews/PlanetaryRevelation.vue';
-import PortfolioSite from '@/views/ProjectViews/PortfolioSite.vue';
 import SourceCodeModeler from '@/views/ProjectViews/SourceCodeModeler.vue';
 import VaultOfDarkness from '@/views/ProjectViews/VaultOfDarkness.vue';
 
@@ -84,7 +83,6 @@ export default {
             Metroidvania.data().projectDetails,
             ParallelCar.data().projectDetails,
             PlanetaryRevelation.data().projectDetails,
-            PortfolioSite.data().projectDetails,
             SourceCodeModeler.data().projectDetails,
             VaultOfDarkness.data().projectDetails
         ],

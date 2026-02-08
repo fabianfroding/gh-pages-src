@@ -22,7 +22,7 @@ export default {
             company: "Team Project",
             jobtitle: "Various Roles",
             tool: "Unity 6",
-            description: "A 2D action platformer hybrid inspired by Hollow Knight.",
+            description: "A 2D action platformer codebase with a state machine system.",
             highlights: ["Programming", "Game Design", "2D Art", "Project Manager"],
             links: [ { url: "https://github.com/fabianfroding/project-jolly-src", icon: "fab fa-github" } ],
             mainImage: {name: "metroidvania07.gif", index: 0},

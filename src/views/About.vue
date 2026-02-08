@@ -6,28 +6,22 @@
 					<img src="../resources/profile-pic.jpg">
 				</div>
 				<div class="about-details">
-					<h3>Background:</h3>
+					<h3></h3>
 					<p>
-						I'm a developer efficient at creating features, systems and rapid prototyping.
-						My journey in programming started by scripting mods for games, which evolved into a curiosity for problem-solving.
-						After earning my degree in software engineering, I've now worked both in the tech and game industry.
-						Apart from bringing expertise in technical areas, and also assist and support the team I work with.
+						Hi! My name is Fabian and I am a programmer with a versatile background.
+						My journey as a developer began by creating mods in computer games as a child, which exposed me to the world of programming.
+						After earning my bachelor's degree in Software Engineering, 
+						I continued studying courses in data science, UX, and AI for games, 
+						while at the same time working as a part-time software engineer. I then moved on to a game studio, where I'm currently residing.
                     </p>
 					<div class="separator-line"></div>
 					<br>
-					<h3>User-Centric Approach:</h3>
+					<h3></h3>
 					<p>
-						I’m big on user experience — not just for end users, but for the people working alongside me. 
-						If I can make a tool faster to use, a workflow easier to follow, or a teammate’s task easier to achieve, 
-						I’m doing my job right.
-                    </p>
-					<div class="separator-line"></div>
-					<br>
-					<h3>Soft Skills:</h3>
-					<p>
-						I value clarity, trust and empathy as much as technical skill. 
-						I’m at my best when I get to blend them all - collaborating openly and building thoughtfully. 
-						If I can make both the project and the process better, I’m happy.
+						My goal as a programmer is to always to deliver easy-to-use systems, both for the client and my team. I find it equally (if not more)
+						gratifying to help those around me as delivering to the client.
+						I have a passion for modular software design and spend a good chunk of my spare time 
+						experimenting with different architectures that I then apply to my projects and share with my workmates.
                     </p>
                 </div>
 			</div>
@@ -37,27 +31,27 @@
             <div class="container">
                 <div class="my-skills">
                     <div class="skill fav-games">
-						<h1>Currently busy with</h1>
+						<h1>Current Projects</h1>
 						<div class="busy-grid">
 							<div class="skill">
 								<div class="icon-container">
 									<i class="fa-solid fa-dungeon"></i>
 								</div>
-								<h3>Working on Post-game content for Abyssus at DoubleMoose Games</h3>
+								<h3>Working on Unreal Engine games at DoubleMoose Games</h3>
 							</div>
 
 							<div class="skill">
 								<div class="icon-container">
 									<i class="fa-brands fa-unity"></i>
 								</div>
-								<h3>Developing a 2D game in Unity</h3>
+								<h3>Developing my own 2D game in Unity</h3>
 							</div>
 
 							<div class="skill">
 								<div class="icon-container">
-									<i class="fa-solid fa-gear"></i>
+									<i class="fa-regular fa-heart"></i>
 								</div>
-								<h3>Exploring and tinkering with features in UE 5.7</h3>
+								<h3>Taking care of my health and managing work-life balance</h3>
 							</div>
 						</div>
 					</div>
@@ -65,13 +59,11 @@
                     <div class="skill fav-games">
                         <h1>Hobbies</h1>
                         <ul>
-							<p>Outside of my time spent on development, I occupy myself with:</p>
-							<li><p> • Hiking and outdoor exploration</p></li>
-							<li><p> • Movies &amp; cinematography</p></li>
-							<li><p> • Reading philosophy, psychology, and entrepreneurship</p></li>
-							<li><p> • Fitness and nutrition</p></li>
-							<li><p> • Cooking</p></li>
-							<li><p> • Attending conferences and meeting new people</p></li>
+							<p>Outside of my time spent on development, I dedicate my time to:</p>
+							<li><p> • Exercising, mostly running and occasionally returning to my martial arts practice</p></li>
+							<li><p> • Reading books about philosophy, entrepreneurship, and stories</p></li>
+							<li><p> • Going to the movies and discussing cinematography and storytelling</p></li>
+							<li><p> • Spending time with my partner and with animals</p></li>
 						</ul>
                     </div>
                 </div>
