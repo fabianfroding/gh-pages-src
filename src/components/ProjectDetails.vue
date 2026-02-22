@@ -39,12 +39,13 @@ import MetroidvaniaDescript from './ProjectDescriptions/MetroidvaniaDescript.vue
 import PlanetaryRevelationDescript from './ProjectDescriptions/PlanetaryRevelationDescript.vue';
 import AbyssusDescript from './ProjectDescriptions/AbyssusDescript.vue';
 import OnlyLeadDescript from './ProjectDescriptions/OnlyLeadDescript.vue';
-import PortfolioSiteDescript from './ProjectDescriptions/PortfolioSiteDescript.vue';
 import CodeAnalyzerDescript from './ProjectDescriptions/CodeAnalyzerDescript.vue';
 import CyberCarDescript from './ProjectDescriptions/CyberCarDescript.vue';
 import MediaShopDescript from './ProjectDescriptions/MediaShopDescript.vue';
 import SourceCodeModelerDescript from './ProjectDescriptions/SourceCodeModelerDescript.vue';
 import ParallelCarDescript from './ProjectDescriptions/ParallelCarDescript.vue';
+import CatsEyeDescript from './ProjectDescriptions/CatsEyeDescript.vue';
+import LMSDescript from './ProjectDescriptions/LMSDescript.vue';
 import LightBox from '../../node_modules/vue-image-lightbox';
 require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
 
@@ -56,12 +57,13 @@ export default {
         PlanetaryRevelationDescript,
         AbyssusDescript,
         OnlyLeadDescript,
-        PortfolioSiteDescript,
         CodeAnalyzerDescript,
         CyberCarDescript,
         MediaShopDescript,
         SourceCodeModelerDescript,
         ParallelCarDescript,
+        CatsEyeDescript,
+        LMSDescript,
         LightBox,
     },
     methods: {

@@ -12,9 +12,9 @@
       <a href="https://github.com/fabianfroding" target="_blank" class="project-link">
           <i class="fab fa-github footer-icon"></i>
       </a>
-      <p>Copyright &copy; 2020 - {{ new Date().getFullYear() }} Fabian Fröding. All rights reserved.</p>
+      <p>&copy; 2020 - {{ new Date().getFullYear() }} Fabian Fröding. Made with Vue and Github Pages.</p>
       <br>
-      <div style="color: #779DFF; opacity: 0.85; font-weight: bold; font-size: 1.1em;">Made with Vue and Github Pages</div>
+      <!--div style="color: #779DFF; opacity: 0.85; font-weight: bold; font-size: 1.1em;">Made with Vue and Github Pages</div-->
     </footer>
 </template>
 

@@ -6,13 +6,18 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Projects',
-    component: () => import('../views/Projects.vue'),
+    name: 'GameProjects',
+    component: () => import('../views/GameProjects.vue'),
   },
   {
-    path: '/resume',
-    name: 'Resume',
-    component: () => import('../views/Resume.vue')
+    path: '/software',
+    name: 'Software',
+    component: () => import('../views/SoftwareProjects.vue')
+  },
+  {
+    path: '/research',
+    name: 'Research',
+    component: () => import('../views/ResearchProjects.vue')
   },
   {
     path: '/about',
@@ -22,9 +27,19 @@ const routes = [
   
   // Gamedev Project Details pages.
   {
-    path: '/vod',
-    name: 'VaultOfDarkness',
-    component: () => import('../views/ProjectViews/VaultOfDarkness.vue')
+    path: '/abyssus',
+    name: 'Abyssus',
+    component: () => import('../views/ProjectViews/Abyssus.vue')
+  },
+  {
+    path: '/catseye',
+    name: 'Cats Eye',
+    component: () => import('../views/ProjectViews/CatsEye.vue')
+  },
+  {
+    path: '/lms',
+    name: 'Last Man Sitting',
+    component: () => import('../views/ProjectViews/LMS.vue')
   },
   {
     path: '/nara',
@@ -37,17 +52,12 @@ const routes = [
     component: () => import('../views/ProjectViews/PlanetaryRevelation.vue')
   },
   {
-    path: '/abyssus',
-    name: 'Abyssus',
-    component: () => import('../views/ProjectViews/Abyssus.vue')
+    path: '/vod',
+    name: 'VaultOfDarkness',
+    component: () => import('../views/ProjectViews/VaultOfDarkness.vue')
   },
 
   // SE Project Details pages.
-  {
-    path: '/portfoliosite',
-    name: 'PortfolioSite',
-    component: () => import('../views/ProjectViews/PortfolioSite.vue')
-  },
   {
     path: '/codeanalyzer',
     name: 'CodeAnalyzer',
@@ -64,17 +74,17 @@ const routes = [
     component: () => import('../views/ProjectViews/MediaShop.vue')
   },
   {
-    path: '/sourcecodemodeler',
-    name: 'SourceCodeModeler',
-    component: () => import('../views/ProjectViews/SourceCodeModeler.vue')
-  },
-  {
     path: '/parallelcar',
     name: 'ParallelCar',
     component: () => import('../views/ProjectViews/ParallelCar.vue')
   },
-
-  // Misc/Research Project Details pages.
+  {
+    path: '/sourcecodemodeler',
+    name: 'SourceCodeModeler',
+    component: () => import('../views/ProjectViews/SourceCodeModeler.vue')
+  },
+  
+  // Research Project Details pages.
   {
     path: '/onlylead',
     name: 'OnlyLead',

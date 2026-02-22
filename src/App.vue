@@ -7,12 +7,13 @@
           </div>
           
           <div class="nav-section">
-            <li><router-link class="nav-link" to="/" exact-active-class="active">PORTFOLIO</router-link></li>
-            <li id="nav-about"><router-link class="nav-link" to="/resume" active-class="active">RESUME</router-link></li>
-            <li id="nav-about"><router-link class="nav-link" to="/about" active-class="active">ABOUT</router-link></li>
+            <li><router-link class="nav-link" to="/" exact-active-class="active">Games</router-link></li>
+            <li id="nav-about"><router-link class="nav-link" to="/software" active-class="active">Software</router-link></li>
+            <li id="nav-about"><router-link class="nav-link" to="/research" active-class="active">Research</router-link></li>
+            <li id="nav-about"><router-link class="nav-link" to="/about" active-class="active">About</router-link></li>
           </div>
           
-          <div class="nav-section">
+          <!--div class="nav-section">
             <li>
               <a href="https://www.linkedin.com/in/fabianfroding/" target="_blank" class="project-link">
                 <i class="fab fa-linkedin footer-icon"></i>
@@ -28,11 +29,9 @@
                   <i class="fab fa-github footer-icon"></i>
               </a>
             </li>
-          </div>
+          </div-->
       </ul>
     </nav>
-    <div class="separator-line"></div>
-    <div class="separator-line"></div>
     <router-view/>
   </div>
 </template>

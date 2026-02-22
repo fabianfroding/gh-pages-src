@@ -21,7 +21,7 @@ export default {
               previewImage: "vod-00.jpg",
               company: "Solo Project",
               jobtitle: "",
-              tool: "Warcraft 3 World Editor",
+              tool: "Gameplay Mod",
               description: "Vault of Darkness is a 4-player co-op dungeon crawler mod for Warcaft 3.",
               highlights: ["Scripting", "Game Design", "Level Design"],
               links: [ { url: "https://github.com/fabianfroding/wc3-vod-jass", icon: "fab fa-github" } ],

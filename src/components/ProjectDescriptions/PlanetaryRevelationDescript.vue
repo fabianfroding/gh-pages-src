@@ -11,18 +11,16 @@
             <br><br>
             All celestial bodies in the simulation are governed by Newton’s law of universal gravitation, 
             allowing planets and their sun to exert realistic gravitational forces upon one another. 
-            The user can freely navigate the system using intuitively designed mouse controls, 
+            The user can freely navigate the system using mouse controls, 
             and may select individual planets to view detailed information. 
             Upon selection, the camera locks onto the chosen body and follows it until the interface is closed.
             <br><br>
             The project draws inspiration from Outer Wilds and Metroid, 
-            combining a fascination with space exploration and the desire to craft a visually distinct, atmospheric solar system. 
-            The audio landscape incorporates synth samples from the Metroid Prime series, 
-            resampled by the YouTuber <a class="temp-text-link" href="https://www.youtube.com/playlist?list=PLiqpukU6_PxuTKGV46tZFzGDcDSHSvcVb" target="_blank">Synamax</a>.
+            combining space exploration and the desire to craft a solar system.
             <br><br>
             
             Developing this simulation allowed me to explore physics-driven systems, camera interaction design, 
-            and the challenge of presenting complex motion in an accessible, aesthetically cohesive format.
+            and the challenge of presenting complex motion in a cohesive format.
         </p>
         <br><br>
 

@@ -9,11 +9,11 @@
 
         <p>
             Only Lead Can Stop Them is a first-person boomer-shooter developed by Warcry Interactive.
-            My role focused on designing and executing a structured playtest study to help the studio evaluate core combat pillars — 
-            including weapon usability, enemy behavior, level readability, UI clarity, and overall player experience.
+            My role focused on designing and executing a playtest study to help the studio evaluate 
+            weapon usability, enemy behavior, level readability, UI clarity, and player experience.
 
             I led a small team responsible for both qualitative and quantitative UX research, 
-            establishing a repeatable methodology and delivering actionable insights directly informing multiple iterations of the game.
+            delivering insights to improve the design of the game.
         </p>
 
         <br><br>
@@ -37,7 +37,7 @@
                 <ul>
                 <li>Acted as project manager for the research team.</li>
                 <li>Organized workflow, deadlines, and documentation through Trello.</li>
-                <li>Led communication with the studio via Discord and scheduled all external/internal meetings.</li>
+                <li>Led communication with the studio and scheduled meetings.</li>
                 <li>Structured and prepared the final presentation of findings.</li>
                 </ul>
             </p>
@@ -71,7 +71,7 @@
             <br>
             <p>
                 The study was successfully delivered to Warcry Interactive, who incorporated the findings into subsequent builds of the game.
-                The methodology proved reusable and scalable, and the collaboration received strong positive feedback from the client.
+                The collaboration received strong positive feedback from the client.
             </p>
 
         </div>

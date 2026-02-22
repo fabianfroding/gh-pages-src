@@ -21,6 +21,7 @@
 
         <br><br>
 
+        <div class="separator-line"></div>
         <p>
             My primary responsibilities have included developing both core gameplay systems and the complete UI stack. The game is built using a custom implementation of Unreal Engine’s 
             Gameplay Ability System (GAS), which serves as the architectural foundation for most of the gameplay features.

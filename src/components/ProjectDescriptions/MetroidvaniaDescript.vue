@@ -1,15 +1,14 @@
 <template>
     <div>
-        <h6 class="job-title"><span><strong>Development Period</strong>: 2021 - Present</span>
+        <h6 class="job-title"><span><strong>Development Period</strong>: 2022-2023</span>
         <span class="align-right"><strong>Engine</strong>: Unity 6</span></h6>
         <h6 class="job-title"><span><strong>Team Project</strong></span>
         <span class="align-right"><strong>Status</strong>: Alpha</span></h6>
         <div class="separator-line"></div>
         <p>
             Emissary is a 2D action-platformer project, 
-            developed as an ongoing exploration of gameplay systems and code architectures in Unity. 
-            Throughout the project I focused on building all core systems from scratch. 
-            The project currently remains in active development state.
+            developed as an learning experience of Unity. 
+            Throughout the project I focused on building all core systems from scratch.
             <br>
             Below, I highlight some of the systems I implemented, with links to the relevant sections of the project repository.
         </p>
@@ -30,12 +29,8 @@
         <h1>Code Architecture</h1>
 
         <p>
-            Early in development, I encountered one of Unity’s common architectural challenges: 
-            the tendency for event-driven systems to become tightly coupled when implemented through delegates and actions. 
-            While ScriptableObjects provided a partial solution, I ultimately developed a custom C# Event Bus, 
-            fully decoupled from Unity-specific constructs. 
-            This approach reduces engine overhead, improves testability, and provides a scalable event-dispatching mechanism 
-            suitable for complex gameplay systems.
+            The project architecture is designed relying on a combination of event buses and delegates 
+            to keep the scripts as decoupled and modular as possible.
         </p>
 
         <br>
@@ -101,16 +96,13 @@
         <br>
 
         <h1>Performance Optimization</h1>
-
         <br>
-
         <p>
-            I've explored several performance-oriented techniques within Unity. 
-            One of the most impactful was the implementation of a centralized Update Manager, based on the Observer pattern. 
-            Instead of allowing numerous MonoBehaviours to individually execute Update() and FixedUpdate()—each 
-            incurring engine-side overhead—objects subscribe to a unified manager that invokes their update logic directly.
-            <br><br>
-            This reduces costs, improves predictability, and ensures that the only object relying on Unity’s default update loops is the manager itself.
+            Several modules of the scripts use centralized update managers inspired by the observer pattern.
+            This meant that instead of each individual game object using Update() and FixedUpdate(), a manager registers and deregisters objects 
+            and calls custom update functions on them instead.
+            <br>
+            This helped improve performance since Unity's Update-functions comes with additional overheads and checks.
         </p>
 
         <br>
@@ -133,9 +125,9 @@
         <br>
 
         <p>
-            Drawing on my professional experiencein Unreal Engine, I designed a custom UI stack and pooling system inspired by Epic Games' Common UI framework.
+            Drawing on my professional experience in Unreal Engine, I designed a custom UI stack and pooling system.
 
-            Pooling UI elements dramatically improves performance, 
+            Pooling UI elements improves performance, 
             especially in fast-paced or input-heavy gameplay where menus may be opened and closed in rapid succession.
             Avoiding frequent destruction and instantiation ensures smoother interactions and reduces frame spikes.
         </p>
