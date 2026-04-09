@@ -147,11 +147,13 @@ header {
     padding-bottom: 5px;
     position: fixed;
     z-index: 50;
-    background-color: #2E2B34;
+    background-color: rgba(46, 43, 52, 0.92);
+    backdrop-filter: blur(8px);
     display: flex;
     justify-content: center; /* center nav-content horizontally */
     align-items: center;
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
+    border-bottom: 0.5px solid rgba(255,255,255,0.1);
 }
 
 .nav-content {
@@ -868,8 +870,8 @@ input[type="submit"]:hover {
 }
 
 .nav-section .nav-title {
-    font-size: 2.2rem;
-    font-weight: 550;
+    font-size: 2.15rem;
+    font-weight: 275;
 }
 
 /* CODE EDITOR STYLES */
