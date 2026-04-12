@@ -15,7 +15,7 @@ export default {
                 id: "mediashop",
                 title: "Media Shop & Integrator",
                 subtitle: "Product Registry & Conversion System",
-                category: "software",
+                category: "Software",
                 duration: "2020",
                 displayOrder: 7,
                 route: "/mediashop",

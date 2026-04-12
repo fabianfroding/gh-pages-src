@@ -6,10 +6,15 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'GameProjects',
-    component: () => import('../views/GameProjects.vue'),
+    name: 'Home',
+    component: () => import('../views/Home.vue'),
   },
   {
+    path: '/work',
+    name: 'Work',
+    component: () => import('../views/SoftwareProjects.vue'),
+  },
+  /*{
     path: '/software',
     name: 'Software',
     component: () => import('../views/SoftwareProjects.vue')
@@ -18,6 +23,11 @@ const routes = [
     path: '/research',
     name: 'Research',
     component: () => import('../views/ResearchProjects.vue')
+  },*/
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: () => import('../views/Blog.vue')
   },
   {
     path: '/about',

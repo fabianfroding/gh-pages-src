@@ -14,7 +14,7 @@ export default {
           projectDetails: {
               id: "crowdfunding",
               title: "Analyzing the crowdfunding performance of metroidvanias on Kickstarter",
-              category: "misc",
+              category: "Research",
               duration: "2022",
               displayOrder: 1,
               route: "https://www.researchgate.net/publication/359651696_Analyzing_the_crowdfunding_performance_of_'metroidvanias'_on_Kickstarter",

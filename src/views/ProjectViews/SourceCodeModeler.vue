@@ -15,7 +15,7 @@ export default {
               id: "sourcecodemodeler",
               title: "Source Code Modeler",
               subtitle: "Group Project in Distributed Systems",
-              category: "software",
+              category: "Software",
               duration: "2018",
               displayOrder: 10,
               route: "/sourcecodemodeler",

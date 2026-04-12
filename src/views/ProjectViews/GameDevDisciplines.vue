@@ -13,8 +13,8 @@ export default {
       return {
           projectDetails: {
               id: "gamedevdisciplines",
-              title: "Game Development Disciplines and their Perspectives on the Software Engineering Process",
-              category: "misc",
+              title: "Development Disciplines and their Perspectives on the Software Engineering Process",
+              category: "Research",
               duration: "2022",
               displayOrder: 0,
               route: "https://www.researchgate.net/publication/361173684_Game_Development_Disciplines_and_their_Perspectives_on_the_Software_Engineering_Process_in_Game_Development",

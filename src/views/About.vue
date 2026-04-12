@@ -56,7 +56,7 @@
 						</div>
 					</div>
 
-                    <div class="skill fav-games">
+                    <!--div class="skill fav-games">
                         <h1>Hobbies</h1>
                         <ul>
 							<p>Outside of my time spent on development, I dedicate my time to:</p>
@@ -65,7 +65,7 @@
 							<li><p> • Going to the movies and discussing cinematography and storytelling</p></li>
 							<li><p> • Spending time with my partner and with animals</p></li>
 						</ul>
-                    </div>
+                    </div-->
                 </div>
             </div>
 			<br><br>

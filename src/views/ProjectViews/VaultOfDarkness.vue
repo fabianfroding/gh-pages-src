@@ -14,7 +14,7 @@ export default {
           projectDetails: {
               id: "vaultofdarkness",
               title: "Vault of Darkness",
-              category: "game",
+              category: "Games",
               duration: "2019",
               displayOrder: 8,
               route: "/vod",
@@ -23,7 +23,7 @@ export default {
               jobtitle: "",
               tool: "Gameplay Mod",
               description: "Vault of Darkness is a 4-player co-op dungeon crawler mod for Warcaft 3.",
-              highlights: ["Scripting", "Game Design", "Level Design"],
+              highlights: ["Scripting", "Game Design"],
               links: [ { url: "https://github.com/fabianfroding/wc3-vod-jass", icon: "fab fa-github" } ],
               mainImage: {name: "vod-05.gif", index: 0},
               images: [[

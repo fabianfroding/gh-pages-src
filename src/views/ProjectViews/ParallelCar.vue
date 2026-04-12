@@ -15,7 +15,7 @@ export default {
             id: "parallelcar",
             title: "Autonomous Vehicle: Parallel Parking",
             subtitle: "Group Project in Systems Development",
-            category: "software",
+            category: "Software",
             duration: "2018",
             displayOrder: 11,
             route: "/parallelcar",

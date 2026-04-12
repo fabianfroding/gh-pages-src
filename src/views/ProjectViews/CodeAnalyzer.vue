@@ -15,7 +15,7 @@ export default {
                 id: "codeanalyzer",
                 title: "C# Code Analyzer",
                 subtitle: "Visualization Tool for Software Architecture",
-                category: "software",
+                category: "Software",
                 duration: "2020",
                 displayOrder: 5,
                 route: "/codeanalyzer",

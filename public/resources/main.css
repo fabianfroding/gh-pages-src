@@ -514,7 +514,7 @@ li {
 }
 
 .portfolio-img img {
-    width: 85%;
+    width: 75%;
     transition: transform 0.3s ease;
 }
 
@@ -557,7 +557,7 @@ li {
 
 .portfolio-description .cta {
     display: inline-block;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     font-size: 1.33rem;
     color: var(--text-theme-generic);
     transition: color 650ms;
@@ -570,7 +570,7 @@ li {
 }
 .portfolio-description .cta .viewdetails {
     display: flex;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     font-size: 1.5rem;
     color: #7892ef;
 }
@@ -959,7 +959,6 @@ summary:hover {
     }
 
     .nav-list {
-        flex-direction: column;
         gap: 1rem;
         align-items: center;
     }
@@ -977,7 +976,6 @@ summary:hover {
     }
 
     .nav-content {
-        flex-direction: column;
         align-items: center;
     }
 

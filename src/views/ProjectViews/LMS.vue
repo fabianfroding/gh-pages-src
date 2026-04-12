@@ -14,16 +14,16 @@ export default {
             projectDetails: {
                 id: "lms",
                 title: "Last Man Sitting",
-                category: "game",
-                duration: "2026 - Present",
-                displayOrder: 0,
+                category: "Games",
+                duration: "2026",
+                displayOrder: 1,
                 route: "/lms",
                 previewImage: "lms00.jpg",
                 company: "DoubleMoose Games",
-                jobtitle: "Game Programmer, Software Engineer",
+                jobtitle: " • Game Programmer",
                 tool: "Unreal Engine 5",
-                description: "Last Man Sitting is a action survival shooter set in an office environment while scoping around on a chair.",
-                highlights: ["Gameplay Programming", "UI Programming"],
+                description: "An action survival shooter game set in an office environment while scoping around on a chair.",
+                highlights: ["Unreal Engine", "C++"],
                 links:
                 [
                 { url: "https://store.steampowered.com/app/774291/Last_Man_Sitting/", icon: "fab fa-steam" },

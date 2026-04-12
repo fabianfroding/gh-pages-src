@@ -15,7 +15,7 @@ export default {
                 id: "cybercar",
                 title: "Autonomous Vehicle: Intersection",
                 subtitle: "Group Project in Cyber-Physical Systems",
-                category: "software",
+                category: "Software",
                 duration: "2019",
                 displayOrder: 9,
                 route: "/cybercar",

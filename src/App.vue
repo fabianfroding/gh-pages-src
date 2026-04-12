@@ -3,13 +3,15 @@
     <nav class="top-nav">
       <ul class="nav-list">
           <div class="nav-section">
-            <li><p class="nav-title">Fabian Fröding Game/Software Developer</p></li>
+            <li><router-link class="nav-link" to="/">Fabian - Apps &amp; Games</router-link></li>
           </div>
           
           <div class="nav-section">
-            <li><router-link class="nav-link" to="/" exact-active-class="active">Games</router-link></li>
-            <li id="nav-about"><router-link class="nav-link" to="/software" active-class="active">Software</router-link></li>
-            <li id="nav-about"><router-link class="nav-link" to="/research" active-class="active">Research</router-link></li>
+            <li><router-link class="nav-link" to="/" exact-active-class="active">Home</router-link></li>
+            <li><router-link class="nav-link" to="/work" exact-active-class="active">Work</router-link></li>
+            <!--li id="nav-about"><router-link class="nav-link" to="/software" active-class="active">Software</router-link></li>
+            <li id="nav-about"><router-link class="nav-link" to="/research" active-class="active">Research</router-link></li-->
+            <!--li id="nav-about"><router-link class="nav-link" to="/blog" active-class="active">Blog</router-link></li-->
             <li id="nav-about"><router-link class="nav-link" to="/about" active-class="active">About</router-link></li>
           </div>
           

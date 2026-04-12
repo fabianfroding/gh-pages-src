@@ -13,8 +13,8 @@ export default {
       return {
           projectDetails: {
               id: "gamegenreproblems",
-              title: "Investigating Video Game Development Problems among Genres and Platforms",
-              category: "misc",
+              title: "Investigating Game Development Problems among Genres and Platforms",
+              category: "Research",
               duration: "2022",
               displayOrder: 2,
               route: "https://www.researchgate.net/publication/359414301_Investigating_Video_Game_Development_Problems_among_Genres_and_Platforms",

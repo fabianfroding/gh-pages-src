@@ -14,7 +14,7 @@ export default {
           projectDetails: {
               id: "planetaryrevelation",
               title: "Solar System Simulation",
-              category: "game",
+              category: "Games",
               duration: "2020",
               displayOrder: 6,
               route: "/solarsystemsim",
@@ -23,7 +23,7 @@ export default {
               jobtitle: "",
               tool: "Unity",
               description: "An interactable solar-system simulation with a custom gravity system based on real-time physics.",
-              highlights: ["Programming", "Physics Simulation", "VFX"],
+              highlights: ["Unity", "C#"],
               links: [ { url: "https://github.com/fabianfroding/unity-planetary-revelation", icon: "fab fa-github" } ],
               mainImage: {name: "planetary-rev05.gif", index: 0},
               images: [[
